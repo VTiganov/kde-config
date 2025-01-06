@@ -1,0 +1,8 @@
+2025-01-05 15:12:02.587 [info] update#setState disabled
+2025-01-05 15:12:02.587 [info] update#ctor - updates are disabled as there is no update URL
+2025-01-05 15:12:13.352 [info] Extension host with pid 3065 exited with code: 0, signal: unknown.
+2025-01-05 15:32:35.706 [error] ptyHost terminated unexpectedly with code 15
+2025-01-05 15:32:35.708 [warning] [UtilityProcess type: ptyHost, pid: 3102]: unable to kill the process
+2025-01-05 15:32:35.716 [info] Extension host with pid 3359 exited with code: 15, signal: unknown.
+2025-01-05 15:32:35.719 [error] [UtilityProcess id: 2, type: extensionHost, pid: 3359]: crashed with code 15 and reason 'killed'
+2025-01-05 15:32:35.724 [error] [UtilityProcess type: shared-process, pid: 3082]: crashed with code 15 and reason 'killed'

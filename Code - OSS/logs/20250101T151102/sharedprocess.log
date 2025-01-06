@@ -1,0 +1,22 @@
+2025-01-01 15:11:04.520 [info] Deleted uninstalled extension from disk sdras.night-owl /home/vadim/.vscode-oss/extensions/sdras.night-owl-2.1.0-universal
+2025-01-01 15:11:04.599 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/vadim/.vscode-oss/extensions/sdras.night-owl-2.1.0-universal.-6428a2c8.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/vadim/.vscode-oss/extensions/sdras.night-owl-2.1.0-universal.-6428a2c8.vsctmp'
+    at Gm.create (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2025-01-01 15:11:31.152 [info] Getting Manifest... redhat.java
+2025-01-01 15:11:32.044 [info] Installing extension: redhat.java {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/vadim/.vscode-oss/extensions/extensions.json","path":"/home/vadim/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.96.0","date":"2024-12-16T11:38:33.840Z"}}
+2025-01-01 15:13:31.592 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js
+2025-01-01 15:13:31.592 [info] Extension signature verification is not done: redhat.java
+2025-01-01 15:13:42.925 [info] Extracted extension to file:///home/vadim/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64: redhat.java
+2025-01-01 15:13:43.152 [info] Renamed to /home/vadim/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64
+2025-01-01 15:13:43.335 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/vadim/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/vadim/.vscode-oss/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2025-01-01 15:13:43.388 [info] Extension installed successfully: redhat.java vscode-userdata:/home/vadim/.vscode-oss/extensions/extensions.json

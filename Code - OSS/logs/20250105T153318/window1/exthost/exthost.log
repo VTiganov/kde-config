@@ -1,0 +1,246 @@
+2025-01-05 15:33:19.870 [info] Extension host with pid 1632 started
+2025-01-05 15:33:19.870 [info] Skipping acquiring lock for /home/vadim/.config/Code - OSS/User/workspaceStorage/85c28e22b35ee6e5d9a094064076a65e.
+2025-01-05 15:33:20.011 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-01-05 15:33:20.026 [info] ExtensionService#_doActivateExtension mkhl.direnv, startup: false, activationEvent: 'onLanguage'
+2025-01-05 15:33:20.030 [info] ExtensionService#_doActivateExtension James-Yu.latex-workshop, startup: false, activationEvent: 'onLanguage:latex'
+2025-01-05 15:33:20.146 [warning] DiagnosticCollection with name 'BibTeX' does already exist.
+2025-01-05 15:33:20.258 [warning] DiagnosticCollection with name 'BibTeX' does already exist.
+2025-01-05 15:33:20.340 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-01-05 15:33:20.341 [info] ExtensionService#_doActivateExtension michelemelluso.gitignore, startup: true, activationEvent: '*'
+2025-01-05 15:33:20.369 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-01-05 15:33:20.435 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-01-05 15:33:20.578 [info] Eager extensions activated
+2025-01-05 15:33:20.615 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-01-05 15:33:20.616 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-01-05 15:33:20.628 [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onStartupFinished'
+2025-01-05 15:33:20.643 [info] ExtensionService#_doActivateExtension vadimcn.vscode-lldb, startup: false, activationEvent: 'onStartupFinished', root cause: franneck94.vscode-c-cpp-config
+2025-01-05 15:33:20.654 [info] ExtensionService#_doActivateExtension rpinski.shebang-snippets, startup: false, activationEvent: 'onStartupFinished'
+2025-01-05 15:33:20.693 [info] ExtensionService#_doActivateExtension franneck94.vscode-c-cpp-config, startup: false, activationEvent: 'onStartupFinished'
+2025-01-05 15:33:20.735 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-01-05 15:35:26.738 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-01-05 15:35:26.749 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-01-05 15:35:26.791 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-01-05 15:35:48.833 [info] ExtensionService#_doActivateExtension foxundermoon.shell-format, startup: false, activationEvent: 'onLanguage:ignore'
+2025-01-05 15:35:51.817 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2025-01-05 15:35:51.832 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2025-01-05 15:35:52.068 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2025-01-05 15:43:55.119 [info] ExtensionService#_doActivateExtension redhat.java, startup: false, activationEvent: 'onLanguage:java'
+2025-01-05 15:43:55.236 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2025-01-05 15:43:55.279 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2025-01-05 15:44:38.326 [error] [redhat.java] provider FAILED
+2025-01-05 15:44:38.327 [error] Error: The request (id: 41, method: 'textDocument/hover') has been cancelled
+	at /home/vadim/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/dist/extension.js:2:1066202
+	at re (/home/vadim/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/dist/extension.js:2:1066496)
+	at /home/vadim/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/dist/extension.js:2:1061280
+	at Immediate.<anonymous> (/home/vadim/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/dist/extension.js:2:1061300)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-01-05 15:44:47.167 [error] [redhat.java] provider FAILED
+2025-01-05 15:44:47.167 [error] Error: The request (id: 64, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/vadim/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/dist/extension.js:2:1066202
+	at re (/home/vadim/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/dist/extension.js:2:1066496)
+	at /home/vadim/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/dist/extension.js:2:1061280
+	at Immediate.<anonymous> (/home/vadim/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/dist/extension.js:2:1061300)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-01-05 15:44:47.712 [error] [redhat.java] provider FAILED
+2025-01-05 15:44:47.712 [error] Error: The request (id: 71, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/vadim/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/dist/extension.js:2:1066202
+	at re (/home/vadim/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/dist/extension.js:2:1066496)
+	at /home/vadim/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/dist/extension.js:2:1061280
+	at Immediate.<anonymous> (/home/vadim/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/dist/extension.js:2:1061300)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-01-05 15:53:16.433 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2025-01-05 16:06:33.794 [error] [redhat.java] provider FAILED
+2025-01-05 16:06:33.794 [error] Error: The request (id: 297, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/vadim/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/dist/extension.js:2:1066202
+	at re (/home/vadim/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/dist/extension.js:2:1066496)
+	at /home/vadim/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/dist/extension.js:2:1061280
+	at Immediate.<anonymous> (/home/vadim/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/dist/extension.js:2:1061300)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-01-05 16:06:37.863 [error] [redhat.java] provider FAILED
+2025-01-05 16:06:37.863 [error] Error: The request (id: 341, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/vadim/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/dist/extension.js:2:1066202
+	at re (/home/vadim/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/dist/extension.js:2:1066496)
+	at /home/vadim/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/dist/extension.js:2:1061280
+	at Immediate.<anonymous> (/home/vadim/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/dist/extension.js:2:1061300)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-01-05 16:06:41.929 [error] [redhat.java] provider FAILED
+2025-01-05 16:06:41.929 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/vadim/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/dist/extension.js:2:880717
+	at Generator.next (<anonymous>)
+	at s (/home/vadim/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/dist/extension.js:2:866095)
+2025-01-05 16:06:52.244 [error] [redhat.java] provider FAILED
+2025-01-05 16:06:52.244 [error] Error: The request (id: 449, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/vadim/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/dist/extension.js:2:1066202
+	at re (/home/vadim/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/dist/extension.js:2:1066496)
+	at /home/vadim/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/dist/extension.js:2:1061280
+	at Immediate.<anonymous> (/home/vadim/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/dist/extension.js:2:1061300)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-01-05 16:07:12.761 [error] [redhat.java] provider FAILED
+2025-01-05 16:07:12.762 [error] Error: The request (id: 557, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/vadim/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/dist/extension.js:2:1066202
+	at re (/home/vadim/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/dist/extension.js:2:1066496)
+	at /home/vadim/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/dist/extension.js:2:1061280
+	at Immediate.<anonymous> (/home/vadim/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/dist/extension.js:2:1061300)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-01-05 16:07:15.582 [error] [redhat.java] provider FAILED
+2025-01-05 16:07:15.582 [error] Error: The request (id: 580, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/vadim/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/dist/extension.js:2:1066202
+	at re (/home/vadim/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/dist/extension.js:2:1066496)
+	at /home/vadim/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/dist/extension.js:2:1061280
+	at Immediate.<anonymous> (/home/vadim/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/dist/extension.js:2:1061300)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-01-05 16:09:36.258 [error] [redhat.java] provider FAILED
+2025-01-05 16:09:36.258 [error] Error: The request (id: 588, method: 'textDocument/hover') has been cancelled
+	at /home/vadim/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/dist/extension.js:2:1066202
+	at re (/home/vadim/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/dist/extension.js:2:1066496)
+	at /home/vadim/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/dist/extension.js:2:1061280
+	at Immediate.<anonymous> (/home/vadim/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/dist/extension.js:2:1061300)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-01-05 16:42:43.166 [error] [redhat.java] provider FAILED
+2025-01-05 16:42:43.166 [error] Error: The request (id: 676, method: 'textDocument/hover') has been cancelled
+	at /home/vadim/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/dist/extension.js:2:1066202
+	at re (/home/vadim/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/dist/extension.js:2:1066496)
+	at /home/vadim/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/dist/extension.js:2:1061280
+	at Immediate.<anonymous> (/home/vadim/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/dist/extension.js:2:1061300)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-01-05 16:47:43.412 [error] [redhat.java] provider FAILED
+2025-01-05 16:47:43.412 [error] Error: The request (id: 821, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/vadim/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/dist/extension.js:2:1066202
+	at re (/home/vadim/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/dist/extension.js:2:1066496)
+	at /home/vadim/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/dist/extension.js:2:1061280
+	at Immediate.<anonymous> (/home/vadim/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/dist/extension.js:2:1061300)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-01-05 16:54:33.317 [error] [redhat.java] provider FAILED
+2025-01-05 16:54:33.317 [error] Error: The request (id: 980, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/vadim/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/dist/extension.js:2:1066202
+	at re (/home/vadim/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/dist/extension.js:2:1066496)
+	at /home/vadim/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/dist/extension.js:2:1061280
+	at Immediate.<anonymous> (/home/vadim/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/dist/extension.js:2:1061300)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-01-05 23:18:03.900 [error] [James-Yu.latex-workshop] provider FAILED
+2025-01-05 23:18:03.901 [error] TypeError: Cannot read properties of undefined (reading 'map')
+	at Object.getArgs (/home/vadim/.vscode-oss/extensions/james-yu.latex-workshop-10.7.2-universal/out/src/completion/completer/package.js:133:42)
+	at providePackageOptions (/home/vadim/.vscode-oss/extensions/james-yu.latex-workshop-10.7.2-universal/out/src/completion/completer/argument.js:96:55)
+	at Object.from (/home/vadim/.vscode-oss/extensions/james-yu.latex-workshop-10.7.2-universal/out/src/completion/completer/argument.js:34:16)
+	at Provider.completion (/home/vadim/.vscode-oss/extensions/james-yu.latex-workshop-10.7.2-universal/out/src/completion/latex.js:184:36)
+	at Provider.provide (/home/vadim/.vscode-oss/extensions/james-yu.latex-workshop-10.7.2-universal/out/src/completion/latex.js:60:38)
+	at Provider.provideCompletionItems (/home/vadim/.vscode-oss/extensions/james-yu.latex-workshop-10.7.2-universal/out/src/completion/latex.js:49:21)
+	at dI.provideCompletionItems (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:138:140624)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:138:163861
+	at qt.s (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:138:155148)
+	at qt.$provideCompletionItems (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:138:163849)
+	at Dy.S (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:32:115275)
+	at Dy.Q (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:32:115055)
+	at Dy.M (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:32:114106)
+	at Dy.L (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:32:113249)
+	at kh.value (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:32:112046)
+	at P.B (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+	at P.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:964)
+	at Vn.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:32:9457)
+	at kh.value (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:175:13296)
+	at P.B (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+	at P.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:964)
+	at Vn.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:32:9457)
+	at MessagePortMain.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:175:11588)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2025-01-06 13:26:24.147 [info] Extension host terminating: renderer closed the MessagePort
+2025-01-06 13:26:24.183 [error] Canceled: Canceled
+	at new IT (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:32:110702)
+	at Dy.U (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:32:115312)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:32:112806)
+	at cw.g (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:32313)
+	at cw.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:31817)
+	at r.registerCommand.description (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:31147)
+	at cw.h (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:32833)
+	at cw.g (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:31910)
+	at cw.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:31817)
+	at Object.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:157:37484)
+	at kh.L [as value] (/usr/lib/code/extensions/git/dist/main.js:2:975601)
+	at P.B (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+	at P.C (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:816)
+	at P.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:1033)
+	at Object.p [as dispose] (/usr/lib/code/extensions/git/dist/main.js:2:997158)
+	at /usr/lib/code/extensions/git/dist/main.js:2:1003280
+	at Array.forEach (<anonymous>)
+	at b.dispose (/usr/lib/code/extensions/git/dist/main.js:2:1003266)
+	at ev.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:109:20047)
+	at ev.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:109:20143)
+	at ev.<anonymous> (/usr/lib/code/extensions/git/dist/main.js:2:978080)
+	at ev.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:109:20143)
+	at ai (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:25:699)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:119:14992
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:25:1009
+	at Object.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+	at zz.eb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:119:11919)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:119:9874
+	at Array.map (<anonymous>)
+	at zz.$ (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:119:9862)
+	at zz.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:119:10105)
+	at QC.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:120:1424)
+	at Zi (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:175:15080)
+	at MessagePortMain.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:175:11628)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-01-06 13:26:24.185 [error] Canceled: Canceled
+	at new IT (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:32:110702)
+	at Dy.U (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:32:115312)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:32:112806)
+	at cw.g (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:32313)
+	at cw.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:31817)
+	at r.registerCommand.description (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:31147)
+	at cw.h (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:32833)
+	at cw.g (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:31910)
+	at cw.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:31817)
+	at Object.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:157:37484)
+	at set hasGitHubRepositories (/usr/lib/code/extensions/github/dist/extension.js:2:328633)
+	at /usr/lib/code/extensions/github/dist/extension.js:2:329592
+	at kh.value (/usr/lib/code/extensions/git/dist/main.js:2:1088462)
+	at P.B (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+	at P.C (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:816)
+	at P.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:1033)
+	at Object.p [as dispose] (/usr/lib/code/extensions/git/dist/main.js:2:997158)
+	at /usr/lib/code/extensions/git/dist/main.js:2:1003280
+	at Array.forEach (<anonymous>)
+	at b.dispose (/usr/lib/code/extensions/git/dist/main.js:2:1003266)
+	at ev.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:109:20047)
+	at ev.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:109:20143)
+	at ev.<anonymous> (/usr/lib/code/extensions/git/dist/main.js:2:978080)
+	at ev.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:109:20143)
+	at ai (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:25:699)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:119:14992
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:25:1009
+	at Object.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+	at zz.eb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:119:11919)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:119:9874
+	at Array.map (<anonymous>)
+	at zz.$ (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:119:9862)
+	at zz.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:119:10105)
+	at QC.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:120:1424)
+	at Zi (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:175:15080)
+	at MessagePortMain.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:175:11628)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-01-06 13:26:24.187 [error] ProxyResolver#resolveProxy DIRECT Canceled: Canceled
+	at new IT (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:32:110702)
+	at Dy.U (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:32:115312)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:32:112806)
+	at V0.resolveProxy (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:110:54029)
+	at Object.resolveProxy (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:159:17332)
+	at useProxySettings (/usr/lib/code/node_modules/@vscode/proxy-agent/out/index.js:182:16)
+	at /usr/lib/code/node_modules/@vscode/proxy-agent/out/index.js:205:13
+	at new Promise (<anonymous>)
+	at resolveProxyURL (/usr/lib/code/node_modules/@vscode/proxy-agent/out/index.js:204:35)
+	at /usr/lib/code/node_modules/@vscode/proxy-agent/out/index.js:518:53
+	at Generator.next (<anonymous>)
+	at /usr/lib/code/node_modules/@vscode/proxy-agent/out/index.js:35:71
+	at new Promise (<anonymous>)
+	at __awaiter (/usr/lib/code/node_modules/@vscode/proxy-agent/out/index.js:31:12)
+	at patchedFetch (/usr/lib/code/node_modules/@vscode/proxy-agent/out/index.js:507:16)
+	at globalThis.fetch (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:159:19806)
+	at a.fetchRemoteConfiguration (/home/vadim/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/dist/extension.js:2:3943)
+	at a.refresh (/home/vadim/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/dist/extension.js:2:2817)
+	at a.loadConfiguration (/home/vadim/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/dist/extension.js:2:3291)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async t.TelemetryServiceImpl.sendEvent (/home/vadim/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/dist/extension.js:2:8786) 
+2025-01-06 13:26:24.229 [info] Extension host with pid 1632 exiting with code 0

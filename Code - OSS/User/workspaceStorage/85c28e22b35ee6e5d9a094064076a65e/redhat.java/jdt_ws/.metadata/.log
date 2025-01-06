@@ -1,0 +1,2170 @@
+!SESSION 2025-01-05 15:43:55.451 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.13
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --pipe=/run/user/1000/lsp-354d3650e93f068c25ca7cdc83c06c7d.sock
+Command-line arguments:  -data /home/vadim/.config/Code - OSS/User/workspaceStorage/85c28e22b35ee6e5d9a094064076a65e/redhat.java/jdt_ws --pipe=/run/user/1000/lsp-354d3650e93f068c25ca7cdc83c06c7d.sock
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:43:56.818
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:43:57.058
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:43:57.078
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:43:57.079
+!MESSAGE Initializing Java Language Server 1.43.0.202412190401
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:43:57.079
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:43:57.651
+!MESSAGE ProjectRegistryRefreshJob finished 571ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:43:57.666
+!MESSAGE Started org.eclipse.buildship.core 15ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:43:57.719
+!MESSAGE Setting /usr/lib/jvm/java-17-openjdk as 'JavaSE-17' environment (id:1736081037707)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:43:57.721
+!MESSAGE Setting java.home /usr/lib/jvm/java-17-openjdk as default global VM
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:43:57.725
+!MESSAGE Default VM Install changed from  1736081037696-/home/vadim/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/jre/17.0.13-linux-x86_64 to 1736081037707-/usr/lib/jvm/java-17-openjdk
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:43:57.729
+!MESSAGE JVM Runtimes changed, saving new configuration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:43:57.734
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:43:57.734
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.updateSettings, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.resolveText, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.project.updateClassPaths, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:43:57.743
+!MESSAGE RepositoryRegistryUpdateJob finished 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:43:57.746
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:43:57.768
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:43:57.805
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:43:58.045
+!MESSAGE Try to create an invisible project for the workspace /home/vadim/Edu/Github/calculus_lab_1
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:43:58.045
+!MESSAGE Creating the Java project calculus_lab_1_3abd188a
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:43:58.053
+!MESSAGE Finished creating the Java project calculus_lab_1_3abd188a
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:43:58.062
+!MESSAGE Successfully created a workspace invisible project calculus_lab_1_3abd188a
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:43:58.077
+!MESSAGE Workspace initialized in 335ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:43:58.105
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:43:58.574
+!MESSAGE >> Updating classpath for project calculus_lab_1_3abd188a
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:43:58.593
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:43:58.593
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:43:58.594
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:43:58.782
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:43:59.440
+!MESSAGE begin problem for /test.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:43:59.440
+!MESSAGE 0 problems reported for /test.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:43:59.441
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:44:08.633
+!MESSAGE Reconciled 1. Took 35 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:44:09.066
+!MESSAGE begin problem for /test.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:44:09.066
+!MESSAGE 2 problems reported for /test.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:44:09.067
+!MESSAGE Validated 1. Took 33 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:44:11.401
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:44:11.432
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:44:11.748
+!MESSAGE Clearing problems for /test.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:44:11.853
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:44:11.853
+!MESSAGE 1 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:44:11.854
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:44:12.694
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:44:13.152
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:44:13.152
+!MESSAGE 1 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:44:13.152
+!MESSAGE Validated 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:44:41.622
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:44:42.079
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:44:42.079
+!MESSAGE 1 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:44:42.079
+!MESSAGE Validated 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:44:45.009
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:44:45.416
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:44:45.416
+!MESSAGE 1 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:44:45.416
+!MESSAGE Validated 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:44:46.387
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:44:46.401
+!MESSAGE Reconciled 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:44:46.533
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:44:46.636
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:44:46.856
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:44:47.179
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:44:47.400
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:44:47.662
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:44:47.727
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:44:47.727
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:44:48.183
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:44:48.183
+!MESSAGE 4 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:44:48.184
+!MESSAGE Validated 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:44:48.729
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:44:48.930
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:44:49.051
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:44:49.113
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:44:49.567
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:44:49.567
+!MESSAGE 2 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:44:49.567
+!MESSAGE Validated 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:44:50.798
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:44:51.253
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:44:51.253
+!MESSAGE 2 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:44:51.253
+!MESSAGE Validated 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:44:55.344
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:44:55.800
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:44:55.800
+!MESSAGE 1 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:44:55.800
+!MESSAGE Validated 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:45:00.482
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:45:00.733
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:45:01.134
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:45:01.538
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:45:01.538
+!MESSAGE 1 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:45:01.538
+!MESSAGE Validated 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:45:03.173
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:45:03.630
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:45:03.630
+!MESSAGE 2 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:45:03.630
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:45:04.321
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:45:04.776
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:45:04.776
+!MESSAGE 2 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:45:04.776
+!MESSAGE Validated 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:45:05.440
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:45:05.893
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:45:05.894
+!MESSAGE 2 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:45:05.894
+!MESSAGE Validated 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:45:08.207
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:45:08.339
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:45:08.796
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:45:08.796
+!MESSAGE 2 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:45:08.796
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:45:10.739
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:45:11.145
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:45:11.145
+!MESSAGE 2 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:45:11.145
+!MESSAGE Validated 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:45:35.344
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:45:35.799
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:45:35.800
+!MESSAGE 1 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:45:35.800
+!MESSAGE Validated 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:45:36.087
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:45:36.543
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:45:36.543
+!MESSAGE 1 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:45:36.543
+!MESSAGE Validated 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:46:32.912
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:46:33.372
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:46:33.372
+!MESSAGE 1 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:46:33.373
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:46:46.231
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:46:46.688
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:46:46.688
+!MESSAGE 1 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:46:46.688
+!MESSAGE Validated 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:47:31.588
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:47:32.044
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:47:32.044
+!MESSAGE 0 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:47:32.045
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:47:32.900
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:47:33.307
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:47:33.307
+!MESSAGE 0 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:47:33.307
+!MESSAGE Validated 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:47:36.943
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:47:37.351
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:47:37.352
+!MESSAGE 0 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:47:37.352
+!MESSAGE Validated 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:47:43.271
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:47:43.727
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:47:43.728
+!MESSAGE 0 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:47:43.728
+!MESSAGE Validated 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:47:44.157
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:47:44.612
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:47:44.612
+!MESSAGE 0 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:47:44.612
+!MESSAGE Validated 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:47:52.653
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:47:53.061
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:47:53.061
+!MESSAGE 0 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:47:53.062
+!MESSAGE Validated 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:48:02.400
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:48:02.806
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:48:02.806
+!MESSAGE 0 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:48:02.806
+!MESSAGE Validated 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:48:43.495
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:48:43.901
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:48:43.902
+!MESSAGE 0 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:48:43.902
+!MESSAGE Validated 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:49:46.776
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:49:46.811
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:49:46.924
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:49:47.327
+!MESSAGE begin problem for /test.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:49:47.327
+!MESSAGE 0 problems reported for /test.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:49:47.327
+!MESSAGE Validated 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:49:58.495
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:49:58.900
+!MESSAGE begin problem for /test.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:49:58.900
+!MESSAGE 2 problems reported for /test.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:49:58.900
+!MESSAGE Validated 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:50:00.094
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:50:00.142
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:50:00.430
+!MESSAGE Clearing problems for /test.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:50:00.569
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:50:00.569
+!MESSAGE 1 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:50:00.569
+!MESSAGE Validated 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:50:01.261
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:50:01.716
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:50:01.716
+!MESSAGE 1 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:50:01.716
+!MESSAGE Validated 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:50:16.154
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:50:16.173
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:50:16.310
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:50:16.596
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:50:17.049
+!MESSAGE begin problem for /test.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:50:17.050
+!MESSAGE 0 problems reported for /test.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:50:17.050
+!MESSAGE Validated 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:50:17.369
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:50:17.822
+!MESSAGE begin problem for /test.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:50:17.822
+!MESSAGE 0 problems reported for /test.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:50:17.822
+!MESSAGE Validated 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:52:03.700
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:52:04.156
+!MESSAGE begin problem for /test.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:52:04.156
+!MESSAGE 1 problems reported for /test.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:52:04.156
+!MESSAGE Validated 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:52:15.069
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:52:15.126
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:52:15.282
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:52:15.361
+!MESSAGE Clearing problems for /test.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:52:15.687
+!MESSAGE begin problem for /Test.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:52:15.687
+!MESSAGE 0 problems reported for /Test.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:52:15.687
+!MESSAGE Validated 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:52:17.345
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:52:17.800
+!MESSAGE begin problem for /Test.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:52:17.800
+!MESSAGE 0 problems reported for /Test.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:52:17.800
+!MESSAGE Validated 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:53:01.785
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:53:02.241
+!MESSAGE begin problem for /Test.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:53:02.241
+!MESSAGE 0 problems reported for /Test.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:53:02.242
+!MESSAGE Validated 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:53:28.066
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:53:28.522
+!MESSAGE begin problem for /Test.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:53:28.523
+!MESSAGE 0 problems reported for /Test.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:53:28.523
+!MESSAGE Validated 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:53:42.171
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:53:42.625
+!MESSAGE begin problem for /Test.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:53:42.625
+!MESSAGE 0 problems reported for /Test.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:53:42.625
+!MESSAGE Validated 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:53:44.858
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:53:45.314
+!MESSAGE begin problem for /Test.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:53:45.314
+!MESSAGE 0 problems reported for /Test.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:53:45.314
+!MESSAGE Validated 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:17.768
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:17.775
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:17.937
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:18.392
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:18.393
+!MESSAGE 0 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:18.393
+!MESSAGE Validated 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:32.815
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:32.839
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:33.244
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:33.244
+!MESSAGE 3 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:33.245
+!MESSAGE Validated 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:33.340
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:33.463
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:33.806
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:33.807
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:34.261
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:34.261
+!MESSAGE 2 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:34.261
+!MESSAGE Validated 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:34.509
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:34.571
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:34.780
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:34.813
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:35.053
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:35.215
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:35.377
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:35.781
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:35.781
+!MESSAGE 3 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:35.781
+!MESSAGE Validated 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:35.971
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:36.375
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:36.375
+!MESSAGE 2 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:36.375
+!MESSAGE Validated 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:36.583
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:36.645
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:37.099
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:37.099
+!MESSAGE 2 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:37.099
+!MESSAGE Validated 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:37.206
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:37.260
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:37.471
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:37.571
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:37.874
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:37.875
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:38.175
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:38.236
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:38.641
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:38.641
+!MESSAGE 3 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:38.641
+!MESSAGE Validated 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:38.873
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:38.920
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:39.034
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:39.093
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:39.142
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:39.295
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:39.344
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:39.798
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:39.798
+!MESSAGE 2 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:39.798
+!MESSAGE Validated 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:41.218
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:41.501
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:41.539
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:41.941
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:42.036
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:42.490
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:42.490
+!MESSAGE 3 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:42.490
+!MESSAGE Validated 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:44.744
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:45.147
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:45.147
+!MESSAGE 3 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:45.148
+!MESSAGE Validated 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:45.749
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:46.152
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:46.153
+!MESSAGE 5 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:46.153
+!MESSAGE Validated 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:46.875
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:46.887
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:47.133
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:47.180
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:47.210
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:47.665
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:47.665
+!MESSAGE 2 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:47.665
+!MESSAGE Validated 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:48.299
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:48.348
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:48.730
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:49.093
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:49.195
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:49.255
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:49.494
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:49.948
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:49.948
+!MESSAGE 2 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:49.948
+!MESSAGE Validated 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:51.510
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:51.570
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:51.953
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:52.255
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:52.256
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:52.660
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:52.660
+!MESSAGE 0 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:52.660
+!MESSAGE Validated 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:53.999
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:54.027
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:54.331
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:54.400
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:54.805
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:54.805
+!MESSAGE 3 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:54.805
+!MESSAGE Validated 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:55.218
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:55.357
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:55.762
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:55.762
+!MESSAGE 1 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:55.762
+!MESSAGE Validated 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:56.123
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:56.295
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:56.301
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:56.751
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:56.751
+!MESSAGE 2 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:56.751
+!MESSAGE Validated 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:56.948
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:57.260
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:57.391
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:57.795
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:57.795
+!MESSAGE 2 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:57.795
+!MESSAGE Validated 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:58.459
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:58.579
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:58.892
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:59.143
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:59.173
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:59.597
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:59.597
+!MESSAGE 2 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:06:59.597
+!MESSAGE Validated 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:07:00.513
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:07:00.625
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:07:01.079
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:07:01.079
+!MESSAGE 3 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:07:01.079
+!MESSAGE Validated 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:07:09.147
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:07:09.551
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:07:09.551
+!MESSAGE 0 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:07:09.551
+!MESSAGE Validated 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:07:11.543
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:07:11.997
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:07:11.997
+!MESSAGE 0 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:07:11.997
+!MESSAGE Validated 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:07:12.449
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:07:12.773
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:07:12.774
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:07:12.933
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:07:12.982
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:07:13.175
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:07:13.253
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:07:13.315
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:07:13.497
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:07:13.638
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:07:13.709
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:07:14.164
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:07:14.164
+!MESSAGE 0 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:07:14.165
+!MESSAGE Validated 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:07:14.708
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:07:15.163
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:07:15.163
+!MESSAGE 0 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:07:15.163
+!MESSAGE Validated 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:07:15.290
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:07:15.593
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:07:15.594
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:07:15.998
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:07:15.998
+!MESSAGE 0 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:07:15.998
+!MESSAGE Validated 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:11:26.227
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:11:26.681
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:11:26.682
+!MESSAGE 1 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:11:26.682
+!MESSAGE Validated 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:11:26.791
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:11:27.246
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:11:27.247
+!MESSAGE 0 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:11:27.247
+!MESSAGE Validated 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:15:00.119
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:15:00.573
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:15:00.573
+!MESSAGE 0 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:15:00.574
+!MESSAGE Validated 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:15:03.784
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:15:04.238
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:15:04.238
+!MESSAGE 0 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:15:04.238
+!MESSAGE Validated 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:17:30.408
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:17:30.863
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:17:30.863
+!MESSAGE 0 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:17:30.863
+!MESSAGE Validated 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:17:33.226
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:17:33.680
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:17:33.680
+!MESSAGE 0 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:17:33.680
+!MESSAGE Validated 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:17:46.412
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:17:46.866
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:17:46.866
+!MESSAGE 0 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:17:46.867
+!MESSAGE Validated 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:18:02.777
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:18:03.231
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:18:03.231
+!MESSAGE 0 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:18:03.232
+!MESSAGE Validated 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:18:48.817
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:18:52.268
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:18:52.268
+!MESSAGE 0 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:18:52.269
+!MESSAGE Validated 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:18:53.045
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:18:53.502
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:18:53.502
+!MESSAGE 0 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:18:53.502
+!MESSAGE Validated 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:19:07.599
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:19:08.054
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:19:08.054
+!MESSAGE 0 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:19:08.054
+!MESSAGE Validated 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:20:17.807
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:20:18.262
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:20:18.262
+!MESSAGE 0 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:20:18.263
+!MESSAGE Validated 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:24:50.638
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:24:51.093
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:24:51.093
+!MESSAGE 0 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:24:51.093
+!MESSAGE Validated 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:25:11.487
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:25:11.942
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:25:11.942
+!MESSAGE 0 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:25:11.942
+!MESSAGE Validated 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:42:44.979
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:42:45.306
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:42:45.341
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:42:45.498
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:42:45.541
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:42:45.996
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:42:45.996
+!MESSAGE 3 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:42:45.996
+!MESSAGE Validated 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:42:46.039
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:42:46.084
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:42:46.423
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:42:46.468
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:42:46.923
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:42:46.923
+!MESSAGE 3 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:42:46.924
+!MESSAGE Validated 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:42:47.022
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:42:47.477
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:42:47.477
+!MESSAGE 3 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:42:47.477
+!MESSAGE Validated 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:42:47.828
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:42:48.048
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:42:48.299
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:42:48.522
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:42:48.973
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:42:49.418
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:42:49.872
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:42:49.873
+!MESSAGE 0 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:42:49.873
+!MESSAGE Validated 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:12.462
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:12.916
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:12.916
+!MESSAGE 1 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:12.916
+!MESSAGE Validated 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:13.165
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:13.619
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:13.619
+!MESSAGE 0 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:13.619
+!MESSAGE Validated 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:15.070
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:15.341
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:15.796
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:15.796
+!MESSAGE 0 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:15.796
+!MESSAGE Validated 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:16.508
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:16.569
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:16.892
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:17.215
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:17.487
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:17.527
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:17.930
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:17.930
+!MESSAGE 0 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:17.930
+!MESSAGE Validated 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:28.858
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:29.263
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:29.263
+!MESSAGE 0 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:29.264
+!MESSAGE Validated 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:29.958
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:30.411
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:30.411
+!MESSAGE 1 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:30.411
+!MESSAGE Validated 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:30.813
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:30.874
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:31.327
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:31.328
+!MESSAGE 0 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:31.328
+!MESSAGE Validated 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:33.905
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:33.926
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:34.310
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:34.310
+!MESSAGE 0 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:34.310
+!MESSAGE Validated 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:37.378
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:37.390
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:37.843
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:37.843
+!MESSAGE 0 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:37.843
+!MESSAGE Validated 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:39.839
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:40.242
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:40.242
+!MESSAGE 0 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:40.242
+!MESSAGE Validated 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:42.234
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:42.415
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:42.595
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:43.001
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:43.001
+!MESSAGE 0 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:43.001
+!MESSAGE Validated 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:43.038
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:43.049
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:43.423
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:43.424
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:43.524
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:43.927
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:43.927
+!MESSAGE 0 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:43.927
+!MESSAGE Validated 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:44.399
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:44.852
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:44.852
+!MESSAGE 0 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:44.852
+!MESSAGE Validated 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:46.546
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:47.000
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:47.001
+!MESSAGE 0 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:47.001
+!MESSAGE Validated 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:47.170
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:47.230
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:47.684
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:47.684
+!MESSAGE 0 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:47.684
+!MESSAGE Validated 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:51.038
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:51.443
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:51.443
+!MESSAGE 0 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:51.443
+!MESSAGE Validated 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:52.245
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:52.428
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:52.607
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:53.011
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:53.011
+!MESSAGE 1 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:53.011
+!MESSAGE Validated 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:55.649
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:56.103
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:56.103
+!MESSAGE 0 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:47:56.103
+!MESSAGE Validated 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:48:10.147
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:48:10.173
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:48:10.415
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:48:10.768
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:48:11.038
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:48:11.491
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:48:11.491
+!MESSAGE 0 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:48:11.491
+!MESSAGE Validated 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:48:12.752
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:48:13.206
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:48:13.206
+!MESSAGE 1 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:48:13.206
+!MESSAGE Validated 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:48:13.215
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:48:13.275
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:48:13.357
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:48:13.417
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:48:13.869
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:48:13.869
+!MESSAGE 0 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:48:13.870
+!MESSAGE Validated 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:48:14.886
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:48:14.898
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:48:15.352
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:48:15.352
+!MESSAGE 0 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:48:15.352
+!MESSAGE Validated 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:49:09.099
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:49:09.502
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:49:09.502
+!MESSAGE 1 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:49:09.502
+!MESSAGE Validated 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:49:10.268
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:49:10.722
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:49:10.722
+!MESSAGE 0 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:49:10.723
+!MESSAGE Validated 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:52:05.643
+!MESSAGE Reconciled 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:52:06.049
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:52:06.050
+!MESSAGE 2 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:52:06.050
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:52:08.286
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:52:08.344
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:52:08.622
+!MESSAGE Clearing problems for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:52:08.758
+!MESSAGE begin problem for /Quiz.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:52:08.758
+!MESSAGE 1 problems reported for /Quiz.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:52:08.758
+!MESSAGE Validated 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:52:09.506
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:52:09.960
+!MESSAGE begin problem for /Quiz.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:52:09.960
+!MESSAGE 1 problems reported for /Quiz.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:52:09.960
+!MESSAGE Validated 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:52:18.059
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:52:18.518
+!MESSAGE begin problem for /Quiz.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:52:18.518
+!MESSAGE 1 problems reported for /Quiz.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:52:18.518
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:52:42.967
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:52:43.423
+!MESSAGE begin problem for /Quiz.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:52:43.423
+!MESSAGE 1 problems reported for /Quiz.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:52:43.423
+!MESSAGE Validated 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:52:44.221
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:52:44.623
+!MESSAGE begin problem for /Quiz.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:52:44.623
+!MESSAGE 0 problems reported for /Quiz.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:52:44.623
+!MESSAGE Validated 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:52:45.600
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:52:46.054
+!MESSAGE begin problem for /Quiz.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:52:46.054
+!MESSAGE 0 problems reported for /Quiz.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:52:46.054
+!MESSAGE Validated 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:52:50.416
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:52:50.868
+!MESSAGE begin problem for /Quiz.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:52:50.868
+!MESSAGE 0 problems reported for /Quiz.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:52:50.869
+!MESSAGE Validated 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:54:30.435
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:54:30.482
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:54:30.641
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:54:31.093
+!MESSAGE begin problem for /Quiz.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:54:31.093
+!MESSAGE 3 problems reported for /Quiz.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:54:31.094
+!MESSAGE Validated 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:54:31.961
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:54:32.000
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:54:32.061
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:54:32.514
+!MESSAGE begin problem for /Quiz.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:54:32.514
+!MESSAGE 3 problems reported for /Quiz.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:54:32.514
+!MESSAGE Validated 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:54:32.937
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:54:33.329
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:54:33.731
+!MESSAGE begin problem for /Quiz.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:54:33.731
+!MESSAGE 3 problems reported for /Quiz.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:54:33.731
+!MESSAGE Validated 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:54:34.046
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:54:34.095
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:54:34.547
+!MESSAGE begin problem for /Quiz.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:54:34.548
+!MESSAGE 1 problems reported for /Quiz.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:54:34.548
+!MESSAGE Validated 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:54:34.740
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:54:34.801
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:54:35.254
+!MESSAGE begin problem for /Quiz.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:54:35.254
+!MESSAGE 1 problems reported for /Quiz.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:54:35.255
+!MESSAGE Validated 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:54:35.324
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:54:35.777
+!MESSAGE begin problem for /Quiz.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:54:35.778
+!MESSAGE 1 problems reported for /Quiz.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:54:35.778
+!MESSAGE Validated 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:54:36.151
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:54:36.606
+!MESSAGE begin problem for /Quiz.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:54:36.606
+!MESSAGE 3 problems reported for /Quiz.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:54:36.606
+!MESSAGE Validated 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:54:37.550
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:54:38.002
+!MESSAGE begin problem for /Quiz.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:54:38.002
+!MESSAGE 1 problems reported for /Quiz.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:54:38.002
+!MESSAGE Validated 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:54:38.224
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:54:38.677
+!MESSAGE begin problem for /Quiz.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:54:38.677
+!MESSAGE 3 problems reported for /Quiz.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 16:54:38.677
+!MESSAGE Validated 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 23:16:33.367
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 23:16:33.769
+!MESSAGE begin problem for /Quiz.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 23:16:33.769
+!MESSAGE 3 problems reported for /Quiz.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 23:16:33.770
+!MESSAGE Validated 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 23:20:54.312
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 23:20:54.766
+!MESSAGE begin problem for /Quiz.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 23:20:54.766
+!MESSAGE 3 problems reported for /Quiz.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 23:20:54.766
+!MESSAGE Validated 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.core 4 1006 2025-01-05 23:27:29.991
+!MESSAGE _/codefiles/my-app/src/main/java/com/mycompany/app [in calculus_lab_1_3abd188a] is not on its project's build path
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 23:27:29.991
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 23:27:30.048
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 23:27:30.454
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 23:27:30.455
+!MESSAGE 1 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2025-01-05 23:27:30.455
+!MESSAGE _/codefiles/my-app/src/main/java/com/mycompany/app [in calculus_lab_1_3abd188a] does not exist
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): _/codefiles/my-app/src/main/java/com/mycompany/app [in calculus_lab_1_3abd188a] does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:546)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:768)
+	at org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:417)
+	at org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:329)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:1108)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.collectNonJavaProblems(BaseDiagnosticsHandler.java:198)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:149)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:157)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:126)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1444)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:336)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:299)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$PublishDiagnosticJob.run(BaseDocumentLifeCycleHandler.java:781)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2025-01-05 23:27:30.455
+!MESSAGE _/codefiles/my-app/src/main/java/com/mycompany/app [in calculus_lab_1_3abd188a] does not exist
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 23:27:30.456
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.core 4 1006 2025-01-05 23:27:40.010
+!MESSAGE _/codefiles/my-app/src/test/java/com/mycompany/app [in calculus_lab_1_3abd188a] is not on its project's build path
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 23:27:40.010
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 23:27:40.069
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 23:27:40.524
+!MESSAGE begin problem for /AppTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 23:27:40.524
+!MESSAGE 5 problems reported for /AppTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2025-01-05 23:27:40.524
+!MESSAGE _/codefiles/my-app/src/test/java/com/mycompany/app [in calculus_lab_1_3abd188a] does not exist
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): _/codefiles/my-app/src/test/java/com/mycompany/app [in calculus_lab_1_3abd188a] does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:546)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:768)
+	at org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:417)
+	at org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:329)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:1108)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.collectNonJavaProblems(BaseDiagnosticsHandler.java:198)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:149)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:157)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:126)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1444)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:336)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:299)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$PublishDiagnosticJob.run(BaseDocumentLifeCycleHandler.java:781)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2025-01-05 23:27:40.524
+!MESSAGE _/codefiles/my-app/src/test/java/com/mycompany/app [in calculus_lab_1_3abd188a] does not exist
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 23:27:40.524
+!MESSAGE Validated 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 23:28:12.751
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 23:28:13.204
+!MESSAGE begin problem for /AppTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 23:28:13.204
+!MESSAGE 5 problems reported for /AppTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2025-01-05 23:28:13.204
+!MESSAGE _/codefiles/my-app/src/test/java/com/mycompany/app [in calculus_lab_1_3abd188a] does not exist
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): _/codefiles/my-app/src/test/java/com/mycompany/app [in calculus_lab_1_3abd188a] does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:546)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:768)
+	at org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:417)
+	at org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:329)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:1108)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.collectNonJavaProblems(BaseDiagnosticsHandler.java:198)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:149)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:157)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:126)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1444)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:336)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:299)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$PublishDiagnosticJob.run(BaseDocumentLifeCycleHandler.java:781)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2025-01-05 23:28:13.204
+!MESSAGE _/codefiles/my-app/src/test/java/com/mycompany/app [in calculus_lab_1_3abd188a] does not exist
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 23:28:13.205
+!MESSAGE Validated 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-06 13:26:24.224
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-06 13:26:24.229
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-06 13:26:24.270
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-06 13:26:24.285
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:

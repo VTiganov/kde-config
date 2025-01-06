@@ -1,0 +1,101 @@
+2025-01-06 13:26:44.551 [info] Started local extension host with pid 17509.
+2025-01-06 13:26:45.707 [error] Extension 'ms-python.debugpy CANNOT USE these API proposals 'portsAttributes, debugVisualization, contribViewsWelcome'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2025-01-06 13:26:45.708 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, codeActionAI, notebookReplDocument, notebookVariableProvider'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2025-01-06 13:26:45.782 [error] [ms-python.python]: editor/content is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribEditorContentMenu"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+2025-01-06 13:26:48.192 [info] [perf] Render performance baseline is 87ms
+2025-01-06 13:26:49.542 [error] Unable to read file 'git:/home/vadim/Edu/Github/calculus_lab_1/codefiles/delete.txt.git?{"path":"/home/vadim/Edu/Github/calculus_lab_1/codefiles/delete.txt","ref":""}' (Canceled: Canceled): Error: Unable to read file 'git:/home/vadim/Edu/Github/calculus_lab_1/codefiles/delete.txt.git?{"path":"/home/vadim/Edu/Github/calculus_lab_1/codefiles/delete.txt","ref":""}' (Canceled: Canceled)
+    at _ot.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3108:64665)
+    at _ot.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3108:64490)
+    at async iat.M (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3109:9121)
+    at async iat.readStream (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3109:8896)
+    at async Nfe.Db (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1295:11960)
+    at async Nfe.resolve (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1295:10435)
+    at async Zot.W (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3109:5753)
+    at async Zot.U (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3109:5202)
+    at async Object.factory (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3109:3772)
+2025-01-06 13:26:50.227 [info] Started local extension host with pid 17711.
+2025-01-06 13:26:50.774 [error] Extension 'ms-python.debugpy CANNOT USE these API proposals 'portsAttributes, debugVisualization, contribViewsWelcome'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2025-01-06 13:26:50.774 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, codeActionAI, notebookReplDocument, notebookVariableProvider'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2025-01-06 13:26:50.799 [error] [ms-python.python]: editor/content is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribEditorContentMenu"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+2025-01-06 13:26:52.926 [info] [perf] Render performance baseline is 57ms
+2025-01-06 13:26:56.243 [error] Timed out waiting for authentication provider to register
+2025-01-06 13:35:59.641 [error] RecursionError: maximum recursion depth exceeded: Error: RecursionError: maximum recursion depth exceeded
+	at ae (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2037649)
+	at oe (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2035609)
+	at Immediate.<anonymous> (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2031903)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-01-06 13:41:28.533 [error] RecursionError: maximum recursion depth exceeded: Error: RecursionError: maximum recursion depth exceeded
+	at ae (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2037649)
+	at oe (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2035609)
+	at Immediate.<anonymous> (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2031903)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-01-06 13:41:47.009 [error] RecursionError: maximum recursion depth exceeded: Error: RecursionError: maximum recursion depth exceeded
+	at ae (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2037649)
+	at oe (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2035609)
+	at Immediate.<anonymous> (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2031903)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-01-06 13:42:06.111 [error] RecursionError: maximum recursion depth exceeded: Error: RecursionError: maximum recursion depth exceeded
+	at ae (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2037649)
+	at oe (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2035609)
+	at Immediate.<anonymous> (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2031903)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-01-06 13:47:29.111 [error] ValueError: `column` parameter (36) is not in a valid range (0-22) for line 5 ("image_path = 'raw.png'\n").: Error: ValueError: `column` parameter (36) is not in a valid range (0-22) for line 5 ("image_path = 'raw.png'\n").
+	at ae (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2037649)
+	at oe (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2035609)
+	at Immediate.<anonymous> (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2031903)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-01-06 14:02:41.070 [error] RecursionError: maximum recursion depth exceeded: Error: RecursionError: maximum recursion depth exceeded
+	at ae (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2037649)
+	at oe (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2035609)
+	at Immediate.<anonymous> (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2031903)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-01-06 14:07:39.832 [error] RecursionError: maximum recursion depth exceeded: Error: RecursionError: maximum recursion depth exceeded
+	at ae (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2037649)
+	at oe (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2035609)
+	at Immediate.<anonymous> (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2031903)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-01-06 14:10:05.489 [error] RecursionError: maximum recursion depth exceeded: Error: RecursionError: maximum recursion depth exceeded
+	at ae (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2037649)
+	at oe (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2035609)
+	at Immediate.<anonymous> (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2031903)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-01-06 14:12:26.405 [error] RecursionError: maximum recursion depth exceeded: Error: RecursionError: maximum recursion depth exceeded
+	at ae (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2037649)
+	at oe (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2035609)
+	at Immediate.<anonymous> (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2031903)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-01-06 14:14:13.205 [error] RecursionError: maximum recursion depth exceeded: Error: RecursionError: maximum recursion depth exceeded
+	at ae (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2037649)
+	at oe (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2035609)
+	at Immediate.<anonymous> (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2031903)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-01-06 14:17:19.242 [error] RecursionError: maximum recursion depth exceeded: Error: RecursionError: maximum recursion depth exceeded
+	at ae (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2037649)
+	at oe (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2035609)
+	at Immediate.<anonymous> (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2031903)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-01-06 14:19:32.948 [error] RecursionError: maximum recursion depth exceeded: Error: RecursionError: maximum recursion depth exceeded
+	at ae (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2037649)
+	at oe (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2035609)
+	at Immediate.<anonymous> (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2031903)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-01-06 14:21:40.564 [error] RecursionError: maximum recursion depth exceeded: Error: RecursionError: maximum recursion depth exceeded
+	at ae (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2037649)
+	at oe (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2035609)
+	at Immediate.<anonymous> (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2031903)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-01-06 14:22:59.769 [error] RecursionError: maximum recursion depth exceeded: Error: RecursionError: maximum recursion depth exceeded
+	at ae (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2037649)
+	at oe (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2035609)
+	at Immediate.<anonymous> (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2031903)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-01-06 14:24:03.487 [error] RecursionError: maximum recursion depth exceeded: Error: RecursionError: maximum recursion depth exceeded
+	at ae (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2037649)
+	at oe (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2035609)
+	at Immediate.<anonymous> (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2031903)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-01-06 14:29:45.886 [error] ValueError: `column` parameter (32) is not in a valid range (0-29) for line 40 ("output_path = 'enhanced.png' \n").: Error: ValueError: `column` parameter (32) is not in a valid range (0-29) for line 40 ("output_path = 'enhanced.png' \n").
+	at ae (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2037649)
+	at oe (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2035609)
+	at Immediate.<anonymous> (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2031903)
+	at process.processImmediate (node:internal/timers:483:21)

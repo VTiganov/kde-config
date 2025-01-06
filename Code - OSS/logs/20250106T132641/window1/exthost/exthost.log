@@ -1,0 +1,375 @@
+2025-01-06 13:26:45.819 [info] Extension host with pid 17509 started
+2025-01-06 13:26:45.819 [info] Skipping acquiring lock for /home/vadim/.config/Code - OSS/User/workspaceStorage/85c28e22b35ee6e5d9a094064076a65e.
+2025-01-06 13:26:46.236 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-01-06 13:26:46.271 [info] ExtensionService#_doActivateExtension mkhl.direnv, startup: false, activationEvent: 'onLanguage'
+2025-01-06 13:26:46.472 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-01-06 13:26:46.478 [info] ExtensionService#_doActivateExtension michelemelluso.gitignore, startup: true, activationEvent: '*'
+2025-01-06 13:26:46.574 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-01-06 13:26:46.726 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-01-06 13:26:46.897 [info] Eager extensions activated
+2025-01-06 13:26:46.952 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-01-06 13:26:46.958 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-01-06 13:26:47.022 [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onStartupFinished'
+2025-01-06 13:26:47.062 [info] ExtensionService#_doActivateExtension vadimcn.vscode-lldb, startup: false, activationEvent: 'onStartupFinished', root cause: franneck94.vscode-c-cpp-config
+2025-01-06 13:26:47.115 [info] ExtensionService#_doActivateExtension rpinski.shebang-snippets, startup: false, activationEvent: 'onStartupFinished'
+2025-01-06 13:26:47.279 [info] ExtensionService#_doActivateExtension franneck94.vscode-c-cpp-config, startup: false, activationEvent: 'onStartupFinished'
+2025-01-06 13:26:47.538 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-01-06 13:26:49.546 [info] Extension host terminating: renderer closed the MessagePort
+2025-01-06 13:26:49.570 [error] Canceled: Canceled
+	at Fc (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:7:1122)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:32:112153
+	at Array.forEach (<anonymous>)
+	at Dy.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:32:112093)
+	at zz.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:119:10082)
+	at QC.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:120:1424)
+	at Zi (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:175:15080)
+	at MessagePortMain.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:175:11628)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-01-06 13:26:49.571 [error] Canceled: Canceled
+	at Fc (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:7:1122)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:32:112153
+	at Array.forEach (<anonymous>)
+	at Dy.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:32:112093)
+	at zz.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:119:10082)
+	at QC.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:120:1424)
+	at Zi (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:175:15080)
+	at MessagePortMain.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:175:11628)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-01-06 13:26:49.571 [error] Canceled: Canceled
+	at Fc (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:7:1122)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:32:112153
+	at Array.forEach (<anonymous>)
+	at Dy.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:32:112093)
+	at zz.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:119:10082)
+	at QC.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:120:1424)
+	at Zi (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:175:15080)
+	at MessagePortMain.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:175:11628)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-01-06 13:26:49.571 [error] Canceled: Canceled
+	at Fc (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:7:1122)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:32:112153
+	at Array.forEach (<anonymous>)
+	at Dy.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:32:112093)
+	at zz.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:119:10082)
+	at QC.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:120:1424)
+	at Zi (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:175:15080)
+	at MessagePortMain.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:175:11628)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-01-06 13:26:49.571 [error] Canceled: Canceled
+	at Fc (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:7:1122)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:32:112153
+	at Array.forEach (<anonymous>)
+	at Dy.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:32:112093)
+	at zz.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:119:10082)
+	at QC.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:120:1424)
+	at Zi (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:175:15080)
+	at MessagePortMain.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:175:11628)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-01-06 13:26:49.576 [error] Canceled: Canceled
+	at new IT (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:32:110702)
+	at Dy.U (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:32:115312)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:32:112806)
+	at cw.g (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:32313)
+	at cw.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:31817)
+	at r.registerCommand.description (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:31147)
+	at cw.h (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:32833)
+	at cw.g (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:31910)
+	at cw.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:31817)
+	at Object.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:157:37484)
+	at kh.L [as value] (/usr/lib/code/extensions/git/dist/main.js:2:975601)
+	at P.B (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+	at P.C (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:816)
+	at P.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:1033)
+	at Object.p [as dispose] (/usr/lib/code/extensions/git/dist/main.js:2:997158)
+	at /usr/lib/code/extensions/git/dist/main.js:2:1003280
+	at Array.forEach (<anonymous>)
+	at b.dispose (/usr/lib/code/extensions/git/dist/main.js:2:1003266)
+	at ev.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:109:20047)
+	at ev.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:109:20143)
+	at ev.<anonymous> (/usr/lib/code/extensions/git/dist/main.js:2:978080)
+	at ev.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:109:20143)
+	at ai (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:25:699)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:119:14992
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:25:1009
+	at Object.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+	at zz.eb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:119:11919)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:119:9874
+	at Array.map (<anonymous>)
+	at zz.$ (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:119:9862)
+	at zz.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:119:10105)
+	at QC.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:120:1424)
+	at Zi (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:175:15080)
+	at MessagePortMain.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:175:11628)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-01-06 13:26:49.578 [error] Canceled: Canceled
+	at new IT (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:32:110702)
+	at Dy.U (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:32:115312)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:32:112806)
+	at cw.g (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:32313)
+	at cw.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:31817)
+	at r.registerCommand.description (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:31147)
+	at cw.h (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:32833)
+	at cw.g (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:31910)
+	at cw.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:31817)
+	at Object.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:157:37484)
+	at set hasGitHubRepositories (/usr/lib/code/extensions/github/dist/extension.js:2:328633)
+	at /usr/lib/code/extensions/github/dist/extension.js:2:329592
+	at kh.value (/usr/lib/code/extensions/git/dist/main.js:2:1088462)
+	at P.B (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+	at P.C (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:816)
+	at P.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:1033)
+	at Object.p [as dispose] (/usr/lib/code/extensions/git/dist/main.js:2:997158)
+	at /usr/lib/code/extensions/git/dist/main.js:2:1003280
+	at Array.forEach (<anonymous>)
+	at b.dispose (/usr/lib/code/extensions/git/dist/main.js:2:1003266)
+	at ev.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:109:20047)
+	at ev.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:109:20143)
+	at ev.<anonymous> (/usr/lib/code/extensions/git/dist/main.js:2:978080)
+	at ev.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:109:20143)
+	at ai (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:25:699)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:119:14992
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:25:1009
+	at Object.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+	at zz.eb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:119:11919)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:119:9874
+	at Array.map (<anonymous>)
+	at zz.$ (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:119:9862)
+	at zz.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:119:10105)
+	at QC.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:120:1424)
+	at Zi (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:175:15080)
+	at MessagePortMain.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:175:11628)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-01-06 13:26:49.578 [info] Extension host with pid 17509 exiting with code 0
+2025-01-06 13:26:51.279 [info] Extension host with pid 17711 started
+2025-01-06 13:26:51.279 [info] Skipping acquiring lock for /home/vadim/.config/Code - OSS/User/workspaceStorage/7d4e875f6229278ed994878cb3744ef5.
+2025-01-06 13:26:51.341 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-01-06 13:26:51.348 [info] ExtensionService#_doActivateExtension michelemelluso.gitignore, startup: true, activationEvent: '*'
+2025-01-06 13:26:51.350 [info] ExtensionService#_doActivateExtension mkhl.direnv, startup: true, activationEvent: '*'
+2025-01-06 13:26:51.438 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-01-06 13:26:51.551 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-01-06 13:26:51.703 [info] Eager extensions activated
+2025-01-06 13:26:51.756 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-01-06 13:26:51.763 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-01-06 13:26:51.815 [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onStartupFinished'
+2025-01-06 13:26:51.837 [info] ExtensionService#_doActivateExtension vadimcn.vscode-lldb, startup: false, activationEvent: 'onStartupFinished', root cause: franneck94.vscode-c-cpp-config
+2025-01-06 13:26:51.869 [info] ExtensionService#_doActivateExtension rpinski.shebang-snippets, startup: false, activationEvent: 'onStartupFinished'
+2025-01-06 13:26:51.936 [info] ExtensionService#_doActivateExtension franneck94.vscode-c-cpp-config, startup: false, activationEvent: 'onStartupFinished'
+2025-01-06 13:26:52.011 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-01-06 13:26:52.171 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-01-06 13:28:24.867 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-01-06 13:28:24.903 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-01-06 13:28:25.093 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-01-06 13:28:25.482 [info] ExtensionService#_doActivateExtension vscode.media-preview, startup: false, activationEvent: 'onCustomEditor:imagePreview.previewEditor'
+2025-01-06 13:28:52.628 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2025-01-06 13:28:53.403 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2025-01-06 13:28:53.561 [error] Activating extension ms-python.debugpy failed due to an error:
+2025-01-06 13:28:53.561 [error] Error: Extension 'ms-python.debugpy' CANNOT use API proposal: portsAttributes.
+Its package.json#enabledApiProposals-property declares:  but NOT portsAttributes.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.debugpy
+	at L (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:113:16650)
+	at Object.registerPortAttributesProvider (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:157:55936)
+	at t.registerDebugger (/home/vadim/.vscode-oss/extensions/ms-python.debugpy-2024.14.0-linux-x64/dist/extension.js:2:846294)
+	at e.activate (/home/vadim/.vscode-oss/extensions/ms-python.debugpy-2024.14.0-linux-x64/dist/extension.js:2:1095248)
+	at Pw.kb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:119:15214)
+	at Pw.jb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:119:14921)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:119:13079
+	at async K0.n (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:4447)
+	at async K0.m (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:4410)
+	at async K0.l (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:3866)
+2025-01-06 13:28:54.829 [error] Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at L (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:113:16650)
+	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:157:39656)
+	at C.activate (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:932762)
+	at /home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2457
+	at Array.map (<anonymous>)
+	at v.activateWorkspace (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2447)
+2025-01-06 13:30:51.241 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2025-01-06 13:35:59.564 [error] [ms-python.python] provider FAILED
+2025-01-06 13:35:59.564 [error] Error: RecursionError: maximum recursion depth exceeded
+	at ae (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2037649)
+	at oe (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2035609)
+	at Immediate.<anonymous> (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2031903)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-01-06 13:41:27.820 [error] [ms-python.python] provider FAILED
+2025-01-06 13:41:27.820 [error] Error: RecursionError: maximum recursion depth exceeded
+	at ae (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2037649)
+	at oe (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2035609)
+	at Immediate.<anonymous> (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2031903)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-01-06 13:41:28.530 [error] [ms-python.python] provider FAILED
+2025-01-06 13:41:28.531 [error] Error: RecursionError: maximum recursion depth exceeded
+	at ae (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2037649)
+	at oe (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2035609)
+	at Immediate.<anonymous> (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2031903)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-01-06 13:41:47.008 [error] [ms-python.python] provider FAILED
+2025-01-06 13:41:47.008 [error] Error: RecursionError: maximum recursion depth exceeded
+	at ae (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2037649)
+	at oe (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2035609)
+	at Immediate.<anonymous> (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2031903)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-01-06 13:42:06.109 [error] [ms-python.python] provider FAILED
+2025-01-06 13:42:06.109 [error] Error: RecursionError: maximum recursion depth exceeded
+	at ae (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2037649)
+	at oe (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2035609)
+	at Immediate.<anonymous> (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2031903)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-01-06 13:47:29.028 [error] [ms-python.python] provider FAILED
+2025-01-06 13:47:29.029 [error] Error: ValueError: `column` parameter (36) is not in a valid range (0-22) for line 5 ("image_path = 'raw.png'\n").
+	at ae (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2037649)
+	at oe (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2035609)
+	at Immediate.<anonymous> (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2031903)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-01-06 14:02:41.068 [error] [ms-python.python] provider FAILED
+2025-01-06 14:02:41.068 [error] Error: RecursionError: maximum recursion depth exceeded
+	at ae (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2037649)
+	at oe (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2035609)
+	at Immediate.<anonymous> (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2031903)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-01-06 14:07:39.809 [error] [ms-python.python] provider FAILED
+2025-01-06 14:07:39.809 [error] Error: RecursionError: maximum recursion depth exceeded
+	at ae (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2037649)
+	at oe (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2035609)
+	at Immediate.<anonymous> (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2031903)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-01-06 14:10:05.487 [error] [ms-python.python] provider FAILED
+2025-01-06 14:10:05.487 [error] Error: RecursionError: maximum recursion depth exceeded
+	at ae (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2037649)
+	at oe (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2035609)
+	at Immediate.<anonymous> (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2031903)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-01-06 14:12:26.404 [error] [ms-python.python] provider FAILED
+2025-01-06 14:12:26.404 [error] Error: RecursionError: maximum recursion depth exceeded
+	at ae (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2037649)
+	at oe (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2035609)
+	at Immediate.<anonymous> (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2031903)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-01-06 14:14:13.203 [error] [ms-python.python] provider FAILED
+2025-01-06 14:14:13.203 [error] Error: RecursionError: maximum recursion depth exceeded
+	at ae (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2037649)
+	at oe (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2035609)
+	at Immediate.<anonymous> (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2031903)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-01-06 14:17:19.240 [error] [ms-python.python] provider FAILED
+2025-01-06 14:17:19.240 [error] Error: RecursionError: maximum recursion depth exceeded
+	at ae (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2037649)
+	at oe (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2035609)
+	at Immediate.<anonymous> (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2031903)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-01-06 14:19:32.947 [error] [ms-python.python] provider FAILED
+2025-01-06 14:19:32.947 [error] Error: RecursionError: maximum recursion depth exceeded
+	at ae (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2037649)
+	at oe (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2035609)
+	at Immediate.<anonymous> (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2031903)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-01-06 14:21:40.562 [error] [ms-python.python] provider FAILED
+2025-01-06 14:21:40.562 [error] Error: RecursionError: maximum recursion depth exceeded
+	at ae (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2037649)
+	at oe (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2035609)
+	at Immediate.<anonymous> (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2031903)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-01-06 14:22:59.756 [error] [ms-python.python] provider FAILED
+2025-01-06 14:22:59.756 [error] Error: RecursionError: maximum recursion depth exceeded
+	at ae (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2037649)
+	at oe (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2035609)
+	at Immediate.<anonymous> (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2031903)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-01-06 14:24:03.486 [error] [ms-python.python] provider FAILED
+2025-01-06 14:24:03.486 [error] Error: RecursionError: maximum recursion depth exceeded
+	at ae (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2037649)
+	at oe (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2035609)
+	at Immediate.<anonymous> (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2031903)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-01-06 14:29:45.816 [error] [ms-python.python] provider FAILED
+2025-01-06 14:29:45.816 [error] Error: ValueError: `column` parameter (32) is not in a valid range (0-29) for line 40 ("output_path = 'enhanced.png' \n").
+	at ae (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2037649)
+	at oe (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2035609)
+	at Immediate.<anonymous> (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2031903)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-01-06 15:21:21.438 [info] Extension host terminating: renderer closed the MessagePort
+2025-01-06 15:21:21.453 [error] Canceled: Canceled
+	at new IT (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:32:110702)
+	at Dy.U (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:32:115312)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:32:112806)
+	at cw.g (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:32313)
+	at cw.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:31817)
+	at r.registerCommand.description (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:31147)
+	at cw.h (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:32833)
+	at cw.g (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:31910)
+	at cw.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:31817)
+	at Object.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:157:37484)
+	at kh.L [as value] (/usr/lib/code/extensions/git/dist/main.js:2:975601)
+	at P.B (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+	at P.C (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:816)
+	at P.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:1033)
+	at Object.p [as dispose] (/usr/lib/code/extensions/git/dist/main.js:2:997158)
+	at /usr/lib/code/extensions/git/dist/main.js:2:1003280
+	at Array.forEach (<anonymous>)
+	at b.dispose (/usr/lib/code/extensions/git/dist/main.js:2:1003266)
+	at ev.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:109:20047)
+	at ev.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:109:20143)
+	at ev.<anonymous> (/usr/lib/code/extensions/git/dist/main.js:2:978080)
+	at ev.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:109:20143)
+	at ai (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:25:699)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:119:14992
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:25:1009
+	at Object.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+	at zz.eb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:119:11919)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:119:9874
+	at Array.map (<anonymous>)
+	at zz.$ (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:119:9862)
+	at zz.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:119:10105)
+	at QC.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:120:1424)
+	at Zi (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:175:15080)
+	at MessagePortMain.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:175:11628)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-01-06 15:21:21.454 [error] Canceled: Canceled
+	at new IT (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:32:110702)
+	at Dy.U (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:32:115312)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:32:112806)
+	at cw.g (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:32313)
+	at cw.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:31817)
+	at r.registerCommand.description (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:31147)
+	at cw.h (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:32833)
+	at cw.g (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:31910)
+	at cw.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:31817)
+	at Object.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:157:37484)
+	at set hasGitHubRepositories (/usr/lib/code/extensions/github/dist/extension.js:2:328633)
+	at /usr/lib/code/extensions/github/dist/extension.js:2:329592
+	at kh.value (/usr/lib/code/extensions/git/dist/main.js:2:1088462)
+	at P.B (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+	at P.C (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:816)
+	at P.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:1033)
+	at Object.p [as dispose] (/usr/lib/code/extensions/git/dist/main.js:2:997158)
+	at /usr/lib/code/extensions/git/dist/main.js:2:1003280
+	at Array.forEach (<anonymous>)
+	at b.dispose (/usr/lib/code/extensions/git/dist/main.js:2:1003266)
+	at ev.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:109:20047)
+	at ev.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:109:20143)
+	at ev.<anonymous> (/usr/lib/code/extensions/git/dist/main.js:2:978080)
+	at ev.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:109:20143)
+	at ai (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:25:699)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:119:14992
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:25:1009
+	at Object.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+	at zz.eb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:119:11919)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:119:9874
+	at Array.map (<anonymous>)
+	at zz.$ (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:119:9862)
+	at zz.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:119:10105)
+	at QC.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:120:1424)
+	at Zi (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:175:15080)
+	at MessagePortMain.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:175:11628)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-01-06 15:21:21.457 [info] Extension host with pid 17711 exiting with code 0

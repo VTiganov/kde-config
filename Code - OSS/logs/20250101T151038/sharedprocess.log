@@ -1,0 +1,15 @@
+2025-01-01 15:10:45.230 [info] Getting Manifest... sdras.night-owl
+2025-01-01 15:10:46.109 [info] Installing extension: sdras.night-owl {"productVersion":{"version":"1.96.0","date":"2024-12-16T11:38:33.840Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/vadim/.vscode-oss/extensions/extensions.json","path":"/home/vadim/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2025-01-01 15:10:48.182 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js
+2025-01-01 15:10:48.182 [info] Extension signature verification is not done: sdras.night-owl
+2025-01-01 15:10:48.301 [info] Extracted extension to file:///home/vadim/.vscode-oss/extensions/sdras.night-owl-2.1.1-universal: sdras.night-owl
+2025-01-01 15:10:48.325 [info] Renamed to /home/vadim/.vscode-oss/extensions/sdras.night-owl-2.1.1-universal
+2025-01-01 15:10:48.351 [info] Marked extension as uninstalled sdras.night-owl-2.1.0-universal
+2025-01-01 15:10:48.362 [info] Extension installed successfully: sdras.night-owl vscode-userdata:/home/vadim/.vscode-oss/extensions/extensions.json
+2025-01-01 15:10:48.380 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/vadim/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/vadim/.vscode-oss/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)

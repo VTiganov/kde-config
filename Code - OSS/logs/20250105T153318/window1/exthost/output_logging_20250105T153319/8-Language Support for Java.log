@@ -1,0 +1,72 @@
+Jan 05, 2025 3:43:55 PM org.apache.aries.spifly.BaseActivator log
+INFO: Registered provider ch.qos.logback.classic.servlet.LogbackServletContainerInitializer of service jakarta.servlet.ServletContainerInitializer in bundle ch.qos.logback.classic
+Jan 05, 2025 3:43:55 PM org.apache.aries.spifly.BaseActivator log
+INFO: Registered provider ch.qos.logback.classic.spi.LogbackServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle ch.qos.logback.classic
+Jan 05, 2025 4:06:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 371
+Jan 05, 2025 4:06:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 372
+Jan 05, 2025 4:06:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 373
+Jan 05, 2025 4:06:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 376
+[Error - 11:27:30 PM] Jan 5, 2025, 11:27:30 PM _/codefiles/my-app/src/main/java/com/mycompany/app [in calculus_lab_1_3abd188a] does not exist
+_/codefiles/my-app/src/main/java/com/mycompany/app [in calculus_lab_1_3abd188a] does not exist
+Java Model Exception: Error in Java Model (code 969): _/codefiles/my-app/src/main/java/com/mycompany/app [in calculus_lab_1_3abd188a] does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:546)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:768)
+	at org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:417)
+	at org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:329)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:1108)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.collectNonJavaProblems(BaseDiagnosticsHandler.java:198)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:149)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:157)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:126)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1444)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:336)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:299)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$PublishDiagnosticJob.run(BaseDocumentLifeCycleHandler.java:781)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+[Error - 11:27:40 PM] Jan 5, 2025, 11:27:40 PM _/codefiles/my-app/src/test/java/com/mycompany/app [in calculus_lab_1_3abd188a] does not exist
+_/codefiles/my-app/src/test/java/com/mycompany/app [in calculus_lab_1_3abd188a] does not exist
+Java Model Exception: Error in Java Model (code 969): _/codefiles/my-app/src/test/java/com/mycompany/app [in calculus_lab_1_3abd188a] does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:546)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:768)
+	at org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:417)
+	at org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:329)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:1108)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.collectNonJavaProblems(BaseDiagnosticsHandler.java:198)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:149)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:157)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:126)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1444)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:336)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:299)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$PublishDiagnosticJob.run(BaseDocumentLifeCycleHandler.java:781)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+[Error - 11:28:13 PM] Jan 5, 2025, 11:28:13 PM _/codefiles/my-app/src/test/java/com/mycompany/app [in calculus_lab_1_3abd188a] does not exist
+_/codefiles/my-app/src/test/java/com/mycompany/app [in calculus_lab_1_3abd188a] does not exist
+Java Model Exception: Error in Java Model (code 969): _/codefiles/my-app/src/test/java/com/mycompany/app [in calculus_lab_1_3abd188a] does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:546)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:768)
+	at org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:417)
+	at org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:329)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:1108)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.collectNonJavaProblems(BaseDiagnosticsHandler.java:198)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:149)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:157)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:126)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1444)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:336)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:299)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$PublishDiagnosticJob.run(BaseDocumentLifeCycleHandler.java:781)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+

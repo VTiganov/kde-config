@@ -1,0 +1,1 @@
+INDEX VERSION 1.134+/home/vadim/.config/Code - OSS/User/workspaceStorage/85c28e22b35ee6e5d9a094064076a65e/redhat.java/ss_ws/.metadata/.plugins/org.eclipse.jdt.core

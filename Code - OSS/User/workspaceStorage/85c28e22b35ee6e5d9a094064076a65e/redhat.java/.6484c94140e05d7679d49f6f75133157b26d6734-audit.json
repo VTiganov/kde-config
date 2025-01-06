@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 2
+    },
+    "auditLog": "/home/vadim/.config/Code - OSS/User/workspaceStorage/85c28e22b35ee6e5d9a094064076a65e/redhat.java/.6484c94140e05d7679d49f6f75133157b26d6734-audit.json",
+    "files": [
+        {
+            "date": 1736081035215,
+            "name": "/home/vadim/.config/Code - OSS/User/workspaceStorage/85c28e22b35ee6e5d9a094064076a65e/redhat.java/client.log.2025-01-05",
+            "hash": "92dd6d45e41359aa3f8c55aa82a3207d8f7dff76360bf699ad661b7e1e6a7450"
+        }
+    ],
+    "hashType": "sha256"
+}

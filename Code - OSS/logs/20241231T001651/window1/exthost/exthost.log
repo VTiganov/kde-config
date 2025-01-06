@@ -1,0 +1,31 @@
+2024-12-31 00:16:53.641 [info] Extension host with pid 5594 started
+2024-12-31 00:16:53.657 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-12-31 00:16:53.706 [info] ExtensionService#_doActivateExtension timonwong.shellcheck, startup: false, activationEvent: 'onLanguage:shellscript'
+2024-12-31 00:16:53.823 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2024-12-31 00:16:53.850 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-12-31 00:16:53.914 [info] Eager extensions activated
+2024-12-31 00:16:53.919 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-12-31 00:16:53.923 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-12-31 00:16:53.968 [info] ExtensionService#_doActivateExtension rpinski.shebang-snippets, startup: false, activationEvent: 'onStartupFinished'
+2024-12-31 00:17:00.696 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2024-12-31 00:17:00.869 [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onStartupFinished'
+2024-12-31 00:17:00.894 [info] ExtensionService#_doActivateExtension foxundermoon.shell-format, startup: false, activationEvent: 'onLanguage:shellscript'
+2024-12-31 00:17:00.900 [info] ExtensionService#_doActivateExtension vadimcn.vscode-lldb, startup: false, activationEvent: 'onStartupFinished', root cause: franneck94.vscode-c-cpp-config
+2024-12-31 00:17:00.926 [info] ExtensionService#_doActivateExtension mads-hartmann.bash-ide-vscode, startup: false, activationEvent: 'onLanguage:shellscript'
+2024-12-31 00:17:00.998 [info] ExtensionService#_doActivateExtension mkhl.direnv, startup: false, activationEvent: '*'
+2024-12-31 00:17:01.072 [info] ExtensionService#_doActivateExtension franneck94.vscode-c-cpp-config, startup: false, activationEvent: 'onStartupFinished'
+2024-12-31 00:18:16.083 [info] Extension host terminating: renderer closed the MessagePort
+2024-12-31 00:18:16.091 [error] An error occurred when deactivating the extension 'mads-hartmann.bash-ide-vscode':
+2024-12-31 00:18:16.091 [error] TypeError: Cannot read properties of undefined (reading 'stop')
+	at Object.deactivate (/home/vadim/.vscode-oss/extensions/mads-hartmann.bash-ide-vscode-1.38.0-universal/out/extension.js:63:19)
+	at zz.eb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:119:11724)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:119:9874
+	at Array.map (<anonymous>)
+	at zz.$ (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:119:9862)
+	at zz.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:119:10105)
+	at QC.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:120:1424)
+	at Zi (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:175:15080)
+	at MessagePortMain.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:175:11628)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2024-12-31 00:18:16.094 [info] Extension host with pid 5594 exiting with code 0

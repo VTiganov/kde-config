@@ -1,0 +1,94 @@
+[Running] cd "/home/vadim/Edu/Github/calculus_lab_1/codefiles/" && javac HelloWorld.java && java HelloWorld
+Hello, World!
+
+[Done] exited with code=0 in 0.236 seconds
+
+[Running] cd "/home/vadim/Edu/Github/calculus_lab_1/codefiles/" && javac HelloWorld.java && java HelloWorld
+Hello, World!
+
+[Done] exited with code=0 in 0.224 seconds
+
+[Running] cd "/home/vadim/Edu/Github/calculus_lab_1/codefiles/" && javac HelloWorld.java && java HelloWorld
+Error: Could not find or load main class HelloWorld
+Caused by: java.lang.NoClassDefFoundError: codefiles/HelloWorld (wrong name: HelloWorld)
+
+[Done] exited with code=1 in 0.268 seconds
+
+[Running] cd "/home/vadim/Edu/Github/calculus_lab_1/codefiles/" && javac HelloWorld.java && java HelloWorld
+Error: Could not find or load main class HelloWorld
+Caused by: java.lang.NoClassDefFoundError: codefiles/HelloWorld (wrong name: HelloWorld)
+
+[Done] exited with code=1 in 0.249 seconds
+
+[Running] cd "/home/vadim/Edu/Github/calculus_lab_1/codefiles/" && javac Test.java && java Test
+Error: Could not find or load main class Test
+Caused by: java.lang.NoClassDefFoundError: codefiles/Test (wrong name: Test)
+
+[Done] exited with code=1 in 0.249 seconds
+
+[Running] cd "/home/vadim/Edu/Github/calculus_lab_1/codefiles/" && javac Test.java && java Test
+Error: Could not find or load main class Test
+Caused by: java.lang.NoClassDefFoundError: codefiles/Test (wrong name: Test)
+
+[Done] exited with code=1 in 0.236 seconds
+
+[Running] cd "/home/vadim/Edu/Github/calculus_lab_1/codefiles/" && javac Test.class && java Test
+error: invalid flag: Test.class
+Usage: javac <options> <source files>
+use --help for a list of possible options
+
+[Done] exited with code=2 in 0.074 seconds
+
+[Running] cd "/home/vadim/Edu/Github/calculus_lab_1/codefiles/" && javac Test.class && java Test
+error: invalid flag: Test.class
+Usage: javac <options> <source files>
+use --help for a list of possible options
+
+[Done] exited with code=2 in 0.074 seconds
+
+[Running] cd "/home/vadim/Edu/Github/calculus_lab_1/codefiles/" && javac HelloWorld.java && java HelloWorld
+Error: Could not find or load main class HelloWorld
+Caused by: java.lang.NoClassDefFoundError: codefiles/HelloWorld (wrong name: HelloWorld)
+
+[Done] exited with code=1 in 0.235 seconds
+
+[Running] cd "/home/vadim/Edu/Github/calculus_lab_1/codefiles/" && javac HelloWorld.java && java HelloWorld
+Error: Could not find or load main class HelloWorld
+Caused by: java.lang.NoClassDefFoundError: codefiles/HelloWorld (wrong name: HelloWorld)
+
+[Done] exited with code=1 in 0.243 seconds
+
+[Running] cd "/home/vadim/Edu/Github/calculus_lab_1/codefiles/" && javac HelloWorld.java && java HelloWorld
+Error: Could not find or load main class HelloWorld
+Caused by: java.lang.NoClassDefFoundError: codefiles/HelloWorld (wrong name: HelloWorld)
+
+[Done] exited with code=1 in 0.229 seconds
+
+[Running] cd "/home/vadim/Edu/Github/calculus_lab_1/codefiles/" && javac HelloWorld.class && java HelloWorld
+error: invalid flag: HelloWorld.class
+Usage: javac <options> <source files>
+use --help for a list of possible options
+
+[Done] exited with code=2 in 0.079 seconds
+
+[Running] cd "/home/vadim/Edu/Github/calculus_lab_1/codefiles/" && javac HelloWorld.class && java HelloWorld
+error: invalid flag: HelloWorld.class
+Usage: javac <options> <source files>
+use --help for a list of possible options
+
+[Done] exited with code=2 in 0.065 seconds
+
+[Running] cd "/home/vadim/Edu/Github/calculus_lab_1/codefiles/" && javac HelloWorld.java && java HelloWorld
+Error: Could not find or load main class HelloWorld
+Caused by: java.lang.NoClassDefFoundError: codefiles/HelloWorld (wrong name: HelloWorld)
+
+[Done] exited with code=1 in 0.251 seconds
+
+[Running] cd "/home/vadim/Edu/Github/calculus_lab_1/codefiles/" && javac Quiz.java && java Quiz
+ec5287c45f0e70ec22d52e8bcbeeb640
+[Done] exited with code=0 in 0.507 seconds
+
+[Running] cd "/home/vadim/Edu/Github/calculus_lab_1/codefiles/" && javac Quiz.java && java Quiz
+ec5287c45f0e70ec22d52e8bcbeeb640
+[Done] exited with code=0 in 0.302 seconds
+

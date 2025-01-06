@@ -1,0 +1,8 @@
+2025-01-06 15:41:17.872 [info] Deleted uninstalled extension from disk james-yu.latex-workshop /home/vadim/.vscode-oss/extensions/james-yu.latex-workshop-10.7.2-universal
+2025-01-06 15:41:17.959 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/vadim/.vscode-oss/extensions/james-yu.latex-workshop-10.7.2-universal.-64668dc8.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/vadim/.vscode-oss/extensions/james-yu.latex-workshop-10.7.2-universal.-64668dc8.vsctmp'
+    at Gm.create (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)

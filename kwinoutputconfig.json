@@ -1,0 +1,100 @@
+[
+    {
+        "data": [
+            {
+                "allowSdrSoftwareBrightness": false,
+                "autoRotation": "InTabletMode",
+                "brightness": 0.1,
+                "colorProfileSource": "sRGB",
+                "connectorName": "eDP-1",
+                "edidHash": "85646031b3e03734d9a822664d9558cc",
+                "edidIdentifier": "CSO 5670 24578 0 2022 0",
+                "highDynamicRange": false,
+                "iccProfilePath": "",
+                "mode": {
+                    "height": 2000,
+                    "refreshRate": 165001,
+                    "width": 3200
+                },
+                "overscan": 0,
+                "rgbRange": "Automatic",
+                "scale": 2,
+                "sdrBrightness": 200,
+                "sdrGamutWideness": 0,
+                "transform": "Normal",
+                "vrrPolicy": "Automatic",
+                "wideColorGamut": false
+            },
+            {
+                "allowSdrSoftwareBrightness": true,
+                "autoRotation": "InTabletMode",
+                "brightness": 1,
+                "colorProfileSource": "sRGB",
+                "connectorName": "Unknown-1",
+                "highDynamicRange": false,
+                "iccProfilePath": "",
+                "mode": {
+                    "height": 2000,
+                    "refreshRate": 60000,
+                    "width": 3200
+                },
+                "overscan": 0,
+                "rgbRange": "Automatic",
+                "scale": 1.75,
+                "sdrBrightness": 200,
+                "sdrGamutWideness": 0,
+                "transform": "Normal",
+                "vrrPolicy": "Automatic",
+                "wideColorGamut": false
+            }
+        ],
+        "name": "outputs"
+    },
+    {
+        "data": [
+            {
+                "lidClosed": false,
+                "outputs": [
+                    {
+                        "enabled": true,
+                        "outputIndex": 0,
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "priority": 0
+                    }
+                ]
+            },
+            {
+                "lidClosed": false,
+                "outputs": [
+                    {
+                        "enabled": true,
+                        "outputIndex": 1,
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "priority": 0
+                    }
+                ]
+            },
+            {
+                "lidClosed": true,
+                "outputs": [
+                    {
+                        "enabled": true,
+                        "outputIndex": 0,
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "priority": 0
+                    }
+                ]
+            }
+        ],
+        "name": "setups"
+    }
+]

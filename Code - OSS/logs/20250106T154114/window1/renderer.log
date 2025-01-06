@@ -1,0 +1,14 @@
+2025-01-06 15:41:16.817 [info] Started local extension host with pid 3222.
+2025-01-06 15:41:17.001 [error] Extension 'ms-python.debugpy CANNOT USE these API proposals 'portsAttributes, debugVisualization, contribViewsWelcome'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2025-01-06 15:41:17.001 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, codeActionAI, notebookReplDocument, notebookVariableProvider'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2025-01-06 15:41:17.015 [error] [ms-python.python]: editor/content is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribEditorContentMenu"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+2025-01-06 15:41:20.099 [info] [perf] Render performance baseline is 17ms
+2025-01-06 15:41:22.200 [error] Timed out waiting for authentication provider to register
+2025-01-06 15:41:24.790 [info] Started local extension host with pid 3451.
+2025-01-06 15:41:25.066 [error] Extension 'ms-python.debugpy CANNOT USE these API proposals 'portsAttributes, debugVisualization, contribViewsWelcome'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2025-01-06 15:41:25.067 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, codeActionAI, notebookReplDocument, notebookVariableProvider'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2025-01-06 15:41:25.083 [error] [ms-python.python]: editor/content is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribEditorContentMenu"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+2025-01-06 15:41:27.214 [error] Extension 'ms-python.debugpy CANNOT USE these API proposals 'portsAttributes, debugVisualization, contribViewsWelcome'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2025-01-06 15:41:27.219 [error] [ms-python.python]: editor/content is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribEditorContentMenu"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+2025-01-06 15:41:27.366 [info] [perf] Render performance baseline is 16ms
+2025-01-06 15:41:30.125 [error] Timed out waiting for authentication provider to register

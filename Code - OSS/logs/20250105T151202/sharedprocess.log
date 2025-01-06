@@ -1,0 +1,52 @@
+2025-01-05 15:12:12.607 [info] Getting Manifest... franneck94.vscode-c-cpp-config
+2025-01-05 15:12:12.608 [info] Getting Manifest... timonwong.shellcheck
+2025-01-05 15:12:13.297 [info] Installing extension: timonwong.shellcheck {"productVersion":{"version":"1.96.2","date":"2025-01-01T12:35:52.102Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/vadim/.vscode-oss/extensions/extensions.json","path":"/home/vadim/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2025-01-05 15:12:13.308 [info] Installing extension: franneck94.vscode-c-cpp-config {"productVersion":{"version":"1.96.2","date":"2025-01-01T12:35:52.102Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/vadim/.vscode-oss/extensions/extensions.json","path":"/home/vadim/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2025-01-05 15:12:13.457 [info] Getting Manifest... vadimcn.vscode-lldb
+2025-01-05 15:12:14.241 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js
+2025-01-05 15:12:14.241 [info] Extension signature verification is not done: timonwong.shellcheck
+2025-01-05 15:12:14.278 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js
+2025-01-05 15:12:14.278 [info] Extension signature verification is not done: franneck94.vscode-c-cpp-config
+2025-01-05 15:12:14.296 [info] Extracted extension to file:///home/vadim/.vscode-oss/extensions/franneck94.vscode-c-cpp-config-6.3.0-universal: franneck94.vscode-c-cpp-config
+2025-01-05 15:12:14.304 [info] Renamed to /home/vadim/.vscode-oss/extensions/franneck94.vscode-c-cpp-config-6.3.0-universal
+2025-01-05 15:12:14.317 [info] Marked extension as uninstalled franneck94.vscode-c-cpp-config-6.0.0-universal
+2025-01-05 15:12:14.324 [info] Extension installed successfully: franneck94.vscode-c-cpp-config vscode-userdata:/home/vadim/.vscode-oss/extensions/extensions.json
+2025-01-05 15:12:14.347 [info] Extracted extension to file:///home/vadim/.vscode-oss/extensions/timonwong.shellcheck-0.37.4-linux-x64: timonwong.shellcheck
+2025-01-05 15:12:14.354 [info] Renamed to /home/vadim/.vscode-oss/extensions/timonwong.shellcheck-0.37.4-linux-x64
+2025-01-05 15:12:14.365 [info] Marked extension as uninstalled timonwong.shellcheck-0.37.3-linux-x64
+2025-01-05 15:12:14.370 [info] Extension installed successfully: timonwong.shellcheck vscode-userdata:/home/vadim/.vscode-oss/extensions/extensions.json
+2025-01-05 15:12:14.385 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/vadim/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/vadim/.vscode-oss/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2025-01-05 15:27:37.220 [info] Getting Manifest... james-yu.latex-workshop
+2025-01-05 15:27:37.877 [info] Installing extension: james-yu.latex-workshop {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/vadim/.vscode-oss/extensions/extensions.json","path":"/home/vadim/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.96.2","date":"2025-01-01T12:35:52.102Z"}}
+2025-01-05 15:27:47.147 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js
+2025-01-05 15:27:47.147 [info] Extension signature verification is not done: james-yu.latex-workshop
+2025-01-05 15:27:47.539 [info] Extracted extension to file:///home/vadim/.vscode-oss/extensions/james-yu.latex-workshop-10.7.2-universal: james-yu.latex-workshop
+2025-01-05 15:27:47.587 [info] Renamed to /home/vadim/.vscode-oss/extensions/james-yu.latex-workshop-10.7.2-universal
+2025-01-05 15:27:47.609 [info] Extension installed successfully: james-yu.latex-workshop vscode-userdata:/home/vadim/.vscode-oss/extensions/extensions.json
+2025-01-05 15:27:47.669 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/vadim/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/vadim/.vscode-oss/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2025-01-05 15:31:23.879 [info] Getting Manifest... michelemelluso.gitignore
+2025-01-05 15:31:24.506 [info] Installing extension: michelemelluso.gitignore {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/vadim/.vscode-oss/extensions/extensions.json","path":"/home/vadim/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.96.2","date":"2025-01-01T12:35:52.102Z"}}
+2025-01-05 15:31:25.013 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js
+2025-01-05 15:31:25.013 [info] Extension signature verification is not done: michelemelluso.gitignore
+2025-01-05 15:31:25.018 [info] Extracted extension to file:///home/vadim/.vscode-oss/extensions/michelemelluso.gitignore-1.0.1-universal: michelemelluso.gitignore
+2025-01-05 15:31:25.026 [info] Renamed to /home/vadim/.vscode-oss/extensions/michelemelluso.gitignore-1.0.1-universal
+2025-01-05 15:31:25.047 [info] Extension installed successfully: michelemelluso.gitignore vscode-userdata:/home/vadim/.vscode-oss/extensions/extensions.json
+2025-01-05 15:31:25.104 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/vadim/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/vadim/.vscode-oss/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)

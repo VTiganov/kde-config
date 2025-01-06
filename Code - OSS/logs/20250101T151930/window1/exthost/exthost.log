@@ -1,0 +1,21 @@
+2025-01-01 15:19:32.795 [info] Extension host with pid 5550 started
+2025-01-01 15:19:32.821 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-01-01 15:19:32.878 [info] ExtensionService#_doActivateExtension mkhl.direnv, startup: false, activationEvent: 'onLanguage'
+2025-01-01 15:19:32.888 [info] ExtensionService#_doActivateExtension redhat.java, startup: false, activationEvent: 'onLanguage:java'
+2025-01-01 15:19:33.390 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2025-01-01 15:19:33.505 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-01-01 15:19:33.524 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2025-01-01 15:19:33.591 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-01-01 15:19:33.836 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-01-01 15:19:34.082 [info] Eager extensions activated
+2025-01-01 15:19:34.156 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-01-01 15:19:34.164 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-01-01 15:19:34.223 [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onStartupFinished'
+2025-01-01 15:19:34.268 [info] ExtensionService#_doActivateExtension vadimcn.vscode-lldb, startup: false, activationEvent: 'onStartupFinished', root cause: franneck94.vscode-c-cpp-config
+2025-01-01 15:19:34.326 [info] ExtensionService#_doActivateExtension rpinski.shebang-snippets, startup: false, activationEvent: 'onStartupFinished'
+2025-01-01 15:19:34.421 [info] ExtensionService#_doActivateExtension franneck94.vscode-c-cpp-config, startup: false, activationEvent: 'onStartupFinished'
+2025-01-01 15:19:36.964 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-01-01 15:19:37.003 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-01-01 15:19:37.176 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-01-01 15:21:01.052 [info] Extension host terminating: renderer closed the MessagePort
+2025-01-01 15:21:01.074 [info] Extension host with pid 5550 exiting with code 0

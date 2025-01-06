@@ -1,0 +1,15 @@
+2025-01-06 13:26:56.926 [info] Getting Manifest... james-yu.latex-workshop
+2025-01-06 13:26:57.818 [info] Installing extension: james-yu.latex-workshop {"productVersion":{"version":"1.96.2","date":"2025-01-01T12:35:52.102Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/vadim/.vscode-oss/extensions/extensions.json","path":"/home/vadim/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2025-01-06 13:26:59.194 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js
+2025-01-06 13:26:59.195 [info] Extension signature verification is not done: james-yu.latex-workshop
+2025-01-06 13:27:00.168 [info] Extracted extension to file:///home/vadim/.vscode-oss/extensions/james-yu.latex-workshop-10.7.4-universal: james-yu.latex-workshop
+2025-01-06 13:27:00.270 [info] Renamed to /home/vadim/.vscode-oss/extensions/james-yu.latex-workshop-10.7.4-universal
+2025-01-06 13:27:00.319 [info] Marked extension as uninstalled james-yu.latex-workshop-10.7.2-universal
+2025-01-06 13:27:00.338 [info] Extension installed successfully: james-yu.latex-workshop vscode-userdata:/home/vadim/.vscode-oss/extensions/extensions.json
+2025-01-06 13:27:00.374 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/vadim/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/vadim/.vscode-oss/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)

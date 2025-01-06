@@ -1,0 +1,145 @@
+{
+  message: "Use the JDK from 'PATH' as the initial default project JDK.",
+  level: 'info',
+  timestamp: '2025-01-05 15:43:55.232'
+}
+{
+  message: 'Starting Java server with: /home/vadim/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/jre/17.0.13-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/vadim/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/lombok/lombok-1.18.34.jar -jar /home/vadim/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.900.v20240613-2009.jar -configuration /home/vadim/.config/Code - OSS/User/globalStorage/redhat.java/1.38.0/config_ss_linux -data /home/vadim/.config/Code - OSS/User/workspaceStorage/85c28e22b35ee6e5d9a094064076a65e/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2025-01-05 15:43:55.246'
+}
+{
+  message: 'Starting Java server with: /home/vadim/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/jre/17.0.13-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/vadim/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/lombok/lombok-1.18.34.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/vadim/.config/Code - OSS/User/workspaceStorage/85c28e22b35ee6e5d9a094064076a65e/redhat.java -Daether.dependencyCollector.impl=bf -jar /home/vadim/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.900.v20240613-2009.jar -configuration /home/vadim/.config/Code - OSS/User/globalStorage/redhat.java/1.38.0/config_linux -data /home/vadim/.config/Code - OSS/User/workspaceStorage/85c28e22b35ee6e5d9a094064076a65e/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2025-01-05 15:43:55.283'
+}
+{
+  message: 'Jan 05, 2025 3:43:55 PM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.servlet.LogbackServletContainerInitializer of service jakarta.servlet.ServletContainerInitializer in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2025-01-05 15:43:55.776'
+}
+{
+  message: 'Jan 05, 2025 3:43:55 PM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.spi.LogbackServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2025-01-05 15:43:55.778'
+}
+{
+  message: '[Error - 3:43:57 PM] Jan 5, 2025, 3:43:57 PM Problem with folding range for /jdt.ls-java-project/src/test.java\n' +
+    'test.java [in <default> [in src [in jdt.ls-java-project]]] does not exist\n' +
+    'Java Model Exception: Error in Java Model (code 969): test.java [in <default> [in src [in jdt.ls-java-project]]] does not exist\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:556)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:234)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:569)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:292)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:278)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.getSourceRange(CompilationUnit.java:1085)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.FoldingRangeHandler.computeFoldingRanges(FoldingRangeHandler.java:79)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.FoldingRangeHandler.foldingRange(FoldingRangeHandler.java:70)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxLanguageServer.lambda$8(SyntaxLanguageServer.java:376)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)\n',
+  level: 'info',
+  timestamp: '2025-01-05 15:43:57.224'
+}
+{ level: 'error', timestamp: '2025-01-05 15:43:58.474' }
+{
+  message: 'Jan 05, 2025 4:06:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 371\n',
+  level: 'info',
+  timestamp: '2025-01-05 16:06:41.928'
+}
+{
+  message: 'Jan 05, 2025 4:06:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 372\n',
+  level: 'info',
+  timestamp: '2025-01-05 16:06:41.929'
+}
+{
+  message: 'Jan 05, 2025 4:06:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 373\n',
+  level: 'info',
+  timestamp: '2025-01-05 16:06:41.972'
+}
+{
+  message: 'Jan 05, 2025 4:06:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 376\n',
+  level: 'info',
+  timestamp: '2025-01-05 16:06:42.039'
+}
+{
+  message: '[Error - 11:27:30 PM] Jan 5, 2025, 11:27:30 PM _/codefiles/my-app/src/main/java/com/mycompany/app [in calculus_lab_1_3abd188a] does not exist\n' +
+    '_/codefiles/my-app/src/main/java/com/mycompany/app [in calculus_lab_1_3abd188a] does not exist\n' +
+    'Java Model Exception: Error in Java Model (code 969): _/codefiles/my-app/src/main/java/com/mycompany/app [in calculus_lab_1_3abd188a] does not exist\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:546)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:768)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:417)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:329)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:1108)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.collectNonJavaProblems(BaseDiagnosticsHandler.java:198)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:149)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:157)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:126)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1444)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:336)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:299)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$PublishDiagnosticJob.run(BaseDocumentLifeCycleHandler.java:781)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-01-05 23:27:30.456'
+}
+{
+  message: '[Error - 11:27:40 PM] Jan 5, 2025, 11:27:40 PM _/codefiles/my-app/src/test/java/com/mycompany/app [in calculus_lab_1_3abd188a] does not exist\n' +
+    '_/codefiles/my-app/src/test/java/com/mycompany/app [in calculus_lab_1_3abd188a] does not exist\n' +
+    'Java Model Exception: Error in Java Model (code 969): _/codefiles/my-app/src/test/java/com/mycompany/app [in calculus_lab_1_3abd188a] does not exist\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:546)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:768)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:417)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:329)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:1108)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.collectNonJavaProblems(BaseDiagnosticsHandler.java:198)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:149)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:157)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:126)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1444)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:336)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:299)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$PublishDiagnosticJob.run(BaseDocumentLifeCycleHandler.java:781)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-01-05 23:27:40.524'
+}
+{
+  message: '[Error - 11:28:13 PM] Jan 5, 2025, 11:28:13 PM _/codefiles/my-app/src/test/java/com/mycompany/app [in calculus_lab_1_3abd188a] does not exist\n' +
+    '_/codefiles/my-app/src/test/java/com/mycompany/app [in calculus_lab_1_3abd188a] does not exist\n' +
+    'Java Model Exception: Error in Java Model (code 969): _/codefiles/my-app/src/test/java/com/mycompany/app [in calculus_lab_1_3abd188a] does not exist\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:546)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:768)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:417)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:329)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:1108)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.collectNonJavaProblems(BaseDiagnosticsHandler.java:198)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:149)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:157)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:126)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1444)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:336)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:299)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$PublishDiagnosticJob.run(BaseDocumentLifeCycleHandler.java:781)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-01-05 23:28:13.205'
+}

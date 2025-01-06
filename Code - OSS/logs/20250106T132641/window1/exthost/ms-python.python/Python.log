@@ -1,0 +1,234 @@
+2025-01-06 13:28:53.566 [warning] Dir "/home/vadim/Edu/Github/polygon/.pixi/envs" is not watchable (directory does not exist)
+2025-01-06 13:28:53.566 [error] Unable to check if shell integration is active [Error: Extension 'ms-python.python' CANNOT use API proposal: terminalDataWriteEvent.
+Its package.json#enabledApiProposals-property declares:  but NOT terminalDataWriteEvent.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at L (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:113:16650)
+	at a.onDidWriteTerminalData (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:157:46493)
+	at new v (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:896895)
+	at me (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:1747365)
+	at /home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:1750729
+	at /home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:1750757
+	at Ee (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:1750824)
+	at /home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:1751304
+	at we (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:1751245)
+	at Te (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:1751279)
+	at /home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:1748518
+	at /home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:1750123
+	at Array.reduce (<anonymous>)
+	at /home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:1750095
+	at /home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:1750377
+	at /home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:1750757
+	at Ee (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:1750824)
+	at /home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:1751304
+	at we (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:1751245)
+	at Te (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:1751279)
+	at /home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:1748518
+	at /home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:1778188
+	at /home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:1778209
+	at e._get (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:1777222)
+	at e._getButThrowIfAsync (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:1777282)
+	at e.get (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:1772991)
+	at e.dynamicValue (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:1762724)
+	at /home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:1748901
+	at Se (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:1749157)
+	at Ee (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:1750873)
+	at /home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:1751304
+	at we (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:1751245)
+	at Te (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:1751279)
+	at /home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:1748518
+	at /home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:1748452
+	at Array.map (<anonymous>)
+	at /home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:1748423
+	at /home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:1750123
+	at Array.reduce (<anonymous>)
+	at /home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:1750095
+	at /home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:1750377
+	at /home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:1750757
+	at Ee (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:1750824)
+	at /home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:1751304
+	at we (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:1751245)
+	at Te (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:1751279)
+	at /home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:1748518
+	at /home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:1778188
+	at /home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:1778209
+	at e._get (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:1777222)
+	at e._getButThrowIfAsync (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:1777282)
+	at e.get (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:1772991)
+	at a.get (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:526378)
+	at /home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:441970
+	at async t.activateComponents (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:440250)
+	at async /home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2705137
+	at async e (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2704669)
+	at async K0.n (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:4447)
+	at async K0.m (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:4410)
+	at async K0.l (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:3866)]
+2025-01-06 13:28:53.566 [info] Starting Environment refresh
+2025-01-06 13:28:53.566 [info] > hatch env show --json
+2025-01-06 13:28:53.566 [info] cwd: .
+2025-01-06 13:28:53.566 [info] Python interpreter path: /bin/python
+2025-01-06 13:28:53.566 [info] Starting Environment refresh
+2025-01-06 13:28:53.628 [info] > /bin/python -I ~/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/python_files/interpreterInfo.py
+2025-01-06 13:28:53.629 [info] Environments refresh paths discovered: 281 milliseconds
+2025-01-06 13:28:53.632 [info] Environments refresh paths discovered: 69 milliseconds
+2025-01-06 13:28:53.769 [info] Environments refresh finished (event): 420 milliseconds
+2025-01-06 13:28:53.769 [info] Environments refresh finished (event): 205 milliseconds
+2025-01-06 13:28:53.773 [info] Environment refresh took 426 milliseconds
+2025-01-06 13:28:53.774 [info] Environment refresh took 211 milliseconds
+2025-01-06 13:28:53.788 [info] > pyenv which python
+2025-01-06 13:28:53.788 [info] cwd: .
+2025-01-06 13:28:53.825 [error] [
+  'Failed to activate a workspace, Class name = v, completed in 479ms, has a falsy return value, Arg 1: <Uri:/home/vadim/Edu/Github/polygon/lab9/main.py>, Arg 2: {"started":1736159333157}, Return Value: undefined',
+  [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+  Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+   The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+  	at L (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:113:16650)
+  	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:157:39656)
+  	at C.activate (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:932762)
+  	at /home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2457
+  	at Array.map (<anonymous>)
+  	at v.activateWorkspace (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2447)]
+]
+2025-01-06 13:28:53.825 [error] Failure during activation. [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at L (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:113:16650)
+	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:157:39656)
+	at C.activate (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:932762)
+	at /home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2457
+	at Array.map (<anonymous>)
+	at v.activateWorkspace (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2447)]
+2025-01-06 13:28:53.825 [error] sendStartupTelemetry() failed. [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at L (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:113:16650)
+	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:157:39656)
+	at C.activate (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:932762)
+	at /home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2457
+	at Array.map (<anonymous>)
+	at v.activateWorkspace (/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/out/client/extension.js:2:2447)]
+2025-01-06 13:28:55.103 [info] Starting Jedi language server for polygon.
+2025-01-06 13:30:02.123 [info] Discover tests for workspace name: polygon - uri: /home/vadim/Edu/Github/polygon/lab9/main.py
+2025-01-06 13:31:01.248 [info] Selected workspace /home/vadim/Edu/Github/polygon for creating virtual environment.
+2025-01-06 13:31:01.259 [info] Starting Environment refresh
+2025-01-06 13:31:01.259 [info] Searching for interpreters in posix paths locator
+2025-01-06 13:31:01.262 [info] Searching for pyenv environments
+2025-01-06 13:31:01.262 [info] Searching for conda environments
+2025-01-06 13:31:01.262 [info] Searching for global virtual environments
+2025-01-06 13:31:01.262 [info] Searching for custom virtual environments
+2025-01-06 13:31:01.276 [info] > conda info --json
+2025-01-06 13:31:01.282 [info] pyenv is not installed
+2025-01-06 13:31:01.282 [info] Finished searching for pyenv environments: 23 milliseconds
+2025-01-06 13:31:01.283 [info] Finished searching for custom virtual envs: 22 milliseconds
+2025-01-06 13:31:01.286 [info] Finished searching for global virtual envs: 25 milliseconds
+2025-01-06 13:31:01.315 [info] Found: /bin/python --> /bin/python3.13
+2025-01-06 13:31:01.316 [info] Found: /bin/python3 --> /bin/python3.13
+2025-01-06 13:31:01.317 [info] Found: /bin/python3.13 --> /bin/python3.13
+2025-01-06 13:31:01.399 [info] Found: /sbin/python --> /sbin/python3.13
+2025-01-06 13:31:01.400 [info] Found: /sbin/python3 --> /sbin/python3.13
+2025-01-06 13:31:01.401 [info] Found: /sbin/python3.13 --> /sbin/python3.13
+2025-01-06 13:31:01.419 [info] Found: /usr/bin/python --> /usr/bin/python3.13
+2025-01-06 13:31:01.421 [info] Found: /usr/bin/python3 --> /usr/bin/python3.13
+2025-01-06 13:31:01.421 [info] Found: /usr/bin/python3.13 --> /usr/bin/python3.13
+2025-01-06 13:31:01.486 [info] Found: /usr/sbin/python --> /usr/sbin/python3.13
+2025-01-06 13:31:01.487 [info] Found: /usr/sbin/python3 --> /usr/sbin/python3.13
+2025-01-06 13:31:01.487 [info] Found: /usr/sbin/python3.13 --> /usr/sbin/python3.13
+2025-01-06 13:31:01.510 [info] > /sbin/python -I ~/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/python_files/interpreterInfo.py
+2025-01-06 13:31:01.527 [info] Finished searching for interpreters in posix paths locator: 262 milliseconds
+2025-01-06 13:31:01.527 [info] > /usr/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/python_files/interpreterInfo.py
+2025-01-06 13:31:01.538 [info] Environments refresh paths discovered (event): 282 milliseconds
+2025-01-06 13:31:01.538 [info] Environments refresh paths discovered: 282 milliseconds
+2025-01-06 13:31:01.582 [info] > /usr/sbin/python -I ~/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/python_files/interpreterInfo.py
+2025-01-06 13:31:01.696 [info] Environments refresh finished (event): 439 milliseconds
+2025-01-06 13:31:01.706 [info] Environment refresh took 451 milliseconds
+2025-01-06 13:31:08.279 [info] Selected interpreter /bin/python for creating virtual environment.
+2025-01-06 13:31:08.386 [info] Running Env creation script:  [
+  '/bin/python',
+  '/home/vadim/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/python_files/create_venv.py',
+  '--git-ignore'
+]
+2025-01-06 13:31:08.386 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/python_files/create_venv.py --git-ignore
+2025-01-06 13:31:08.386 [info] cwd: .
+2025-01-06 13:31:08.819 [info] Running: /bin/python -m venv .venv
+2025-01-06 13:31:10.139 [info] > ./.venv/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2024.22.1-universal/python_files/interpreterInfo.py
+2025-01-06 13:31:10.139 [info] Environments refresh paths discovered: 96 milliseconds
+2025-01-06 13:31:10.245 [info] Environments refresh finished (event): 202 milliseconds
+2025-01-06 13:31:15.755 [info] CREATED_VENV:/home/vadim/Edu/Github/polygon/.venv/bin/python
+CREATE_VENV.UPGRADING_PIP
+Running: /home/vadim/Edu/Github/polygon/.venv/bin/python -m pip install --upgrade pip
+2025-01-06 13:31:16.478 [info] Requirement already satisfied: pip in ./.venv/lib/python3.13/site-packages (24.3.1)
+2025-01-06 13:31:17.163 [info] CREATE_VENV.UPGRADED_PIP
+2025-01-06 13:31:17.216 [info] CreateEnv Trigger - Environment created:  /home/vadim/Edu/Github/polygon/.venv/bin/python
+2025-01-06 13:31:17.216 [info] CreateEnv Trigger - Running: /home/vadim/Edu/Github/polygon/.venv/bin/python -m pip install numpy
+2025-01-06 13:31:17.248 [info] Discover tests for workspace name: polygon - uri: /home/vadim/Edu/Github/polygon
+2025-01-06 13:31:17.248 [info] Python interpreter path: ./.venv/bin/python
+2025-01-06 13:31:18.760 [info] Starting Jedi language server for polygon.
+2025-01-06 13:31:33.678 [info] Send text to terminal: source /home/vadim/Edu/Github/polygon/.venv/bin/activate
+2025-01-06 13:44:30.562 [info] Discover tests for workspace name: polygon - uri: /home/vadim/Edu/Github/polygon/lab9/main.py
+2025-01-06 13:44:53.457 [info] Discover tests for workspace name: polygon - uri: /home/vadim/Edu/Github/polygon/lab9/main.py
+2025-01-06 13:46:40.896 [info] Discover tests for workspace name: polygon - uri: /home/vadim/Edu/Github/polygon/lab9/main.py
+2025-01-06 13:47:11.225 [info] Discover tests for workspace name: polygon - uri: /home/vadim/Edu/Github/polygon/lab9/main.py
+2025-01-06 13:48:10.634 [info] Discover tests for workspace name: polygon - uri: /home/vadim/Edu/Github/polygon/lab9/main.py
+2025-01-06 13:50:50.805 [info] Discover tests for workspace name: polygon - uri: /home/vadim/Edu/Github/polygon/lab9/main.py
+2025-01-06 13:51:58.769 [info] Discover tests for workspace name: polygon - uri: /home/vadim/Edu/Github/polygon/lab9/main.py
+2025-01-06 13:52:12.995 [info] Discover tests for workspace name: polygon - uri: /home/vadim/Edu/Github/polygon/lab9/main.py
+2025-01-06 13:52:37.505 [info] Discover tests for workspace name: polygon - uri: /home/vadim/Edu/Github/polygon/lab9/main.py
+2025-01-06 13:52:57.490 [info] Discover tests for workspace name: polygon - uri: /home/vadim/Edu/Github/polygon/lab9/main.py
+2025-01-06 13:53:19.526 [info] Discover tests for workspace name: polygon - uri: /home/vadim/Edu/Github/polygon/lab9/main.py
+2025-01-06 13:59:18.129 [info] Discover tests for workspace name: polygon - uri: /home/vadim/Edu/Github/polygon/lab9/main.py
+2025-01-06 13:59:32.821 [info] Discover tests for workspace name: polygon - uri: /home/vadim/Edu/Github/polygon/lab9/main.py
+2025-01-06 14:02:04.312 [info] Discover tests for workspace name: polygon - uri: /home/vadim/Edu/Github/polygon/lab9/main.py
+2025-01-06 14:02:11.757 [info] Discover tests for workspace name: polygon - uri: /home/vadim/Edu/Github/polygon/lab9/main.py
+2025-01-06 14:02:22.520 [info] Discover tests for workspace name: polygon - uri: /home/vadim/Edu/Github/polygon/lab9/main.py
+2025-01-06 14:03:38.653 [info] Discover tests for workspace name: polygon - uri: /home/vadim/Edu/Github/polygon/lab9/main.py
+2025-01-06 14:04:02.200 [info] Discover tests for workspace name: polygon - uri: /home/vadim/Edu/Github/polygon/lab9/main.py
+2025-01-06 14:04:09.717 [info] Discover tests for workspace name: polygon - uri: /home/vadim/Edu/Github/polygon/lab9/main.py
+2025-01-06 14:08:37.779 [info] Discover tests for workspace name: polygon - uri: /home/vadim/Edu/Github/polygon/lab9/main.py
+2025-01-06 14:08:51.789 [info] Discover tests for workspace name: polygon - uri: /home/vadim/Edu/Github/polygon/lab9/main.py
+2025-01-06 14:08:58.371 [info] Discover tests for workspace name: polygon - uri: /home/vadim/Edu/Github/polygon/lab9/main.py
+2025-01-06 14:10:57.661 [info] Discover tests for workspace name: polygon - uri: /home/vadim/Edu/Github/polygon/lab9/main.py
+2025-01-06 14:11:48.155 [info] Discover tests for workspace name: polygon - uri: /home/vadim/Edu/Github/polygon/lab9/main.py
+2025-01-06 14:11:55.724 [info] Discover tests for workspace name: polygon - uri: /home/vadim/Edu/Github/polygon/lab9/main.py
+2025-01-06 14:12:03.298 [info] Discover tests for workspace name: polygon - uri: /home/vadim/Edu/Github/polygon/lab9/main.py
+2025-01-06 14:13:09.560 [info] Discover tests for workspace name: polygon - uri: /home/vadim/Edu/Github/polygon/lab9/main.py
+2025-01-06 14:13:28.312 [info] Discover tests for workspace name: polygon - uri: /home/vadim/Edu/Github/polygon/lab9/main.py
+2025-01-06 14:13:34.769 [info] Discover tests for workspace name: polygon - uri: /home/vadim/Edu/Github/polygon/lab9/main.py
+2025-01-06 14:14:42.877 [info] Discover tests for workspace name: polygon - uri: /home/vadim/Edu/Github/polygon/lab9/main.py
+2025-01-06 14:14:51.518 [info] Discover tests for workspace name: polygon - uri: /home/vadim/Edu/Github/polygon/lab9/main.py
+2025-01-06 14:14:58.939 [info] Discover tests for workspace name: polygon - uri: /home/vadim/Edu/Github/polygon/lab9/main.py
+2025-01-06 14:15:07.739 [info] Discover tests for workspace name: polygon - uri: /home/vadim/Edu/Github/polygon/lab9/main.py
+2025-01-06 14:15:17.716 [info] Discover tests for workspace name: polygon - uri: /home/vadim/Edu/Github/polygon/lab9/main.py
+2025-01-06 14:15:25.086 [info] Discover tests for workspace name: polygon - uri: /home/vadim/Edu/Github/polygon/lab9/main.py
+2025-01-06 14:15:34.357 [info] Discover tests for workspace name: polygon - uri: /home/vadim/Edu/Github/polygon/lab9/main.py
+2025-01-06 14:15:42.504 [info] Discover tests for workspace name: polygon - uri: /home/vadim/Edu/Github/polygon/lab9/main.py
+2025-01-06 14:15:49.409 [info] Discover tests for workspace name: polygon - uri: /home/vadim/Edu/Github/polygon/lab9/main.py
+2025-01-06 14:16:12.978 [info] Discover tests for workspace name: polygon - uri: /home/vadim/Edu/Github/polygon/lab9/main.py
+2025-01-06 14:16:38.525 [info] Discover tests for workspace name: polygon - uri: /home/vadim/Edu/Github/polygon/lab9/main.py
+2025-01-06 14:17:51.793 [info] Discover tests for workspace name: polygon - uri: /home/vadim/Edu/Github/polygon/lab9/main.py
+2025-01-06 14:18:44.908 [info] Discover tests for workspace name: polygon - uri: /home/vadim/Edu/Github/polygon/lab9/main.py
+2025-01-06 14:20:11.853 [info] Discover tests for workspace name: polygon - uri: /home/vadim/Edu/Github/polygon/lab9/main.py
+2025-01-06 14:22:24.175 [info] Discover tests for workspace name: polygon - uri: /home/vadim/Edu/Github/polygon/lab9/main.py
+2025-01-06 14:23:27.840 [info] Discover tests for workspace name: polygon - uri: /home/vadim/Edu/Github/polygon/lab9/main.py
+2025-01-06 14:24:20.624 [info] Discover tests for workspace name: polygon - uri: /home/vadim/Edu/Github/polygon/lab9/main.py
+2025-01-06 14:29:25.875 [info] Discover tests for workspace name: polygon - uri: /home/vadim/Edu/Github/polygon/lab9/main.py
+2025-01-06 14:29:36.794 [info] Discover tests for workspace name: polygon - uri: /home/vadim/Edu/Github/polygon/lab9/main.py
+2025-01-06 14:33:26.075 [info] Discover tests for workspace name: polygon - uri: /home/vadim/Edu/Github/polygon/lab9/main.py
+2025-01-06 14:33:28.612 [info] Discover tests for workspace name: polygon - uri: /home/vadim/Edu/Github/polygon/lab9/main.py
+2025-01-06 14:34:20.376 [info] Discover tests for workspace name: polygon - uri: /home/vadim/Edu/Github/polygon/lab9/main.py
+2025-01-06 14:34:42.002 [info] Discover tests for workspace name: polygon - uri: /home/vadim/Edu/Github/polygon/lab9/main.py
+2025-01-06 14:34:51.373 [info] Discover tests for workspace name: polygon - uri: /home/vadim/Edu/Github/polygon/lab9/main.py
+2025-01-06 14:36:19.756 [info] Discover tests for workspace name: polygon - uri: /home/vadim/Edu/Github/polygon/lab9/main.py
+2025-01-06 14:36:46.972 [info] Discover tests for workspace name: polygon - uri: /home/vadim/Edu/Github/polygon/lab9/main.py
+2025-01-06 14:37:11.893 [info] Discover tests for workspace name: polygon - uri: /home/vadim/Edu/Github/polygon/lab9/main.py
+2025-01-06 14:37:19.943 [info] Discover tests for workspace name: polygon - uri: /home/vadim/Edu/Github/polygon/lab9/main.py
+2025-01-06 14:37:30.890 [info] Discover tests for workspace name: polygon - uri: /home/vadim/Edu/Github/polygon/lab9/main.py
+2025-01-06 14:38:19.404 [info] Discover tests for workspace name: polygon - uri: /home/vadim/Edu/Github/polygon/lab9/main.py
+2025-01-06 14:38:22.302 [info] Discover tests for workspace name: polygon - uri: /home/vadim/Edu/Github/polygon/lab9/main.py
+2025-01-06 14:38:31.442 [info] Discover tests for workspace name: polygon - uri: /home/vadim/Edu/Github/polygon/lab9/main.py
+2025-01-06 14:39:24.685 [info] Discover tests for workspace name: polygon - uri: /home/vadim/Edu/Github/polygon/lab9/main.py
+2025-01-06 14:40:10.163 [info] Discover tests for workspace name: polygon - uri: /home/vadim/Edu/Github/polygon/lab9/main.py
+2025-01-06 14:42:39.970 [info] Discover tests for workspace name: polygon - uri: /home/vadim/Edu/Github/polygon/lab9/main.py
+2025-01-06 14:42:57.463 [info] Discover tests for workspace name: polygon - uri: /home/vadim/Edu/Github/polygon/lab9/main.py
+2025-01-06 14:43:08.584 [info] Discover tests for workspace name: polygon - uri: /home/vadim/Edu/Github/polygon/lab9/main.py
+2025-01-06 14:43:09.592 [info] Discover tests for workspace name: polygon - uri: /home/vadim/Edu/Github/polygon/lab9/main.py
+2025-01-06 14:43:17.932 [info] Discover tests for workspace name: polygon - uri: /home/vadim/Edu/Github/polygon/lab9/main.py
+2025-01-06 15:12:38.559 [info] Discover tests for workspace name: polygon - uri: /home/vadim/Edu/Github/polygon/lab9/main.py

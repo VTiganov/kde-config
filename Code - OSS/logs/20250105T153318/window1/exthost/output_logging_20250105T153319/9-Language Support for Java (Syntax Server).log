@@ -1,0 +1,21 @@
+[Error - 3:43:57 PM] Jan 5, 2025, 3:43:57 PM Problem with folding range for /jdt.ls-java-project/src/test.java
+test.java [in <default> [in src [in jdt.ls-java-project]]] does not exist
+Java Model Exception: Error in Java Model (code 969): test.java [in <default> [in src [in jdt.ls-java-project]]] does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:556)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:234)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:569)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:292)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:278)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getSourceRange(CompilationUnit.java:1085)
+	at org.eclipse.jdt.ls.core.internal.handlers.FoldingRangeHandler.computeFoldingRanges(FoldingRangeHandler.java:79)
+	at org.eclipse.jdt.ls.core.internal.handlers.FoldingRangeHandler.foldingRange(FoldingRangeHandler.java:70)
+	at org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxLanguageServer.lambda$8(SyntaxLanguageServer.java:376)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+

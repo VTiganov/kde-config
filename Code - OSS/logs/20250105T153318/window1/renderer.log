@@ -1,0 +1,36 @@
+2025-01-05 15:33:19.421 [info] Started local extension host with pid 1632.
+2025-01-05 15:33:19.833 [error] Extension 'ms-python.debugpy CANNOT USE these API proposals 'portsAttributes, debugVisualization, contribViewsWelcome'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2025-01-05 15:33:19.834 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, codeActionAI, notebookReplDocument, notebookVariableProvider'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2025-01-05 15:33:19.864 [error] [ms-python.python]: editor/content is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribEditorContentMenu"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+2025-01-05 15:33:22.055 [info] [perf] Render performance baseline is 14ms
+2025-01-05 15:33:24.942 [error] Timed out waiting for authentication provider to register
+2025-01-05 16:18:14.371 [error] spawn xterm ENOENT: Error: spawn xterm ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:483:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-01-05 23:18:03.901 [error] Cannot read properties of undefined (reading 'map'): TypeError: Cannot read properties of undefined (reading 'map')
+	at Object.getArgs (/home/vadim/.vscode-oss/extensions/james-yu.latex-workshop-10.7.2-universal/out/src/completion/completer/package.js:133:42)
+	at providePackageOptions (/home/vadim/.vscode-oss/extensions/james-yu.latex-workshop-10.7.2-universal/out/src/completion/completer/argument.js:96:55)
+	at Object.from (/home/vadim/.vscode-oss/extensions/james-yu.latex-workshop-10.7.2-universal/out/src/completion/completer/argument.js:34:16)
+	at Provider.completion (/home/vadim/.vscode-oss/extensions/james-yu.latex-workshop-10.7.2-universal/out/src/completion/latex.js:184:36)
+	at Provider.provide (/home/vadim/.vscode-oss/extensions/james-yu.latex-workshop-10.7.2-universal/out/src/completion/latex.js:60:38)
+	at Provider.provideCompletionItems (/home/vadim/.vscode-oss/extensions/james-yu.latex-workshop-10.7.2-universal/out/src/completion/latex.js:49:21)
+	at dI.provideCompletionItems (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:138:140624)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:138:163861
+	at qt.s (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:138:155148)
+	at qt.$provideCompletionItems (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:138:163849)
+	at Dy.S (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:32:115275)
+	at Dy.Q (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:32:115055)
+	at Dy.M (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:32:114106)
+	at Dy.L (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:32:113249)
+	at kh.value (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:32:112046)
+	at P.B (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+	at P.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:964)
+	at Vn.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:32:9457)
+	at kh.value (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:175:13296)
+	at P.B (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+	at P.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:964)
+	at Vn.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:32:9457)
+	at MessagePortMain.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:175:11588)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)

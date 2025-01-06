@@ -1,0 +1,127 @@
+!SESSION 2025-01-05 15:43:55.454 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.13
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --pipe=/run/user/1000/lsp-41e96db879c7434f53641936568ca18f.sock
+Command-line arguments:  -data /home/vadim/.config/Code - OSS/User/workspaceStorage/85c28e22b35ee6e5d9a094064076a65e/redhat.java/ss_ws --pipe=/run/user/1000/lsp-41e96db879c7434f53641936568ca18f.sock
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:43:56.303
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:43:56.407
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:43:56.425
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:43:56.426
+!MESSAGE Initializing Java Language Server 1.43.0.202412190401
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:43:56.511
+!MESSAGE Setting /usr/lib/jvm/java-17-openjdk as 'JavaSE-17' environment (id:1736081036500)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:43:56.514
+!MESSAGE Setting java.home /usr/lib/jvm/java-17-openjdk as default global VM
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:43:56.523
+!MESSAGE JVM Runtimes changed, saving new configuration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:43:56.534
+!MESSAGE Workspace initialized in 3ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:43:56.541
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:43:56.545
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:43:56.546
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:43:56.548
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:43:56.548
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:43:56.551
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:43:56.551
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:43:56.557
+!MESSAGE Creating the Java project calculus_lab_1_3abd188a
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:43:56.557
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:43:56.557
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:43:56.590
+!MESSAGE Finished creating the Java project calculus_lab_1_3abd188a
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:43:56.606
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:43:56.627
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:43:56.627
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:43:56.821
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:43:56.824
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:43:57.210
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2025-01-05 15:43:57.221
+!MESSAGE Problem with folding range for /jdt.ls-java-project/src/test.java
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): test.java [in <default> [in src [in jdt.ls-java-project]]] does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:556)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:234)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:569)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:292)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:278)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getSourceRange(CompilationUnit.java:1085)
+	at org.eclipse.jdt.ls.core.internal.handlers.FoldingRangeHandler.computeFoldingRanges(FoldingRangeHandler.java:79)
+	at org.eclipse.jdt.ls.core.internal.handlers.FoldingRangeHandler.foldingRange(FoldingRangeHandler.java:70)
+	at org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxLanguageServer.lambda$8(SyntaxLanguageServer.java:376)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2025-01-05 15:43:57.222
+!MESSAGE test.java [in <default> [in src [in jdt.ls-java-project]]] does not exist
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:43:57.880
+!MESSAGE begin problem for /test.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:43:57.882
+!MESSAGE 0 problems reported for /test.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:43:57.885
+!MESSAGE Validated 1. Took 24 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:43:58.476
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:43:58.478
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:43:58.491
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-05 15:43:58.495
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:

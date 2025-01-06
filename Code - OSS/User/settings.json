@@ -1,0 +1,9 @@
+{
+    "workbench.colorTheme": "Night Owl",
+    "workbench.startupEditor": "none",
+    "redhat.telemetry.enabled": true,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "explorer.confirmDelete": false,
+    "explorer.confirmPasteNative": false
+}
