@@ -1,0 +1,25 @@
+2025-01-16 23:32:34.781 [info] update#setState disabled
+2025-01-16 23:32:34.781 [info] update#ctor - updates are disabled as there is no update URL
+2025-01-16 23:33:36.624 [info] Extension host with pid 9646 exited with code: 0, signal: unknown.
+2025-01-16 23:33:38.482 [error] Error: Error while decrypting the ciphertext provided to safeStorage.decryptString.
+    at dh.decrypt (file:///usr/lib/code/out/main.js:46:18187)
+    at Object.call (file:///usr/lib/code/out/main.js:36:4563)
+    at uf.s (file:///usr/lib/code/out/main.js:34:19716)
+    at uf.q (file:///usr/lib/code/out/main.js:34:19239)
+    at zo.value (file:///usr/lib/code/out/main.js:34:18641)
+    at A.B (file:///usr/lib/code/out/main.js:33:746)
+    at A.C (file:///usr/lib/code/out/main.js:33:816)
+    at A.fire (file:///usr/lib/code/out/main.js:33:1033)
+    at zo.value (file:///usr/lib/code/out/main.js:28:4913)
+    at A.B (file:///usr/lib/code/out/main.js:33:746)
+    at A.fire (file:///usr/lib/code/out/main.js:33:964)
+    at zo.value (file:///usr/lib/code/out/main.js:28:5101)
+    at A.B (file:///usr/lib/code/out/main.js:33:746)
+    at A.fire (file:///usr/lib/code/out/main.js:33:964)
+    at j (file:///usr/lib/code/out/main.js:28:7388)
+    at IpcMainImpl.i (file:///usr/lib/code/out/main.js:36:21224)
+    at IpcMainImpl.emit (node:events:518:28)
+    at WebContents.<anonymous> (node:electron/js2c/browser_init:2:85784)
+    at WebContents.emit (node:events:518:28)
+2025-01-16 23:35:46.649 [info] Extension host with pid 11932 exited with code: 0, signal: unknown.
+2025-01-16 23:35:46.711 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 11921]: crashed with code 15 and reason 'killed'

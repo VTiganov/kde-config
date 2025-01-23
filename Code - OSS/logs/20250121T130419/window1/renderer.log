@@ -1,0 +1,32 @@
+2025-01-21 13:04:20.982 [info] Started local extension host with pid 3048.
+2025-01-21 13:04:21.758 [error] Extension 'ms-python.debugpy CANNOT USE these API proposals 'portsAttributes, debugVisualization, contribViewsWelcome'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2025-01-21 13:04:21.759 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, codeActionAI, notebookReplDocument, notebookVariableProvider'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2025-01-21 13:04:21.826 [error] [ms-python.python]: Menu item references a command `python.launchTensorBoard` which is not defined in the 'commands' section.
+2025-01-21 13:04:21.826 [error] [ms-python.python]: Menu item references a command `python.refreshTensorBoard` which is not defined in the 'commands' section.
+2025-01-21 13:04:21.828 [error] [ms-python.python]: editor/content is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribEditorContentMenu"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+2025-01-21 13:04:21.828 [error] [ms-python.python]: Menu item references a command `python.refreshTensorBoard` which is not defined in the 'commands' section.
+2025-01-21 13:04:25.243 [info] [perf] Render performance baseline is 46ms
+2025-01-21 13:04:27.257 [error] Timed out waiting for authentication provider to register
+2025-01-21 13:04:43.215 [info] Started local extension host with pid 3361.
+2025-01-21 13:04:43.625 [error] Extension 'ms-python.debugpy CANNOT USE these API proposals 'portsAttributes, debugVisualization, contribViewsWelcome'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2025-01-21 13:04:43.625 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, codeActionAI, notebookReplDocument, notebookVariableProvider'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2025-01-21 13:04:43.652 [error] [ms-python.python]: Menu item references a command `python.launchTensorBoard` which is not defined in the 'commands' section.
+2025-01-21 13:04:43.658 [error] [ms-python.python]: Menu item references a command `python.refreshTensorBoard` which is not defined in the 'commands' section.
+2025-01-21 13:04:43.659 [error] [ms-python.python]: editor/content is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribEditorContentMenu"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+2025-01-21 13:04:43.659 [error] [ms-python.python]: Menu item references a command `python.refreshTensorBoard` which is not defined in the 'commands' section.
+2025-01-21 13:04:45.787 [info] [perf] Render performance baseline is 23ms
+2025-01-21 13:04:48.933 [error] Timed out waiting for authentication provider to register
+2025-01-21 13:30:43.980 [error] [Extension Host] FAILED to read HEAD, MERGE_HEAD commits
+2025-01-21 13:30:43.982 [error] [Extension Host] Error: Failed to execute git
+	at t.Git._exec (/usr/lib/code/extensions/git/dist/main.js:2:929600)
+	at async t.Git.exec (/usr/lib/code/extensions/git/dist/main.js:2:928668)
+	at async W.exec (/usr/lib/code/extensions/git/dist/main.js:2:934196)
+	at async W.diffFiles (/usr/lib/code/extensions/git/dist/main.js:2:939324)
+	at async W.diffBetween (/usr/lib/code/extensions/git/dist/main.js:2:938934)
+	at async O.retryRun (/usr/lib/code/extensions/git/dist/main.js:2:1059439)
+	at async O.run (/usr/lib/code/extensions/git/dist/main.js:2:1059043)
+	at async te.openMergeEditor (/usr/lib/code/extensions/git/dist/main.js:2:824136)
+	at async cw.h (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:32825)
+2025-01-21 13:30:44.104 [error] Assertion Failed: Error: Assertion Failed
+    at Km (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:34:14676)
+    at xhe.computeDiff (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:755:12703)

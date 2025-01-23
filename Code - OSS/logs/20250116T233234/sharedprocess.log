@@ -1,0 +1,98 @@
+2025-01-16 23:35:13.300 [info] Getting Manifest... franneck94.vscode-c-cpp-dev-extension-pack
+2025-01-16 23:35:13.983 [info] Installing extension: franneck94.vscode-c-cpp-dev-extension-pack {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/vadim/.vscode-oss/extensions/extensions.json","path":"/home/vadim/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.96.3","date":"2025-01-15T09:35:23.690Z"}}
+2025-01-16 23:35:14.279 [info] Getting Manifest... jeff-hykin.better-cpp-syntax
+2025-01-16 23:35:14.493 [info] Getting Manifest... cheshirekow.cmake-format
+2025-01-16 23:35:14.818 [info] Getting Manifest... bbenoist.doxygen
+2025-01-16 23:35:15.120 [info] Getting Manifest... cschlosser.doxdocgen
+2025-01-16 23:35:15.435 [info] Getting Manifest... twxs.cmake
+2025-01-16 23:35:15.734 [info] Getting Manifest... vadimcn.vscode-lldb
+2025-01-16 23:35:15.991 [info] Getting Manifest... franneck94.c-cpp-runner
+2025-01-16 23:35:16.258 [info] Getting Manifest... franneck94.vscode-c-cpp-config
+2025-01-16 23:35:16.556 [info] Getting Manifest... 13xforever.language-x86-64-assembly
+2025-01-16 23:35:16.896 [info] Installing extension: jeff-hykin.better-cpp-syntax {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/vadim/.vscode-oss/extensions/extensions.json","path":"/home/vadim/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.96.3","date":"2025-01-15T09:35:23.690Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2025-01-16 23:35:16.897 [info] Installing extension: cheshirekow.cmake-format {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/vadim/.vscode-oss/extensions/extensions.json","path":"/home/vadim/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.96.3","date":"2025-01-15T09:35:23.690Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2025-01-16 23:35:16.897 [info] Installing extension: bbenoist.doxygen {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/vadim/.vscode-oss/extensions/extensions.json","path":"/home/vadim/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.96.3","date":"2025-01-15T09:35:23.690Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2025-01-16 23:35:16.898 [info] Installing extension: cschlosser.doxdocgen {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/vadim/.vscode-oss/extensions/extensions.json","path":"/home/vadim/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.96.3","date":"2025-01-15T09:35:23.690Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2025-01-16 23:35:16.898 [info] Installing extension: twxs.cmake {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/vadim/.vscode-oss/extensions/extensions.json","path":"/home/vadim/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.96.3","date":"2025-01-15T09:35:23.690Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2025-01-16 23:35:16.898 [info] Installing extension: vadimcn.vscode-lldb {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/vadim/.vscode-oss/extensions/extensions.json","path":"/home/vadim/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.96.3","date":"2025-01-15T09:35:23.690Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2025-01-16 23:35:16.899 [info] Installing extension: franneck94.c-cpp-runner {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/vadim/.vscode-oss/extensions/extensions.json","path":"/home/vadim/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.96.3","date":"2025-01-15T09:35:23.690Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2025-01-16 23:35:16.900 [info] Installing extension: franneck94.vscode-c-cpp-config {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/vadim/.vscode-oss/extensions/extensions.json","path":"/home/vadim/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.96.3","date":"2025-01-15T09:35:23.690Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2025-01-16 23:35:16.901 [info] Installing extension: 13xforever.language-x86-64-assembly {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/vadim/.vscode-oss/extensions/extensions.json","path":"/home/vadim/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.96.3","date":"2025-01-15T09:35:23.690Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2025-01-16 23:35:17.557 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js
+2025-01-16 23:35:17.558 [info] Extension signature verification is not done: franneck94.vscode-c-cpp-dev-extension-pack
+2025-01-16 23:35:17.579 [info] Extracted extension to file:///home/vadim/.vscode-oss/extensions/franneck94.vscode-c-cpp-dev-extension-pack-0.10.0-universal: franneck94.vscode-c-cpp-dev-extension-pack
+2025-01-16 23:35:17.583 [info] Renamed to /home/vadim/.vscode-oss/extensions/franneck94.vscode-c-cpp-dev-extension-pack-0.10.0-universal
+2025-01-16 23:35:17.678 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/vadim/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/vadim/.vscode-oss/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2025-01-16 23:35:17.686 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js
+2025-01-16 23:35:17.686 [info] Extension signature verification is not done: bbenoist.doxygen
+2025-01-16 23:35:17.699 [info] Extracted extension to file:///home/vadim/.vscode-oss/extensions/bbenoist.doxygen-1.0.0-universal: bbenoist.doxygen
+2025-01-16 23:35:17.705 [info] Renamed to /home/vadim/.vscode-oss/extensions/bbenoist.doxygen-1.0.0-universal
+2025-01-16 23:35:17.747 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js
+2025-01-16 23:35:17.748 [info] Extension signature verification is not done: jeff-hykin.better-cpp-syntax
+2025-01-16 23:35:17.778 [info] Extracted extension to file:///home/vadim/.vscode-oss/extensions/jeff-hykin.better-cpp-syntax-1.27.1-universal: jeff-hykin.better-cpp-syntax
+2025-01-16 23:35:17.781 [info] Renamed to /home/vadim/.vscode-oss/extensions/jeff-hykin.better-cpp-syntax-1.27.1-universal
+2025-01-16 23:35:17.823 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js
+2025-01-16 23:35:17.823 [info] Extension signature verification is not done: vadimcn.vscode-lldb
+2025-01-16 23:35:17.843 [info] Extracted extension to file:///home/vadim/.vscode-oss/extensions/vadimcn.vscode-lldb-1.11.1-universal: vadimcn.vscode-lldb
+2025-01-16 23:35:17.847 [info] Renamed to /home/vadim/.vscode-oss/extensions/vadimcn.vscode-lldb-1.11.1-universal
+2025-01-16 23:35:17.894 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js
+2025-01-16 23:35:17.895 [info] Extension signature verification is not done: 13xforever.language-x86-64-assembly
+2025-01-16 23:35:17.909 [info] Extracted extension to file:///home/vadim/.vscode-oss/extensions/13xforever.language-x86-64-assembly-3.1.4-universal: 13xforever.language-x86-64-assembly
+2025-01-16 23:35:17.912 [info] Renamed to /home/vadim/.vscode-oss/extensions/13xforever.language-x86-64-assembly-3.1.4-universal
+2025-01-16 23:35:18.102 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js
+2025-01-16 23:35:18.103 [info] Extension signature verification is not done: franneck94.vscode-c-cpp-config
+2025-01-16 23:35:18.141 [info] Extracted extension to file:///home/vadim/.vscode-oss/extensions/franneck94.vscode-c-cpp-config-6.3.0-universal: franneck94.vscode-c-cpp-config
+2025-01-16 23:35:18.147 [info] Renamed to /home/vadim/.vscode-oss/extensions/franneck94.vscode-c-cpp-config-6.3.0-universal
+2025-01-16 23:35:18.232 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/vadim/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/vadim/.vscode-oss/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2025-01-16 23:35:18.278 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js
+2025-01-16 23:35:18.279 [info] Extension signature verification is not done: cheshirekow.cmake-format
+2025-01-16 23:35:18.310 [info] Extracted extension to file:///home/vadim/.vscode-oss/extensions/cheshirekow.cmake-format-0.6.13-universal: cheshirekow.cmake-format
+2025-01-16 23:35:18.315 [info] Renamed to /home/vadim/.vscode-oss/extensions/cheshirekow.cmake-format-0.6.13-universal
+2025-01-16 23:35:18.335 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js
+2025-01-16 23:35:18.336 [info] Extension signature verification is not done: franneck94.c-cpp-runner
+2025-01-16 23:35:18.410 [info] Extracted extension to file:///home/vadim/.vscode-oss/extensions/franneck94.c-cpp-runner-9.4.7-universal: franneck94.c-cpp-runner
+2025-01-16 23:35:18.416 [info] Renamed to /home/vadim/.vscode-oss/extensions/franneck94.c-cpp-runner-9.4.7-universal
+2025-01-16 23:35:19.316 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js
+2025-01-16 23:35:19.317 [info] Extension signature verification is not done: cschlosser.doxdocgen
+2025-01-16 23:35:20.118 [info] Extracted extension to file:///home/vadim/.vscode-oss/extensions/cschlosser.doxdocgen-1.4.0-universal: cschlosser.doxdocgen
+2025-01-16 23:35:20.153 [info] Renamed to /home/vadim/.vscode-oss/extensions/cschlosser.doxdocgen-1.4.0-universal
+2025-01-16 23:35:20.238 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/vadim/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/vadim/.vscode-oss/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2025-01-16 23:35:20.648 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js
+2025-01-16 23:35:20.649 [info] Extension signature verification is not done: twxs.cmake
+2025-01-16 23:35:20.785 [info] Extracted extension to file:///home/vadim/.vscode-oss/extensions/twxs.cmake-0.0.17-universal: twxs.cmake
+2025-01-16 23:35:20.792 [info] Renamed to /home/vadim/.vscode-oss/extensions/twxs.cmake-0.0.17-universal
+2025-01-16 23:35:20.821 [info] Extension installed successfully: franneck94.vscode-c-cpp-dev-extension-pack vscode-userdata:/home/vadim/.vscode-oss/extensions/extensions.json
+2025-01-16 23:35:20.821 [info] Extension installed successfully: bbenoist.doxygen vscode-userdata:/home/vadim/.vscode-oss/extensions/extensions.json
+2025-01-16 23:35:20.821 [info] Extension installed successfully: jeff-hykin.better-cpp-syntax vscode-userdata:/home/vadim/.vscode-oss/extensions/extensions.json
+2025-01-16 23:35:20.821 [info] Extension installed successfully: vadimcn.vscode-lldb vscode-userdata:/home/vadim/.vscode-oss/extensions/extensions.json
+2025-01-16 23:35:20.822 [info] Extension installed successfully: 13xforever.language-x86-64-assembly vscode-userdata:/home/vadim/.vscode-oss/extensions/extensions.json
+2025-01-16 23:35:20.822 [info] Extension installed successfully: franneck94.vscode-c-cpp-config vscode-userdata:/home/vadim/.vscode-oss/extensions/extensions.json
+2025-01-16 23:35:20.822 [info] Extension installed successfully: cheshirekow.cmake-format vscode-userdata:/home/vadim/.vscode-oss/extensions/extensions.json
+2025-01-16 23:35:20.822 [info] Extension installed successfully: franneck94.c-cpp-runner vscode-userdata:/home/vadim/.vscode-oss/extensions/extensions.json
+2025-01-16 23:35:20.822 [info] Extension installed successfully: cschlosser.doxdocgen vscode-userdata:/home/vadim/.vscode-oss/extensions/extensions.json
+2025-01-16 23:35:20.822 [info] Extension installed successfully: twxs.cmake vscode-userdata:/home/vadim/.vscode-oss/extensions/extensions.json
+2025-01-16 23:35:20.836 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/vadim/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/vadim/.vscode-oss/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)

@@ -9,11 +9,22 @@ Id_7=385e7c05-71cf-4dbb-b2a5-19a864c652b8
 Number=7
 Rows=1
 
+[Effect-blur]
+NoiseStrength=14
+
+[Effect-translucency]
+Inactive=92
+MoveResize=92
+
 [Plugins]
+blurEnabled=true
 fadedesktopEnabled=true
 krohnkiteEnabled=true
 shakecursorEnabled=false
+sheetEnabled=true
 slideEnabled=false
+translucencyEnabled=true
+wobblywindowsEnabled=true
 
 [Script-krohnkite]
 maximizeSoleTile=true
@@ -22,10 +33,16 @@ noTileBorder=true
 [Tiling]
 padding=4
 
+[Tiling][09bb0fc5-f854-534b-be7d-5d68f246346e]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][2014badd-351d-5677-be35-1412f252776b]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][79177175-f466-5ba7-8a6c-8b49b94f21f3]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][8c80432e-d2a3-5d8f-a981-c8796a57c271]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][d02c035d-eef0-5c68-aa2f-2e83d0ba08b1]
@@ -34,6 +51,3 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 [Windows]
 FocusPolicy=FocusFollowsMouse
 NextFocusPrefersMouse=true
-
-[Xwayland]
-Scale=2

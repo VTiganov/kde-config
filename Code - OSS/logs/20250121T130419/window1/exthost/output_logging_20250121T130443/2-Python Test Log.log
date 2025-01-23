@@ -1,0 +1,744 @@
+============================= test session starts ==============================
+platform linux -- Python 3.13.1, pytest-8.3.4, pluggy-1.5.0
+rootdir: /home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra
+collected 0 items / 3 errors
+
+==================================== ERRORS ====================================
+___________________ ERROR collecting codefiles/task1_test.py ___________________
+ImportError while importing test module '/home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra/codefiles/task1_test.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.13/importlib/__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+codefiles/task1_test.py:3: in <module>
+    from task1 import MatrixKeeper
+E   ModuleNotFoundError: No module named 'task1'
+___________________ ERROR collecting codefiles/task2_test.py ___________________
+ImportError while importing test module '/home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra/codefiles/task2_test.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.13/importlib/__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+codefiles/task2_test.py:2: in <module>
+    from task2 import matrixAddition, matrixByMatrixMultiplication, matrixScalarMultiplication
+E   ModuleNotFoundError: No module named 'task2'
+___________________ ERROR collecting codefiles/task3_test.py ___________________
+ImportError while importing test module '/home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra/codefiles/task3_test.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.13/importlib/__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+codefiles/task3_test.py:2: in <module>
+    from task3 import MatrixKeeper, determinantOfMatrix, isMatrixInvertable, gauss
+E   ModuleNotFoundError: No module named 'task3'
+=========================== short test summary info ============================
+ERROR codefiles/task1_test.py
+ERROR codefiles/task2_test.py
+ERROR codefiles/task3_test.py
+!!!!!!!!!!!!!!!!!!! Interrupted: 3 errors during collection !!!!!!!!!!!!!!!!!!!!
+==================== no tests collected, 3 errors in 0.11s =====================
+Starting now, all test run output will be sent to the Test Result panel, while test discovery output will be sent to the "Python" output channel instead of the "Python Test Log" channel. The "Python Test Log" channel will be deprecated within the next month. See https://github.com/microsoft/vscode-python/wiki/New-Method-for-Output-Handling-in-Python-Testing for details.============================= test session starts ==============================
+platform linux -- Python 3.13.1, pytest-8.3.4, pluggy-1.5.0
+rootdir: /home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra
+collected 0 items / 3 errors
+
+==================================== ERRORS ====================================
+___________________ ERROR collecting codefiles/task1_test.py ___________________
+ImportError while importing test module '/home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra/codefiles/task1_test.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.13/importlib/__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+codefiles/task1_test.py:3: in <module>
+    from task1 import MatrixKeeper
+E   ModuleNotFoundError: No module named 'task1'
+___________________ ERROR collecting codefiles/task2_test.py ___________________
+ImportError while importing test module '/home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra/codefiles/task2_test.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.13/importlib/__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+codefiles/task2_test.py:2: in <module>
+    from task2 import matrixAddition, matrixByMatrixMultiplication, matrixScalarMultiplication
+E   ModuleNotFoundError: No module named 'task2'
+___________________ ERROR collecting codefiles/task3_test.py ___________________
+ImportError while importing test module '/home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra/codefiles/task3_test.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.13/importlib/__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+codefiles/task3_test.py:2: in <module>
+    from task3 import MatrixKeeper, determinantOfMatrix, isMatrixInvertable, gauss
+E   ModuleNotFoundError: No module named 'task3'
+=========================== short test summary info ============================
+ERROR codefiles/task1_test.py
+ERROR codefiles/task2_test.py
+ERROR codefiles/task3_test.py
+!!!!!!!!!!!!!!!!!!! Interrupted: 3 errors during collection !!!!!!!!!!!!!!!!!!!!
+==================== no tests collected, 3 errors in 0.12s =====================
+Starting now, all test run output will be sent to the Test Result panel, while test discovery output will be sent to the "Python" output channel instead of the "Python Test Log" channel. The "Python Test Log" channel will be deprecated within the next month. See https://github.com/microsoft/vscode-python/wiki/New-Method-for-Output-Handling-in-Python-Testing for details.============================= test session starts ==============================
+platform linux -- Python 3.13.1, pytest-8.3.4, pluggy-1.5.0
+rootdir: /home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra
+collected 0 items / 3 errors
+
+==================================== ERRORS ====================================
+___________________ ERROR collecting codefiles/task1_test.py ___________________
+ImportError while importing test module '/home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra/codefiles/task1_test.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.13/importlib/__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+codefiles/task1_test.py:3: in <module>
+    from task1 import MatrixKeeper
+E   ModuleNotFoundError: No module named 'task1'
+___________________ ERROR collecting codefiles/task2_test.py ___________________
+ImportError while importing test module '/home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra/codefiles/task2_test.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.13/importlib/__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+codefiles/task2_test.py:2: in <module>
+    from task2 import matrixAddition, matrixByMatrixMultiplication, matrixScalarMultiplication
+E   ModuleNotFoundError: No module named 'task2'
+___________________ ERROR collecting codefiles/task3_test.py ___________________
+ImportError while importing test module '/home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra/codefiles/task3_test.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.13/importlib/__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+codefiles/task3_test.py:2: in <module>
+    from task3 import MatrixKeeper, determinantOfMatrix, isMatrixInvertable, gauss
+E   ModuleNotFoundError: No module named 'task3'
+=========================== short test summary info ============================
+ERROR codefiles/task1_test.py
+ERROR codefiles/task2_test.py
+ERROR codefiles/task3_test.py
+!!!!!!!!!!!!!!!!!!! Interrupted: 3 errors during collection !!!!!!!!!!!!!!!!!!!!
+==================== no tests collected, 3 errors in 0.11s =====================
+Starting now, all test run output will be sent to the Test Result panel, while test discovery output will be sent to the "Python" output channel instead of the "Python Test Log" channel. The "Python Test Log" channel will be deprecated within the next month. See https://github.com/microsoft/vscode-python/wiki/New-Method-for-Output-Handling-in-Python-Testing for details.Running pytest with args: ['-p', 'vscode_pytest', '--rootdir=/home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra']
+============================= test session starts ==============================
+platform linux -- Python 3.13.1, pytest-8.3.4, pluggy-1.5.0
+rootdir: /home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra
+collected 0 items / 3 errors
+
+==================================== ERRORS ====================================
+___________________ ERROR collecting codefiles/task1_test.py ___________________
+ImportError while importing test module '/home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra/codefiles/task1_test.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.13/importlib/__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+codefiles/task1_test.py:3: in <module>
+    from task1 import MatrixKeeper
+E   ModuleNotFoundError: No module named 'task1'
+___________________ ERROR collecting codefiles/task2_test.py ___________________
+ImportError while importing test module '/home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra/codefiles/task2_test.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.13/importlib/__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+codefiles/task2_test.py:2: in <module>
+    from task2 import matrixAddition, matrixByMatrixMultiplication, matrixScalarMultiplication
+E   ModuleNotFoundError: No module named 'task2'
+___________________ ERROR collecting codefiles/task3_test.py ___________________
+ImportError while importing test module '/home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra/codefiles/task3_test.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.13/importlib/__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+codefiles/task3_test.py:2: in <module>
+    from task3 import MatrixKeeper, determinantOfMatrix, isMatrixInvertable, gauss
+E   ModuleNotFoundError: No module named 'task3'
+=========================== short test summary info ============================
+ERROR codefiles/task1_test.py
+ERROR codefiles/task2_test.py
+ERROR codefiles/task3_test.py
+!!!!!!!!!!!!!!!!!!! Interrupted: 3 errors during collection !!!!!!!!!!!!!!!!!!!!
+============================== 3 errors in 0.12s ===============================
+Starting now, all test run output will be sent to the Test Result panel, while test discovery output will be sent to the "Python" output channel instead of the "Python Test Log" channel. The "Python Test Log" channel will be deprecated within the next month. See https://github.com/microsoft/vscode-python/wiki/New-Method-for-Output-Handling-in-Python-Testing for details.============================= test session starts ==============================
+platform linux -- Python 3.13.1, pytest-8.3.4, pluggy-1.5.0
+rootdir: /home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra
+collected 0 items / 3 errors
+
+==================================== ERRORS ====================================
+___________________ ERROR collecting codefiles/task1_test.py ___________________
+ImportError while importing test module '/home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra/codefiles/task1_test.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.13/importlib/__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+codefiles/task1_test.py:3: in <module>
+    from task1 import MatrixKeeper
+E   ModuleNotFoundError: No module named 'task1'
+___________________ ERROR collecting codefiles/task2_test.py ___________________
+ImportError while importing test module '/home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra/codefiles/task2_test.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.13/importlib/__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+codefiles/task2_test.py:2: in <module>
+    from task2 import matrixAddition, matrixByMatrixMultiplication, matrixScalarMultiplication
+E   ModuleNotFoundError: No module named 'task2'
+___________________ ERROR collecting codefiles/task3_test.py ___________________
+ImportError while importing test module '/home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra/codefiles/task3_test.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.13/importlib/__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+codefiles/task3_test.py:2: in <module>
+    from task3 import MatrixKeeper, determinantOfMatrix, isMatrixInvertable, gauss
+E   ModuleNotFoundError: No module named 'task3'
+=========================== short test summary info ============================
+ERROR codefiles/task1_test.py
+ERROR codefiles/task2_test.py
+ERROR codefiles/task3_test.py
+!!!!!!!!!!!!!!!!!!! Interrupted: 3 errors during collection !!!!!!!!!!!!!!!!!!!!
+==================== no tests collected, 3 errors in 0.09s =====================
+Starting now, all test run output will be sent to the Test Result panel, while test discovery output will be sent to the "Python" output channel instead of the "Python Test Log" channel. The "Python Test Log" channel will be deprecated within the next month. See https://github.com/microsoft/vscode-python/wiki/New-Method-for-Output-Handling-in-Python-Testing for details.============================= test session starts ==============================
+platform linux -- Python 3.13.1, pytest-8.3.4, pluggy-1.5.0
+rootdir: /home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra
+collected 0 items / 3 errors
+
+==================================== ERRORS ====================================
+___________________ ERROR collecting codefiles/task1_test.py ___________________
+ImportError while importing test module '/home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra/codefiles/task1_test.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.13/importlib/__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+codefiles/task1_test.py:3: in <module>
+    from task1 import MatrixKeeper
+E   ModuleNotFoundError: No module named 'task1'
+___________________ ERROR collecting codefiles/task2_test.py ___________________
+ImportError while importing test module '/home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra/codefiles/task2_test.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.13/importlib/__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+codefiles/task2_test.py:2: in <module>
+    from task2 import matrixAddition, matrixByMatrixMultiplication, matrixScalarMultiplication
+E   ModuleNotFoundError: No module named 'task2'
+___________________ ERROR collecting codefiles/task3_test.py ___________________
+ImportError while importing test module '/home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra/codefiles/task3_test.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.13/importlib/__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+codefiles/task3_test.py:2: in <module>
+    from task3 import MatrixKeeper, determinantOfMatrix, isMatrixInvertable, gauss
+E   ModuleNotFoundError: No module named 'task3'
+=========================== short test summary info ============================
+ERROR codefiles/task1_test.py
+ERROR codefiles/task2_test.py
+ERROR codefiles/task3_test.py
+!!!!!!!!!!!!!!!!!!! Interrupted: 3 errors during collection !!!!!!!!!!!!!!!!!!!!
+==================== no tests collected, 3 errors in 0.11s =====================
+Starting now, all test run output will be sent to the Test Result panel, while test discovery output will be sent to the "Python" output channel instead of the "Python Test Log" channel. The "Python Test Log" channel will be deprecated within the next month. See https://github.com/microsoft/vscode-python/wiki/New-Method-for-Output-Handling-in-Python-Testing for details.============================= test session starts ==============================
+platform linux -- Python 3.13.1, pytest-8.3.4, pluggy-1.5.0
+rootdir: /home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra
+collected 0 items
+
+========================= no tests collected in 0.01s ==========================
+Starting now, all test run output will be sent to the Test Result panel, while test discovery output will be sent to the "Python" output channel instead of the "Python Test Log" channel. The "Python Test Log" channel will be deprecated within the next month. See https://github.com/microsoft/vscode-python/wiki/New-Method-for-Output-Handling-in-Python-Testing for details.============================= test session starts ==============================
+platform linux -- Python 3.13.1, pytest-8.3.4, pluggy-1.5.0
+rootdir: /home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra
+collected 0 items
+
+========================= no tests collected in 0.00s ==========================
+Starting now, all test run output will be sent to the Test Result panel, while test discovery output will be sent to the "Python" output channel instead of the "Python Test Log" channel. The "Python Test Log" channel will be deprecated within the next month. See https://github.com/microsoft/vscode-python/wiki/New-Method-for-Output-Handling-in-Python-Testing for details.============================= test session starts ==============================
+platform linux -- Python 3.13.1, pytest-8.3.4, pluggy-1.5.0
+rootdir: /home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra
+collected 0 items
+
+========================= no tests collected in 0.00s ==========================
+Starting now, all test run output will be sent to the Test Result panel, while test discovery output will be sent to the "Python" output channel instead of the "Python Test Log" channel. The "Python Test Log" channel will be deprecated within the next month. See https://github.com/microsoft/vscode-python/wiki/New-Method-for-Output-Handling-in-Python-Testing for details.============================= test session starts ==============================
+platform linux -- Python 3.13.1, pytest-8.3.4, pluggy-1.5.0
+rootdir: /home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra
+collected 0 items
+
+========================= no tests collected in 0.00s ==========================
+Starting now, all test run output will be sent to the Test Result panel, while test discovery output will be sent to the "Python" output channel instead of the "Python Test Log" channel. The "Python Test Log" channel will be deprecated within the next month. See https://github.com/microsoft/vscode-python/wiki/New-Method-for-Output-Handling-in-Python-Testing for details.============================= test session starts ==============================
+platform linux -- Python 3.13.1, pytest-8.3.4, pluggy-1.5.0
+rootdir: /home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra
+collected 0 items
+
+========================= no tests collected in 0.00s ==========================
+Starting now, all test run output will be sent to the Test Result panel, while test discovery output will be sent to the "Python" output channel instead of the "Python Test Log" channel. The "Python Test Log" channel will be deprecated within the next month. See https://github.com/microsoft/vscode-python/wiki/New-Method-for-Output-Handling-in-Python-Testing for details.============================= test session starts ==============================
+platform linux -- Python 3.13.1, pytest-8.3.4, pluggy-1.5.0
+rootdir: /home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra
+collected 0 items
+
+========================= no tests collected in 0.00s ==========================
+Starting now, all test run output will be sent to the Test Result panel, while test discovery output will be sent to the "Python" output channel instead of the "Python Test Log" channel. The "Python Test Log" channel will be deprecated within the next month. See https://github.com/microsoft/vscode-python/wiki/New-Method-for-Output-Handling-in-Python-Testing for details.============================= test session starts ==============================
+platform linux -- Python 3.13.1, pytest-8.3.4, pluggy-1.5.0
+rootdir: /home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra
+collected 0 items
+
+========================= no tests collected in 0.00s ==========================
+Starting now, all test run output will be sent to the Test Result panel, while test discovery output will be sent to the "Python" output channel instead of the "Python Test Log" channel. The "Python Test Log" channel will be deprecated within the next month. See https://github.com/microsoft/vscode-python/wiki/New-Method-for-Output-Handling-in-Python-Testing for details.============================= test session starts ==============================
+platform linux -- Python 3.13.1, pytest-8.3.4, pluggy-1.5.0
+rootdir: /home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra
+collected 0 items
+
+========================= no tests collected in 0.01s ==========================
+Starting now, all test run output will be sent to the Test Result panel, while test discovery output will be sent to the "Python" output channel instead of the "Python Test Log" channel. The "Python Test Log" channel will be deprecated within the next month. See https://github.com/microsoft/vscode-python/wiki/New-Method-for-Output-Handling-in-Python-Testing for details.============================= test session starts ==============================
+platform linux -- Python 3.13.1, pytest-8.3.4, pluggy-1.5.0
+rootdir: /home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra
+collected 0 items
+
+========================= no tests collected in 0.01s ==========================
+Starting now, all test run output will be sent to the Test Result panel, while test discovery output will be sent to the "Python" output channel instead of the "Python Test Log" channel. The "Python Test Log" channel will be deprecated within the next month. See https://github.com/microsoft/vscode-python/wiki/New-Method-for-Output-Handling-in-Python-Testing for details.============================= test session starts ==============================
+platform linux -- Python 3.13.1, pytest-8.3.4, pluggy-1.5.0
+rootdir: /home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra
+collected 0 items
+
+========================= no tests collected in 0.01s ==========================
+Starting now, all test run output will be sent to the Test Result panel, while test discovery output will be sent to the "Python" output channel instead of the "Python Test Log" channel. The "Python Test Log" channel will be deprecated within the next month. See https://github.com/microsoft/vscode-python/wiki/New-Method-for-Output-Handling-in-Python-Testing for details.Running pytest with args: ['-p', 'vscode_pytest', '--rootdir=/home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra']
+============================= test session starts ==============================
+platform linux -- Python 3.13.1, pytest-8.3.4, pluggy-1.5.0
+rootdir: /home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra
+collected 11 items
+
+tests/task1_test.py ...F.                                                [ 45%]
+tests/task2_test.py FFF                                                  [ 72%]
+tests/task3_test.py F.F                                                  [100%]
+
+=================================== FAILURES ===================================
+_________________________ TestMatrixKeeper.test_trace __________________________
+
+self = <tests.task1_test.TestMatrixKeeper testMethod=test_trace>
+
+    def test_trace(self):
+        # Переопределяем метод inputMatrix для тестирования
+        def mock_inputMatrix():
+            self.keeper.values = [1.32, 2.32, 3.45, 2.1, 4.312, 4.24, 3.1, 1.12, 9.125]
+            self.keeper.indices = [0, 1, 2, 0, 1, 2, 0, 1, 2]
+            self.keeper.indptr = [0, 3, 6, 9]
+            self.keeper.shape = (3, 3)
+    
+        mock_inputMatrix()
+    
+>       self.assertEqual(self.keeper.trace(), 14.757)
+E       AssertionError: 14.757000000000001 != 14.757
+
+tests/task1_test.py:34: AssertionError
+___________________ TestMatrixOperations.test_matrixAddition ___________________
+
+self = <tests.task2_test.TestMatrixOperations testMethod=test_matrixAddition>
+
+    def test_matrixAddition(self):
+>       result = matrixAddition(self.matrix_keeper1, self.matrix_keeper2)
+
+tests/task2_test.py:25: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+matrix_keeper1 = <codefiles.task1.MatrixKeeper object at 0x7a1e4ff35d90>
+matrix_keeper2 = <codefiles.task1.MatrixKeeper object at 0x7a1e4ff79260>
+
+    def matrixAddition(matrix_keeper1: MatrixKeeper, matrix_keeper2: MatrixKeeper) -> Optional[Tuple[List[float], List[int], List[int], Tuple[int, int]]]:
+        """Сложение двух матриц в CSR формате"""
+    
+        if matrix_keeper1.values is None or matrix_keeper2.values is None:
+>           raise ValueError("Одна или обе матрицы не были введены.")
+E           ValueError: Одна или обе матрицы не были введены.
+
+codefiles/task2.py:10: ValueError
+____________ TestMatrixOperations.test_matrixByMatrixMultiplication ____________
+
+self = <tests.task2_test.TestMatrixOperations testMethod=test_matrixByMatrixMultiplication>
+
+    def test_matrixByMatrixMultiplication(self):
+        # Для умножения матриц используем матрицы размером 3x3 и 3x2
+        self.matrix_keeper1.matrix = [
+            [1, 2, 3],
+            [4, 5, 6],
+            [7, 8, 9]
+        ]
+    
+        self.matrix_keeper2.matrix = [
+            [9, 8],
+            [7, 6],
+            [5, 4]
+        ]
+    
+>       result = matrixByMatrixMultiplication(self.matrix_keeper1, self.matrix_keeper2)
+
+tests/task2_test.py:47: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+matrix_keeper1 = <codefiles.task1.MatrixKeeper object at 0x7a1e4ff79ae0>
+matrix_keeper2 = <codefiles.task1.MatrixKeeper object at 0x7a1e4ff68f50>
+
+    def matrixByMatrixMultiplication(matrix_keeper1: MatrixKeeper, matrix_keeper2: MatrixKeeper) -> Optional[Tuple[List[float], List[int], List[int], Tuple[int, int]]]:
+        """Умножение матрицы на матрицу в CSR формате"""
+    
+        if matrix_keeper1.values is None or matrix_keeper2.values is None:
+>           raise ValueError("Одна или обе матрицы не были введены.")
+E           ValueError: Одна или обе матрицы не были введены.
+
+codefiles/task2.py:54: ValueError
+_____________ TestMatrixOperations.test_matrixScalarMultiplication _____________
+
+self = <tests.task2_test.TestMatrixOperations testMethod=test_matrixScalarMultiplication>
+
+    def test_matrixScalarMultiplication(self):
+        scalar = 2
+>       result = matrixScalarMultiplication(self.matrix_keeper1, scalar)
+
+tests/task2_test.py:57: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+matrix_keeper = <codefiles.task1.MatrixKeeper object at 0x7a1e4ff69150>
+scalar = 2
+
+    def matrixScalarMultiplication(matrix_keeper: MatrixKeeper, scalar: float) -> Optional[Tuple[List[float], List[int], List[int], Tuple[int, int]]]:
+        """Умножение матрицы на скаляр в CSR формате"""
+    
+        if matrix_keeper.values is None:
+>           raise ValueError("Матрица не была введена.")
+E           ValueError: Матрица не была введена.
+
+codefiles/task2.py:98: ValueError
+________________ TestMatrixOperations.test_determinantOfMatrix _________________
+
+self = <tests.task3_test.TestMatrixOperations testMethod=test_determinantOfMatrix>
+
+    def test_determinantOfMatrix(self):
+    
+        self.matrix_keeper.matrix = [
+            [1, 2, 3],
+            [0, 5, 6],
+            [7, 8, 9]
+        ]
+>       result = determinantOfMatrix(self.matrix_keeper)
+
+tests/task3_test.py:16: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+matrix_keeper = <codefiles.task1.MatrixKeeper object at 0x7a1e4ff9e210>
+
+    def determinantOfMatrix(matrix_keeper: MatrixKeeper) -> float:
+        """Вычисляет определитель матрицы. Размер матрицы: до 100x100."""
+        if matrix_keeper.values is None:
+>           raise ValueError("Матрица не задана.")
+E           ValueError: Матрица не задана.
+
+codefiles/task3.py:16: ValueError
+_________________ TestMatrixOperations.test_isMatrixInvertable _________________
+
+self = <tests.task3_test.TestMatrixOperations testMethod=test_isMatrixInvertable>
+
+    def test_isMatrixInvertable(self):
+        self.matrix_keeper.matrix = [
+            [1, 2, 3],
+            [0, 5, 6],
+            [7, 8, 9]
+        ]
+        result = isMatrixInvertable(self.matrix_keeper)
+>       self.assertTrue(result)
+E       AssertionError: False is not true
+
+tests/task3_test.py:40: AssertionError
+=========================== short test summary info ============================
+FAILED tests/task1_test.py::TestMatrixKeeper::test_trace - AssertionError: 14...
+FAILED tests/task2_test.py::TestMatrixOperations::test_matrixAddition - Value...
+FAILED tests/task2_test.py::TestMatrixOperations::test_matrixByMatrixMultiplication
+FAILED tests/task2_test.py::TestMatrixOperations::test_matrixScalarMultiplication
+FAILED tests/task3_test.py::TestMatrixOperations::test_determinantOfMatrix - ...
+FAILED tests/task3_test.py::TestMatrixOperations::test_isMatrixInvertable - A...
+========================= 6 failed, 5 passed in 0.10s ==========================
+Starting now, all test run output will be sent to the Test Result panel, while test discovery output will be sent to the "Python" output channel instead of the "Python Test Log" channel. The "Python Test Log" channel will be deprecated within the next month. See https://github.com/microsoft/vscode-python/wiki/New-Method-for-Output-Handling-in-Python-Testing for details.============================= test session starts ==============================
+platform linux -- Python 3.13.1, pytest-8.3.4, pluggy-1.5.0
+rootdir: /home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra
+collected 0 items
+
+========================= no tests collected in 0.00s ==========================
+Starting now, all test run output will be sent to the Test Result panel, while test discovery output will be sent to the "Python" output channel instead of the "Python Test Log" channel. The "Python Test Log" channel will be deprecated within the next month. See https://github.com/microsoft/vscode-python/wiki/New-Method-for-Output-Handling-in-Python-Testing for details.============================= test session starts ==============================
+platform linux -- Python 3.13.1, pytest-8.3.4, pluggy-1.5.0
+rootdir: /home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra
+collected 0 items
+
+========================= no tests collected in 0.01s ==========================
+Starting now, all test run output will be sent to the Test Result panel, while test discovery output will be sent to the "Python" output channel instead of the "Python Test Log" channel. The "Python Test Log" channel will be deprecated within the next month. See https://github.com/microsoft/vscode-python/wiki/New-Method-for-Output-Handling-in-Python-Testing for details.============================= test session starts ==============================
+platform linux -- Python 3.13.1, pytest-8.3.4, pluggy-1.5.0
+rootdir: /home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra
+collected 0 items
+
+========================= no tests collected in 0.00s ==========================
+Starting now, all test run output will be sent to the Test Result panel, while test discovery output will be sent to the "Python" output channel instead of the "Python Test Log" channel. The "Python Test Log" channel will be deprecated within the next month. See https://github.com/microsoft/vscode-python/wiki/New-Method-for-Output-Handling-in-Python-Testing for details.============================= test session starts ==============================
+platform linux -- Python 3.13.1, pytest-8.3.4, pluggy-1.5.0
+rootdir: /home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra
+collected 0 items
+
+========================= no tests collected in 0.00s ==========================
+Starting now, all test run output will be sent to the Test Result panel, while test discovery output will be sent to the "Python" output channel instead of the "Python Test Log" channel. The "Python Test Log" channel will be deprecated within the next month. See https://github.com/microsoft/vscode-python/wiki/New-Method-for-Output-Handling-in-Python-Testing for details.============================= test session starts ==============================
+platform linux -- Python 3.13.1, pytest-8.3.4, pluggy-1.5.0
+rootdir: /home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra
+collected 0 items
+
+========================= no tests collected in 0.01s ==========================
+Starting now, all test run output will be sent to the Test Result panel, while test discovery output will be sent to the "Python" output channel instead of the "Python Test Log" channel. The "Python Test Log" channel will be deprecated within the next month. See https://github.com/microsoft/vscode-python/wiki/New-Method-for-Output-Handling-in-Python-Testing for details.============================= test session starts ==============================
+platform linux -- Python 3.13.1, pytest-8.3.4, pluggy-1.5.0
+rootdir: /home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra
+collected 0 items
+
+========================= no tests collected in 0.01s ==========================
+Starting now, all test run output will be sent to the Test Result panel, while test discovery output will be sent to the "Python" output channel instead of the "Python Test Log" channel. The "Python Test Log" channel will be deprecated within the next month. See https://github.com/microsoft/vscode-python/wiki/New-Method-for-Output-Handling-in-Python-Testing for details.============================= test session starts ==============================
+platform linux -- Python 3.13.1, pytest-8.3.4, pluggy-1.5.0
+rootdir: /home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra
+collected 0 items
+
+========================= no tests collected in 0.00s ==========================
+Starting now, all test run output will be sent to the Test Result panel, while test discovery output will be sent to the "Python" output channel instead of the "Python Test Log" channel. The "Python Test Log" channel will be deprecated within the next month. See https://github.com/microsoft/vscode-python/wiki/New-Method-for-Output-Handling-in-Python-Testing for details.============================= test session starts ==============================
+platform linux -- Python 3.13.1, pytest-8.3.4, pluggy-1.5.0
+rootdir: /home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra
+collected 0 items
+
+========================= no tests collected in 0.01s ==========================
+Starting now, all test run output will be sent to the Test Result panel, while test discovery output will be sent to the "Python" output channel instead of the "Python Test Log" channel. The "Python Test Log" channel will be deprecated within the next month. See https://github.com/microsoft/vscode-python/wiki/New-Method-for-Output-Handling-in-Python-Testing for details.============================= test session starts ==============================
+platform linux -- Python 3.13.1, pytest-8.3.4, pluggy-1.5.0
+rootdir: /home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra
+collected 0 items
+
+========================= no tests collected in 0.01s ==========================
+Starting now, all test run output will be sent to the Test Result panel, while test discovery output will be sent to the "Python" output channel instead of the "Python Test Log" channel. The "Python Test Log" channel will be deprecated within the next month. See https://github.com/microsoft/vscode-python/wiki/New-Method-for-Output-Handling-in-Python-Testing for details.============================= test session starts ==============================
+platform linux -- Python 3.13.1, pytest-8.3.4, pluggy-1.5.0
+rootdir: /home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra
+collected 0 items
+
+========================= no tests collected in 0.01s ==========================
+Starting now, all test run output will be sent to the Test Result panel, while test discovery output will be sent to the "Python" output channel instead of the "Python Test Log" channel. The "Python Test Log" channel will be deprecated within the next month. See https://github.com/microsoft/vscode-python/wiki/New-Method-for-Output-Handling-in-Python-Testing for details.============================= test session starts ==============================
+platform linux -- Python 3.13.1, pytest-8.3.4, pluggy-1.5.0
+rootdir: /home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra
+collected 0 items
+
+========================= no tests collected in 0.01s ==========================
+Starting now, all test run output will be sent to the Test Result panel, while test discovery output will be sent to the "Python" output channel instead of the "Python Test Log" channel. The "Python Test Log" channel will be deprecated within the next month. See https://github.com/microsoft/vscode-python/wiki/New-Method-for-Output-Handling-in-Python-Testing for details.============================= test session starts ==============================
+platform linux -- Python 3.13.1, pytest-8.3.4, pluggy-1.5.0
+rootdir: /home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra
+collected 0 items
+
+========================= no tests collected in 0.01s ==========================
+Starting now, all test run output will be sent to the Test Result panel, while test discovery output will be sent to the "Python" output channel instead of the "Python Test Log" channel. The "Python Test Log" channel will be deprecated within the next month. See https://github.com/microsoft/vscode-python/wiki/New-Method-for-Output-Handling-in-Python-Testing for details.============================= test session starts ==============================
+platform linux -- Python 3.13.1, pytest-8.3.4, pluggy-1.5.0
+rootdir: /home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra
+collected 0 items
+
+========================= no tests collected in 0.01s ==========================
+Starting now, all test run output will be sent to the Test Result panel, while test discovery output will be sent to the "Python" output channel instead of the "Python Test Log" channel. The "Python Test Log" channel will be deprecated within the next month. See https://github.com/microsoft/vscode-python/wiki/New-Method-for-Output-Handling-in-Python-Testing for details.============================= test session starts ==============================
+platform linux -- Python 3.13.1, pytest-8.3.4, pluggy-1.5.0
+rootdir: /home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra
+collected 0 items
+
+========================= no tests collected in 0.01s ==========================
+Starting now, all test run output will be sent to the Test Result panel, while test discovery output will be sent to the "Python" output channel instead of the "Python Test Log" channel. The "Python Test Log" channel will be deprecated within the next month. See https://github.com/microsoft/vscode-python/wiki/New-Method-for-Output-Handling-in-Python-Testing for details.============================= test session starts ==============================
+platform linux -- Python 3.13.1, pytest-8.3.4, pluggy-1.5.0
+rootdir: /home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra
+collected 0 items
+
+========================= no tests collected in 0.00s ==========================
+Starting now, all test run output will be sent to the Test Result panel, while test discovery output will be sent to the "Python" output channel instead of the "Python Test Log" channel. The "Python Test Log" channel will be deprecated within the next month. See https://github.com/microsoft/vscode-python/wiki/New-Method-for-Output-Handling-in-Python-Testing for details.============================= test session starts ==============================
+platform linux -- Python 3.13.1, pytest-8.3.4, pluggy-1.5.0
+rootdir: /home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra
+collected 0 items
+
+========================= no tests collected in 0.01s ==========================
+Starting now, all test run output will be sent to the Test Result panel, while test discovery output will be sent to the "Python" output channel instead of the "Python Test Log" channel. The "Python Test Log" channel will be deprecated within the next month. See https://github.com/microsoft/vscode-python/wiki/New-Method-for-Output-Handling-in-Python-Testing for details.============================= test session starts ==============================
+platform linux -- Python 3.13.1, pytest-8.3.4, pluggy-1.5.0
+rootdir: /home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra
+collected 0 items
+
+========================= no tests collected in 0.01s ==========================
+Starting now, all test run output will be sent to the Test Result panel, while test discovery output will be sent to the "Python" output channel instead of the "Python Test Log" channel. The "Python Test Log" channel will be deprecated within the next month. See https://github.com/microsoft/vscode-python/wiki/New-Method-for-Output-Handling-in-Python-Testing for details.============================= test session starts ==============================
+platform linux -- Python 3.13.1, pytest-8.3.4, pluggy-1.5.0
+rootdir: /home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra
+collected 0 items
+
+========================= no tests collected in 0.01s ==========================
+Starting now, all test run output will be sent to the Test Result panel, while test discovery output will be sent to the "Python" output channel instead of the "Python Test Log" channel. The "Python Test Log" channel will be deprecated within the next month. See https://github.com/microsoft/vscode-python/wiki/New-Method-for-Output-Handling-in-Python-Testing for details.============================= test session starts ==============================
+platform linux -- Python 3.13.1, pytest-8.3.4, pluggy-1.5.0
+rootdir: /home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra
+collected 0 items
+
+========================= no tests collected in 0.01s ==========================
+Starting now, all test run output will be sent to the Test Result panel, while test discovery output will be sent to the "Python" output channel instead of the "Python Test Log" channel. The "Python Test Log" channel will be deprecated within the next month. See https://github.com/microsoft/vscode-python/wiki/New-Method-for-Output-Handling-in-Python-Testing for details.============================= test session starts ==============================
+platform linux -- Python 3.13.1, pytest-8.3.4, pluggy-1.5.0
+rootdir: /home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra
+collected 0 items
+
+========================= no tests collected in 0.01s ==========================
+Starting now, all test run output will be sent to the Test Result panel, while test discovery output will be sent to the "Python" output channel instead of the "Python Test Log" channel. The "Python Test Log" channel will be deprecated within the next month. See https://github.com/microsoft/vscode-python/wiki/New-Method-for-Output-Handling-in-Python-Testing for details.============================= test session starts ==============================
+platform linux -- Python 3.13.1, pytest-8.3.4, pluggy-1.5.0
+rootdir: /home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra
+collected 0 items
+
+========================= no tests collected in 0.01s ==========================
+Starting now, all test run output will be sent to the Test Result panel, while test discovery output will be sent to the "Python" output channel instead of the "Python Test Log" channel. The "Python Test Log" channel will be deprecated within the next month. See https://github.com/microsoft/vscode-python/wiki/New-Method-for-Output-Handling-in-Python-Testing for details.============================= test session starts ==============================
+platform linux -- Python 3.13.1, pytest-8.3.4, pluggy-1.5.0
+rootdir: /home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra
+collected 0 items
+
+========================= no tests collected in 0.01s ==========================
+Starting now, all test run output will be sent to the Test Result panel, while test discovery output will be sent to the "Python" output channel instead of the "Python Test Log" channel. The "Python Test Log" channel will be deprecated within the next month. See https://github.com/microsoft/vscode-python/wiki/New-Method-for-Output-Handling-in-Python-Testing for details.============================= test session starts ==============================
+platform linux -- Python 3.13.1, pytest-8.3.4, pluggy-1.5.0
+rootdir: /home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra
+collected 0 items
+
+========================= no tests collected in 0.01s ==========================
+Starting now, all test run output will be sent to the Test Result panel, while test discovery output will be sent to the "Python" output channel instead of the "Python Test Log" channel. The "Python Test Log" channel will be deprecated within the next month. See https://github.com/microsoft/vscode-python/wiki/New-Method-for-Output-Handling-in-Python-Testing for details.============================= test session starts ==============================
+platform linux -- Python 3.13.1, pytest-8.3.4, pluggy-1.5.0
+rootdir: /home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra
+collected 0 items
+
+========================= no tests collected in 0.01s ==========================
+Starting now, all test run output will be sent to the Test Result panel, while test discovery output will be sent to the "Python" output channel instead of the "Python Test Log" channel. The "Python Test Log" channel will be deprecated within the next month. See https://github.com/microsoft/vscode-python/wiki/New-Method-for-Output-Handling-in-Python-Testing for details.============================= test session starts ==============================
+platform linux -- Python 3.13.1, pytest-8.3.4, pluggy-1.5.0
+rootdir: /home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra
+collected 0 items
+
+========================= no tests collected in 0.00s ==========================
+Starting now, all test run output will be sent to the Test Result panel, while test discovery output will be sent to the "Python" output channel instead of the "Python Test Log" channel. The "Python Test Log" channel will be deprecated within the next month. See https://github.com/microsoft/vscode-python/wiki/New-Method-for-Output-Handling-in-Python-Testing for details.============================= test session starts ==============================
+platform linux -- Python 3.13.1, pytest-8.3.4, pluggy-1.5.0
+rootdir: /home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra
+collected 0 items
+
+========================= no tests collected in 0.01s ==========================
+Starting now, all test run output will be sent to the Test Result panel, while test discovery output will be sent to the "Python" output channel instead of the "Python Test Log" channel. The "Python Test Log" channel will be deprecated within the next month. See https://github.com/microsoft/vscode-python/wiki/New-Method-for-Output-Handling-in-Python-Testing for details.============================= test session starts ==============================
+platform linux -- Python 3.13.1, pytest-8.3.4, pluggy-1.5.0
+rootdir: /home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra
+collected 0 items
+
+========================= no tests collected in 0.01s ==========================
+Starting now, all test run output will be sent to the Test Result panel, while test discovery output will be sent to the "Python" output channel instead of the "Python Test Log" channel. The "Python Test Log" channel will be deprecated within the next month. See https://github.com/microsoft/vscode-python/wiki/New-Method-for-Output-Handling-in-Python-Testing for details.============================= test session starts ==============================
+platform linux -- Python 3.13.1, pytest-8.3.4, pluggy-1.5.0
+rootdir: /home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra
+collected 0 items
+
+========================= no tests collected in 0.01s ==========================
+Starting now, all test run output will be sent to the Test Result panel, while test discovery output will be sent to the "Python" output channel instead of the "Python Test Log" channel. The "Python Test Log" channel will be deprecated within the next month. See https://github.com/microsoft/vscode-python/wiki/New-Method-for-Output-Handling-in-Python-Testing for details.============================= test session starts ==============================
+platform linux -- Python 3.13.1, pytest-8.3.4, pluggy-1.5.0
+rootdir: /home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra
+collected 0 items
+
+========================= no tests collected in 0.01s ==========================
+Starting now, all test run output will be sent to the Test Result panel, while test discovery output will be sent to the "Python" output channel instead of the "Python Test Log" channel. The "Python Test Log" channel will be deprecated within the next month. See https://github.com/microsoft/vscode-python/wiki/New-Method-for-Output-Handling-in-Python-Testing for details.============================= test session starts ==============================
+platform linux -- Python 3.13.1, pytest-8.3.4, pluggy-1.5.0
+rootdir: /home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra
+collected 0 items
+
+========================= no tests collected in 0.00s ==========================
+Starting now, all test run output will be sent to the Test Result panel, while test discovery output will be sent to the "Python" output channel instead of the "Python Test Log" channel. The "Python Test Log" channel will be deprecated within the next month. See https://github.com/microsoft/vscode-python/wiki/New-Method-for-Output-Handling-in-Python-Testing for details.============================= test session starts ==============================
+platform linux -- Python 3.13.1, pytest-8.3.4, pluggy-1.5.0
+rootdir: /home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra
+collected 0 items
+
+========================= no tests collected in 0.01s ==========================
+Starting now, all test run output will be sent to the Test Result panel, while test discovery output will be sent to the "Python" output channel instead of the "Python Test Log" channel. The "Python Test Log" channel will be deprecated within the next month. See https://github.com/microsoft/vscode-python/wiki/New-Method-for-Output-Handling-in-Python-Testing for details.============================= test session starts ==============================
+platform linux -- Python 3.13.1, pytest-8.3.4, pluggy-1.5.0
+rootdir: /home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra
+collected 0 items
+
+========================= no tests collected in 0.00s ==========================
+Starting now, all test run output will be sent to the Test Result panel, while test discovery output will be sent to the "Python" output channel instead of the "Python Test Log" channel. The "Python Test Log" channel will be deprecated within the next month. See https://github.com/microsoft/vscode-python/wiki/New-Method-for-Output-Handling-in-Python-Testing for details.============================= test session starts ==============================
+platform linux -- Python 3.13.1, pytest-8.3.4, pluggy-1.5.0
+rootdir: /home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra
+collected 0 items
+
+========================= no tests collected in 0.01s ==========================
+Starting now, all test run output will be sent to the Test Result panel, while test discovery output will be sent to the "Python" output channel instead of the "Python Test Log" channel. The "Python Test Log" channel will be deprecated within the next month. See https://github.com/microsoft/vscode-python/wiki/New-Method-for-Output-Handling-in-Python-Testing for details.============================= test session starts ==============================
+platform linux -- Python 3.13.1, pytest-8.3.4, pluggy-1.5.0
+rootdir: /home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra
+collected 0 items
+
+========================= no tests collected in 0.01s ==========================
+Starting now, all test run output will be sent to the Test Result panel, while test discovery output will be sent to the "Python" output channel instead of the "Python Test Log" channel. The "Python Test Log" channel will be deprecated within the next month. See https://github.com/microsoft/vscode-python/wiki/New-Method-for-Output-Handling-in-Python-Testing for details.============================= test session starts ==============================
+platform linux -- Python 3.13.1, pytest-8.3.4, pluggy-1.5.0
+rootdir: /home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra
+collected 0 items
+
+========================= no tests collected in 0.01s ==========================
+Starting now, all test run output will be sent to the Test Result panel, while test discovery output will be sent to the "Python" output channel instead of the "Python Test Log" channel. The "Python Test Log" channel will be deprecated within the next month. See https://github.com/microsoft/vscode-python/wiki/New-Method-for-Output-Handling-in-Python-Testing for details.============================= test session starts ==============================
+platform linux -- Python 3.13.1, pytest-8.3.4, pluggy-1.5.0
+rootdir: /home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra
+collected 0 items
+
+========================= no tests collected in 0.01s ==========================
+Starting now, all test run output will be sent to the Test Result panel, while test discovery output will be sent to the "Python" output channel instead of the "Python Test Log" channel. The "Python Test Log" channel will be deprecated within the next month. See https://github.com/microsoft/vscode-python/wiki/New-Method-for-Output-Handling-in-Python-Testing for details.============================= test session starts ==============================
+platform linux -- Python 3.13.1, pytest-8.3.4, pluggy-1.5.0
+rootdir: /home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra
+collected 0 items
+
+========================= no tests collected in 0.01s ==========================
+Starting now, all test run output will be sent to the Test Result panel, while test discovery output will be sent to the "Python" output channel instead of the "Python Test Log" channel. The "Python Test Log" channel will be deprecated within the next month. See https://github.com/microsoft/vscode-python/wiki/New-Method-for-Output-Handling-in-Python-Testing for details.============================= test session starts ==============================
+platform linux -- Python 3.13.1, pytest-8.3.4, pluggy-1.5.0
+rootdir: /home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra
+collected 0 items
+
+========================= no tests collected in 0.01s ==========================
+Starting now, all test run output will be sent to the Test Result panel, while test discovery output will be sent to the "Python" output channel instead of the "Python Test Log" channel. The "Python Test Log" channel will be deprecated within the next month. See https://github.com/microsoft/vscode-python/wiki/New-Method-for-Output-Handling-in-Python-Testing for details.============================= test session starts ==============================
+platform linux -- Python 3.13.1, pytest-8.3.4, pluggy-1.5.0
+rootdir: /home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra
+collected 0 items
+
+========================= no tests collected in 0.01s ==========================
+Starting now, all test run output will be sent to the Test Result panel, while test discovery output will be sent to the "Python" output channel instead of the "Python Test Log" channel. The "Python Test Log" channel will be deprecated within the next month. See https://github.com/microsoft/vscode-python/wiki/New-Method-for-Output-Handling-in-Python-Testing for details.============================= test session starts ==============================
+platform linux -- Python 3.13.1, pytest-8.3.4, pluggy-1.5.0
+rootdir: /home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra
+collected 0 items
+
+========================= no tests collected in 0.01s ==========================
+Starting now, all test run output will be sent to the Test Result panel, while test discovery output will be sent to the "Python" output channel instead of the "Python Test Log" channel. The "Python Test Log" channel will be deprecated within the next month. See https://github.com/microsoft/vscode-python/wiki/New-Method-for-Output-Handling-in-Python-Testing for details.============================= test session starts ==============================
+platform linux -- Python 3.13.1, pytest-8.3.4, pluggy-1.5.0
+rootdir: /home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra
+collected 0 items
+
+========================= no tests collected in 0.01s ==========================
+Starting now, all test run output will be sent to the Test Result panel, while test discovery output will be sent to the "Python" output channel instead of the "Python Test Log" channel. The "Python Test Log" channel will be deprecated within the next month. See https://github.com/microsoft/vscode-python/wiki/New-Method-for-Output-Handling-in-Python-Testing for details.============================= test session starts ==============================
+platform linux -- Python 3.13.1, pytest-8.3.4, pluggy-1.5.0
+rootdir: /home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra
+collected 0 items
+
+========================= no tests collected in 0.00s ==========================
+Starting now, all test run output will be sent to the Test Result panel, while test discovery output will be sent to the "Python" output channel instead of the "Python Test Log" channel. The "Python Test Log" channel will be deprecated within the next month. See https://github.com/microsoft/vscode-python/wiki/New-Method-for-Output-Handling-in-Python-Testing for details.============================= test session starts ==============================
+platform linux -- Python 3.13.1, pytest-8.3.4, pluggy-1.5.0
+rootdir: /home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra
+collected 0 items
+
+========================= no tests collected in 0.00s ==========================
+Starting now, all test run output will be sent to the Test Result panel, while test discovery output will be sent to the "Python" output channel instead of the "Python Test Log" channel. The "Python Test Log" channel will be deprecated within the next month. See https://github.com/microsoft/vscode-python/wiki/New-Method-for-Output-Handling-in-Python-Testing for details.============================= test session starts ==============================
+platform linux -- Python 3.13.1, pytest-8.3.4, pluggy-1.5.0
+rootdir: /home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra
+collected 0 items
+
+========================= no tests collected in 0.00s ==========================
+Starting now, all test run output will be sent to the Test Result panel, while test discovery output will be sent to the "Python" output channel instead of the "Python Test Log" channel. The "Python Test Log" channel will be deprecated within the next month. See https://github.com/microsoft/vscode-python/wiki/New-Method-for-Output-Handling-in-Python-Testing for details.============================= test session starts ==============================
+platform linux -- Python 3.13.1, pytest-8.3.4, pluggy-1.5.0
+rootdir: /home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra
+collected 0 items
+
+========================= no tests collected in 0.01s ==========================
+Starting now, all test run output will be sent to the Test Result panel, while test discovery output will be sent to the "Python" output channel instead of the "Python Test Log" channel. The "Python Test Log" channel will be deprecated within the next month. See https://github.com/microsoft/vscode-python/wiki/New-Method-for-Output-Handling-in-Python-Testing for details.============================= test session starts ==============================
+platform linux -- Python 3.13.1, pytest-8.3.4, pluggy-1.5.0
+rootdir: /home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra
+collected 0 items
+
+========================= no tests collected in 0.01s ==========================
+Starting now, all test run output will be sent to the Test Result panel, while test discovery output will be sent to the "Python" output channel instead of the "Python Test Log" channel. The "Python Test Log" channel will be deprecated within the next month. See https://github.com/microsoft/vscode-python/wiki/New-Method-for-Output-Handling-in-Python-Testing for details.============================= test session starts ==============================
+platform linux -- Python 3.13.1, pytest-8.3.4, pluggy-1.5.0
+rootdir: /home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra
+collected 0 items
+
+========================= no tests collected in 0.00s ==========================
+Starting now, all test run output will be sent to the Test Result panel, while test discovery output will be sent to the "Python" output channel instead of the "Python Test Log" channel. The "Python Test Log" channel will be deprecated within the next month. See https://github.com/microsoft/vscode-python/wiki/New-Method-for-Output-Handling-in-Python-Testing for details.============================= test session starts ==============================
+platform linux -- Python 3.13.1, pytest-8.3.4, pluggy-1.5.0
+rootdir: /home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra
+collected 0 items
+
+========================= no tests collected in 0.00s ==========================
+Starting now, all test run output will be sent to the Test Result panel, while test discovery output will be sent to the "Python" output channel instead of the "Python Test Log" channel. The "Python Test Log" channel will be deprecated within the next month. See https://github.com/microsoft/vscode-python/wiki/New-Method-for-Output-Handling-in-Python-Testing for details.============================= test session starts ==============================
+platform linux -- Python 3.13.1, pytest-8.3.4, pluggy-1.5.0
+rootdir: /home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra
+collected 0 items
+
+========================= no tests collected in 0.00s ==========================
+Starting now, all test run output will be sent to the Test Result panel, while test discovery output will be sent to the "Python" output channel instead of the "Python Test Log" channel. The "Python Test Log" channel will be deprecated within the next month. See https://github.com/microsoft/vscode-python/wiki/New-Method-for-Output-Handling-in-Python-Testing for details.

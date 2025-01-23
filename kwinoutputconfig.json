@@ -2,23 +2,23 @@
     {
         "data": [
             {
-                "allowSdrSoftwareBrightness": false,
+                "allowSdrSoftwareBrightness": true,
                 "autoRotation": "InTabletMode",
-                "brightness": 0.1,
+                "brightness": 1,
                 "colorProfileSource": "sRGB",
-                "connectorName": "eDP-1",
-                "edidHash": "85646031b3e03734d9a822664d9558cc",
-                "edidIdentifier": "CSO 5670 24578 0 2022 0",
+                "connectorName": "HDMI-A-2",
+                "edidHash": "93ccb3af939e15be0d49474264051c10",
+                "edidIdentifier": "ACR 44384 1935702874 36 2007 0",
                 "highDynamicRange": false,
                 "iccProfilePath": "",
                 "mode": {
-                    "height": 2000,
-                    "refreshRate": 165001,
-                    "width": 3200
+                    "height": 1024,
+                    "refreshRate": 75025,
+                    "width": 1280
                 },
                 "overscan": 0,
                 "rgbRange": "Automatic",
-                "scale": 2,
+                "scale": 1,
                 "sdrBrightness": 200,
                 "sdrGamutWideness": 0,
                 "transform": "Normal",
@@ -26,26 +26,28 @@
                 "wideColorGamut": false
             },
             {
-                "allowSdrSoftwareBrightness": true,
+                "allowSdrSoftwareBrightness": false,
                 "autoRotation": "InTabletMode",
                 "brightness": 1,
                 "colorProfileSource": "sRGB",
-                "connectorName": "Unknown-1",
-                "highDynamicRange": false,
+                "connectorName": "HDMI-A-1",
+                "edidHash": "4b17dd079ae14cd9c9163ead352f6d8f",
+                "edidIdentifier": "HTM 9984 0 31 2024 0",
+                "highDynamicRange": true,
                 "iccProfilePath": "",
                 "mode": {
-                    "height": 2000,
-                    "refreshRate": 60000,
-                    "width": 3200
+                    "height": 1440,
+                    "refreshRate": 100001,
+                    "width": 2560
                 },
                 "overscan": 0,
-                "rgbRange": "Automatic",
-                "scale": 1.75,
+                "rgbRange": "Full",
+                "scale": 1.25,
                 "sdrBrightness": 200,
-                "sdrGamutWideness": 0,
+                "sdrGamutWideness": 0.5,
                 "transform": "Normal",
                 "vrrPolicy": "Automatic",
-                "wideColorGamut": false
+                "wideColorGamut": true
             }
         ],
         "name": "outputs"
@@ -72,20 +74,6 @@
                     {
                         "enabled": true,
                         "outputIndex": 1,
-                        "position": {
-                            "x": 0,
-                            "y": 0
-                        },
-                        "priority": 0
-                    }
-                ]
-            },
-            {
-                "lidClosed": true,
-                "outputs": [
-                    {
-                        "enabled": true,
-                        "outputIndex": 0,
                         "position": {
                             "x": 0,
                             "y": 0

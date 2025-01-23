@@ -1,0 +1,46 @@
+2025-01-23 16:07:42.067 [info] [main] Log level: Info
+2025-01-23 16:07:42.067 [info] [main] Validating found git in: "git"
+2025-01-23 16:07:42.067 [info] [main] Using git "2.48.1" from "git"
+2025-01-23 16:07:42.067 [info] [Model][doInitialScan] Initial repository scan started
+2025-01-23 16:07:42.067 [info] > git rev-parse --show-toplevel [56ms]
+2025-01-23 16:07:42.067 [info] > git rev-parse --git-dir --git-common-dir [9ms]
+2025-01-23 16:07:42.067 [info] [Model][openRepository] Opened repository: /home/vadim/kde-config
+2025-01-23 16:07:42.080 [info] > git config --get commit.template [2ms]
+2025-01-23 16:07:42.099 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms]
+2025-01-23 16:07:42.130 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/vadim/kde-config/.git/refs/remotes/origin/main'
+2025-01-23 16:07:42.153 [info] > git rev-parse refs/remotes/origin/main [23ms]
+2025-01-23 16:07:42.177 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [10ms]
+2025-01-23 16:07:42.198 [info] > git rev-parse --show-toplevel [6ms]
+2025-01-23 16:07:42.210 [info] > git rev-parse --show-toplevel [2ms]
+2025-01-23 16:07:42.218 [info] > git rev-parse --show-toplevel [2ms]
+2025-01-23 16:07:42.256 [info] > git rev-parse --show-toplevel [2ms]
+2025-01-23 16:07:42.263 [info] > git rev-parse --show-toplevel [1ms]
+2025-01-23 16:07:42.269 [info] > git rev-parse --show-toplevel [1ms]
+2025-01-23 16:07:42.276 [info] > git rev-parse --show-toplevel [2ms]
+2025-01-23 16:07:42.284 [info] > git rev-parse --show-toplevel [2ms]
+2025-01-23 16:07:42.292 [info] > git rev-parse --show-toplevel [2ms]
+2025-01-23 16:07:42.301 [info] > git rev-parse --show-toplevel [2ms]
+2025-01-23 16:07:42.310 [info] > git rev-parse --show-toplevel [2ms]
+2025-01-23 16:07:42.315 [info] > git rev-parse --show-toplevel [1ms]
+2025-01-23 16:07:42.323 [info] > git rev-parse --show-toplevel [2ms]
+2025-01-23 16:07:42.324 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-01-23 16:07:42.492 [info] > git status -z -uall [332ms]
+2025-01-23 16:07:42.513 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2025-01-23 16:07:42.521 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2025-01-23 16:07:42.527 [info] > git config --get commit.template [15ms]
+2025-01-23 16:07:42.528 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [1ms]
+2025-01-23 16:07:42.584 [info] > git merge-base refs/heads/main refs/remotes/origin/main [50ms]
+2025-01-23 16:07:42.590 [info] > git fetch [536ms]
+2025-01-23 16:07:42.601 [info] > git diff --name-status -z --diff-filter=ADMR 6d4806dcc711c803fb1e0ec87c877e14b60fd927...refs/remotes/origin/main [11ms]
+2025-01-23 16:07:42.602 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [20ms]
+2025-01-23 16:07:42.612 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/vadim/kde-config/.git/refs/remotes/origin/main'
+2025-01-23 16:07:42.613 [info] > git check-ignore -v -z --stdin [6ms]
+2025-01-23 16:07:42.614 [info] > git config --get commit.template [14ms]
+2025-01-23 16:07:42.617 [info] > git rev-parse refs/remotes/origin/main [5ms]
+2025-01-23 16:07:42.626 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-01-23 16:07:42.642 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/vadim/kde-config/.git/refs/remotes/origin/main'
+2025-01-23 16:07:42.648 [info] > git rev-parse refs/remotes/origin/main [6ms]
+2025-01-23 16:07:42.701 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [43ms]
+2025-01-23 16:07:42.950 [info] > git status -z -uall [297ms]
+2025-01-23 16:07:47.007 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [971ms]
+2025-01-23 16:08:01.589 [info] > git check-ignore -v -z --stdin [5ms]

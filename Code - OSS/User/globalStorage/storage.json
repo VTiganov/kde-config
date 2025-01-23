@@ -1,13 +1,10 @@
 {
     "telemetry.sqmId": "",
     "telemetry.machineId": "a1f2e898df2910cb06a3e5f98d8c52625471668b8e5618a7eb949c4405dd50da",
-    "telemetry.devDeviceId": "1e20eb7d-8b30-45cc-9952-3f61498ba617",
+    "telemetry.devDeviceId": "9ad28b8f-9e01-401a-9998-63c7a6c6e3e5",
     "backupWorkspaces": {
         "workspaces": [],
         "folders": [
-            {
-                "folderUri": "file:///home/vadim/Edu/Github/polygon"
-            },
             {
                 "folderUri": "file:///home/vadim/kde-config"
             }
@@ -18,7 +15,9 @@
         "workspaces": {
             "file:///home/vadim/Edu/Github/calculus_lab_1": "__default__profile__",
             "file:///home/vadim/Edu/Github/polygon": "__default__profile__",
-            "file:///home/vadim/kde-config": "__default__profile__"
+            "file:///home/vadim/kde-config": "__default__profile__",
+            "file:///home/vadim/Edu/polygon": "__default__profile__",
+            "file:///home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra": "__default__profile__"
         },
         "emptyWindows": {}
     },
@@ -72,7 +71,8 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -87,6 +87,28 @@
                                     },
                                     "enabled": true,
                                     "label": "~/kde-config"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra",
+                                        "path": "/home/vadim/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Edu/SenX-feat-tiganoviv-feat-vova-linear-algebra"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/vadim/Edu/polygon",
+                                        "path": "/home/vadim/Edu/polygon",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Edu/polygon"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -329,11 +351,13 @@
                     },
                     {
                         "id": "actions.find",
-                        "label": "&&Find"
+                        "label": "&&Find",
+                        "enabled": false
                     },
                     {
                         "id": "editor.action.startFindReplaceAction",
-                        "label": "&&Replace"
+                        "label": "&&Replace",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -494,8 +518,7 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "&&Panel",
-                                    "checked": true
+                                    "label": "&&Panel"
                                 },
                                 {
                                     "id": "toggle.toggleCustomTitleBar",
@@ -630,8 +653,7 @@
                                 },
                                 {
                                     "id": "editor.action.toggleMinimap",
-                                    "label": "&&Minimap",
-                                    "checked": true
+                                    "label": "&&Minimap"
                                 },
                                 {
                                     "id": "breadcrumbs.toggle",
@@ -802,7 +824,8 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap"
+                        "label": "&&Word Wrap",
+                        "enabled": false
                     }
                 ]
             },
@@ -810,7 +833,8 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back"
+                        "label": "&&Back",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -1140,7 +1164,8 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal"
+                        "label": "&&Split Terminal",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1717,36 +1742,37 @@
                 "mode": 0,
                 "x": 0,
                 "y": 0,
-                "width": 1600,
-                "height": 972
+                "width": 1280,
+                "height": 976
             }
         },
         "openedWindows": []
     },
     "theme": "vs-dark",
-    "themeBackground": "#011627",
+    "themeBackground": "#1f1f1f",
     "windowSplash": {
         "zoomLevel": 0,
         "baseTheme": "vs-dark",
         "colorInfo": {
-            "foreground": "#d6deeb",
-            "background": "#011627",
-            "editorBackground": "#011627",
-            "titleBarBackground": "#011627",
-            "activityBarBackground": "#011627",
-            "activityBarBorder": "#011627",
-            "sideBarBackground": "#011627",
-            "sideBarBorder": "#011627",
-            "statusBarBackground": "#011627",
-            "statusBarBorder": "#262a39",
-            "statusBarNoFolderBackground": "#011627"
+            "foreground": "#cccccc",
+            "background": "#1f1f1f",
+            "editorBackground": "#1f1f1f",
+            "titleBarBackground": "#181818",
+            "titleBarBorder": "#2b2b2b",
+            "activityBarBackground": "#181818",
+            "activityBarBorder": "#2b2b2b",
+            "sideBarBackground": "#181818",
+            "sideBarBorder": "#2b2b2b",
+            "statusBarBackground": "#181818",
+            "statusBarBorder": "#2b2b2b",
+            "statusBarNoFolderBackground": "#1f1f1f"
         },
         "layoutInfo": {
             "sideBarSide": "left",
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 312,
+            "sideBarWidth": 233,
             "statusBarHeight": 22,
             "windowBorder": false
         }

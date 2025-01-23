@@ -5,7 +5,9 @@ RightButton;NoModifier=org.kde.contextmenu
 RightButton;NoModifier=org.kde.contextmenu
 
 [Containments][1]
+ItemGeometries-1280x1024=
 ItemGeometries-1600x1000=
+ItemGeometries-2048x1152=
 ItemGeometries-3200x2000=
 ItemGeometriesHorizontal=
 activityId=59023246-63db-494d-917d-bdcd315d37fc
@@ -21,8 +23,8 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][1][Wallpaper][org.kde.image][General]
-Image=/home/vadim/Downloads/pexels-thatguycraig000-1563355.jpg
-PreviewImage=/home/vadim/Downloads/pexels-thatguycraig000-1563355.jpg
+Image=/home/vadim/Downloads/kallavesi-lake-4896x3264-9645.jpg
+PreviewImage=/home/vadim/Downloads/kallavesi-lake-4896x3264-9645.jpg
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][2]
@@ -39,7 +41,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][2][Applets][20][Configuration]
-PreloadWeight=55
+PreloadWeight=65
 popupHeight=450
 popupWidth=560
 
@@ -62,8 +64,8 @@ plugin=org.kde.plasma.kickoff
 
 [Containments][2][Applets][3][Configuration]
 PreloadWeight=100
-popupHeight=510
-popupWidth=647
+popupHeight=550
+popupWidth=717
 
 [Containments][2][Applets][3][Configuration][General]
 favoritesPortedToKAstats=true
@@ -128,7 +130,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][8][Applets][11][Configuration]
-PreloadWeight=70
+PreloadWeight=75
 
 [Containments][8][Applets][12]
 immutability=1
@@ -180,7 +182,7 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][8][Applets][23][Configuration]
-PreloadWeight=2
+PreloadWeight=10
 
 [Containments][8][Applets][23][Configuration][General]
 showPercentage=true
@@ -190,7 +192,7 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][8][Applets][24][Configuration]
-PreloadWeight=0
+PreloadWeight=92
 
 [Containments][8][Applets][25]
 immutability=1

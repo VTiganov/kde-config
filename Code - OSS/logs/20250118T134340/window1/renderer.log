@@ -1,0 +1,9 @@
+2025-01-18 13:43:42.106 [info] Started local extension host with pid 1897.
+2025-01-18 13:43:43.158 [error] Extension 'ms-python.debugpy CANNOT USE these API proposals 'portsAttributes, debugVisualization, contribViewsWelcome'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2025-01-18 13:43:43.158 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, codeActionAI, notebookReplDocument, notebookVariableProvider'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2025-01-18 13:43:43.209 [error] [ms-python.python]: Menu item references a command `python.launchTensorBoard` which is not defined in the 'commands' section.
+2025-01-18 13:43:43.210 [error] [ms-python.python]: Menu item references a command `python.refreshTensorBoard` which is not defined in the 'commands' section.
+2025-01-18 13:43:43.210 [error] [ms-python.python]: editor/content is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribEditorContentMenu"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+2025-01-18 13:43:43.210 [error] [ms-python.python]: Menu item references a command `python.refreshTensorBoard` which is not defined in the 'commands' section.
+2025-01-18 13:43:45.899 [info] [perf] Render performance baseline is 33ms
+2025-01-18 13:43:48.358 [error] Timed out waiting for authentication provider to register

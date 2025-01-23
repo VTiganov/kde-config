@@ -1,0 +1,803 @@
+[20.01.2025, 22:39:12,160] [info] (DeviceInfo) {
+  "application": {
+    "version": "5.35.0",
+    "build": "5.35.0/r15666995"
+  },
+  "language": {
+    "locale": "en-US",
+    "countryCode": "RU",
+    "preferredSystemLanguages": [
+      "en-US",
+      "en-US",
+      "en",
+      "en"
+    ]
+  },
+  "os": {
+    "type": "Linux",
+    "release": "6.12.10-arch1-1",
+    "arch": "x64",
+    "version": "#1 SMP PREEMPT_DYNAMIC Sat, 18 Jan 2025 02:26:57 +0000",
+    "platform": "linux",
+    "machine": "x86_64"
+  }
+}
+[20.01.2025, 22:39:12,168] [info] (DeviceInfo) {
+  "memory": {
+    "freeMB": 12015,
+    "totalMB": 15772
+  },
+  "storage": {
+    "freeMB": 186000,
+    "totalMB": 200502
+  }
+}
+[20.01.2025, 22:39:12,196] [info] (Events) Event sent REFRESH_APPLICATION_DATA
+[20.01.2025, 22:39:12,506] [warn] (UpdateLogger) Logger inside "electron-updater" package APPIMAGE env is not defined, current application is not an AppImage
+[20.01.2025, 22:39:12,507] [info] (UpdateLogger) Updater is inactive
+[20.01.2025, 22:39:12,584] [info] (Events) Event handle GET_PASSPORT_LOGIN
+[20.01.2025, 22:39:12,983] [info] (Events) Event received APPLICATION_READY
+[20.01.2025, 22:39:12,990] [info] (DeviceInfo) {
+  "cpu": "Intel(R) N100"
+}
+[20.01.2025, 22:39:12,990] [info] (Events) Event send FIRST_LAUNCH
+[20.01.2025, 22:39:12,991] [info] (Events) Event sent PROBABILITY_BUCKET 50-100
+[20.01.2025, 22:39:13,033] [info] (Events) Event received APPLICATION_THEME
+[20.01.2025, 22:39:13,034] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[20.01.2025, 22:39:13,130] [info] (Common) Request to https://music-desktop-application.s3.yandex.net/stable/release-notes/ru.json completed with status:  200
+[20.01.2025, 22:39:13,149] [info] (Events) Event sent LOAD_RELEASE_NOTES
+[20.01.2025, 22:39:42,154] [info] (Events) Event handle GET_PASSPORT_LOGIN
+[20.01.2025, 22:39:42,494] [info] (Events) Event handle GET_PASSPORT_LOGIN
+[20.01.2025, 22:39:43,332] [info] (Events) Event received APPLICATION_READY
+[20.01.2025, 22:39:43,339] [info] (Events) Event sent PROBABILITY_BUCKET 50-100
+[20.01.2025, 22:39:43,340] [info] (Events) Event received APPLICATION_THEME
+[20.01.2025, 22:39:43,342] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[20.01.2025, 22:39:43,368] [info] (Common) Request to https://music-desktop-application.s3.yandex.net/stable/release-notes/ru.json completed with status:  200
+[20.01.2025, 22:39:43,369] [info] (Events) Event received PLAYER_STATE undefined false undefined
+[20.01.2025, 22:39:43,370] [info] (Events) Event received PLAYER_STATE undefined undefined true
+[20.01.2025, 22:39:43,373] [info] (Events) Event sent LOAD_RELEASE_NOTES
+[20.01.2025, 22:39:43,597] [info] (Events) Event received PLAYER_STATE undefined true undefined
+[20.01.2025, 22:39:43,600] [info] (Events) Event received PLAYER_STATE undefined false undefined
+[20.01.2025, 22:39:52,005] [info] (Events) Event received PLAYER_STATE undefined false undefined
+[20.01.2025, 22:39:52,006] [info] (Events) Event received PLAYER_STATE undefined undefined true
+[20.01.2025, 22:39:52,010] [info] (Events) Event received PLAYER_STATE undefined true undefined
+[20.01.2025, 22:39:52,707] [info] (Events) Event received PLAYER_STATE undefined false undefined
+[20.01.2025, 22:39:52,717] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[20.01.2025, 22:39:52,855] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[20.01.2025, 22:39:53,133] [info] (Events) Event received PLAYER_STATE true undefined undefined
+[20.01.2025, 22:39:53,139] [info] (AppSuspension) App suspension blocker is enabled
+[20.01.2025, 22:39:54,674] [info] (Events) Event received PLAYER_STATE undefined true undefined
+[20.01.2025, 22:40:00,712] [info] (Events) Event sent REFRESH_TRACKS_AVAILABILITY
+[20.01.2025, 22:40:00,717] [info] (Events) Event received TRACKS_AVAILABILITY_UPDATED
+[20.01.2025, 22:41:30,335] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[20.01.2025, 22:41:30,335] [info] (AppSuspension) App suspension blocker is disabled
+[20.01.2025, 22:41:30,345] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[20.01.2025, 22:41:30,345] [info] (AppSuspension) App suspension blocker is disabled
+[20.01.2025, 22:41:30,470] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[20.01.2025, 22:41:30,471] [info] (AppSuspension) App suspension blocker is disabled
+[20.01.2025, 22:41:30,582] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[20.01.2025, 22:41:30,582] [info] (AppSuspension) App suspension blocker is disabled
+[20.01.2025, 22:41:30,902] [info] (Events) Event received PLAYER_STATE true undefined undefined
+[20.01.2025, 22:41:30,903] [info] (AppSuspension) App suspension blocker is disabled
+[20.01.2025, 22:41:30,904] [info] (AppSuspension) App suspension blocker is enabled
+[20.01.2025, 22:44:08,526] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[20.01.2025, 22:44:08,528] [info] (AppSuspension) App suspension blocker is disabled
+[20.01.2025, 22:44:08,546] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[20.01.2025, 22:44:08,546] [info] (AppSuspension) App suspension blocker is disabled
+[20.01.2025, 22:44:08,694] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[20.01.2025, 22:44:08,694] [info] (AppSuspension) App suspension blocker is disabled
+[20.01.2025, 22:44:08,805] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[20.01.2025, 22:44:08,806] [info] (AppSuspension) App suspension blocker is disabled
+[20.01.2025, 22:44:08,859] [info] (Events) Event received PLAYER_STATE true undefined undefined
+[20.01.2025, 22:44:08,860] [info] (AppSuspension) App suspension blocker is disabled
+[20.01.2025, 22:44:08,860] [info] (AppSuspension) App suspension blocker is enabled
+[20.01.2025, 22:46:03,404] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[20.01.2025, 22:46:03,407] [info] (AppSuspension) App suspension blocker is disabled
+[20.01.2025, 22:46:03,430] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[20.01.2025, 22:46:03,431] [info] (AppSuspension) App suspension blocker is disabled
+[20.01.2025, 22:46:03,574] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[20.01.2025, 22:46:03,574] [info] (AppSuspension) App suspension blocker is disabled
+[20.01.2025, 22:46:03,681] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[20.01.2025, 22:46:03,682] [info] (AppSuspension) App suspension blocker is disabled
+[20.01.2025, 22:46:04,005] [info] (Events) Event received PLAYER_STATE true undefined undefined
+[20.01.2025, 22:46:04,007] [info] (AppSuspension) App suspension blocker is disabled
+[20.01.2025, 22:46:04,008] [info] (AppSuspension) App suspension blocker is enabled
+[20.01.2025, 22:48:47,364] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[20.01.2025, 22:48:47,369] [info] (AppSuspension) App suspension blocker is disabled
+[20.01.2025, 22:48:47,388] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[20.01.2025, 22:48:47,389] [info] (AppSuspension) App suspension blocker is disabled
+[20.01.2025, 22:48:47,534] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[20.01.2025, 22:48:47,534] [info] (AppSuspension) App suspension blocker is disabled
+[20.01.2025, 22:48:47,666] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[20.01.2025, 22:48:47,667] [info] (AppSuspension) App suspension blocker is disabled
+[20.01.2025, 22:55:00,907] [info] (Events) Event sent REFRESH_TRACKS_AVAILABILITY
+[20.01.2025, 22:55:00,914] [info] (Events) Event received TRACKS_AVAILABILITY_UPDATED
+[20.01.2025, 22:58:42,161] [info] (Events) Event sent REFRESH_APPLICATION_DATA
+[20.01.2025, 23:00:00,261] [info] (Events) Event send REFRESH_REPOSITORY_META
+[20.01.2025, 23:00:00,266] [info] (Events) Event received REPOSITORY_META_UPDATED
+[20.01.2025, 23:09:12,509] [warn] (UpdateLogger) Logger inside "electron-updater" package APPIMAGE env is not defined, current application is not an AppImage
+[20.01.2025, 23:09:12,511] [info] (UpdateLogger) Updater is inactive
+[20.01.2025, 23:15:00,332] [info] (Events) Event sent REFRESH_TRACKS_AVAILABILITY
+[20.01.2025, 23:15:00,335] [info] (Events) Event received TRACKS_AVAILABILITY_UPDATED
+[20.01.2025, 23:27:21,250] [error] (ApplicationCrash) Application crashed killed 15
+[21.01.2025, 01:21:00,962] [info] (DeviceInfo) {
+  "memory": {
+    "freeMB": 11195,
+    "totalMB": 15772
+  },
+  "storage": {
+    "freeMB": 185703,
+    "totalMB": 200502
+  }
+}
+[21.01.2025, 01:21:00,998] [info] (Events) Event sent REFRESH_APPLICATION_DATA
+[21.01.2025, 01:21:01,429] [warn] (UpdateLogger) Logger inside "electron-updater" package APPIMAGE env is not defined, current application is not an AppImage
+[21.01.2025, 01:21:01,430] [info] (UpdateLogger) Updater is inactive
+[21.01.2025, 01:21:01,575] [info] (Events) Event handle GET_PASSPORT_LOGIN
+[21.01.2025, 01:21:02,352] [info] (Events) Event received APPLICATION_READY
+[21.01.2025, 01:21:02,365] [info] (Events) Event sent PROBABILITY_BUCKET 50-100
+[21.01.2025, 01:21:02,402] [info] (Events) Event received APPLICATION_THEME
+[21.01.2025, 01:21:02,405] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[21.01.2025, 01:21:02,509] [info] (Common) Request to https://music-desktop-application.s3.yandex.net/stable/release-notes/ru.json completed with status:  200
+[21.01.2025, 01:21:02,527] [info] (Events) Event received PLAYER_STATE undefined false undefined
+[21.01.2025, 01:21:02,528] [info] (Events) Event received PLAYER_STATE undefined undefined true
+[21.01.2025, 01:21:02,536] [info] (Events) Event sent LOAD_RELEASE_NOTES
+[21.01.2025, 01:21:03,868] [info] (Events) Event received PLAYER_STATE undefined true undefined
+[21.01.2025, 01:21:17,951] [warn] (ExternalLink) Open external link https://id.yandex.ru/
+[21.01.2025, 01:25:00,503] [info] (Events) Event sent REFRESH_TRACKS_AVAILABILITY
+[21.01.2025, 01:25:00,509] [info] (Events) Event received TRACKS_AVAILABILITY_UPDATED
+[22.01.2025, 15:38:46,652] [info] (DeviceInfo) {
+  "memory": {
+    "freeMB": 10480,
+    "totalMB": 15772
+  },
+  "storage": {
+    "freeMB": 184417,
+    "totalMB": 200502
+  }
+}
+[22.01.2025, 15:38:46,671] [info] (Events) Event sent REFRESH_APPLICATION_DATA
+[22.01.2025, 15:38:46,936] [warn] (UpdateLogger) Logger inside "electron-updater" package APPIMAGE env is not defined, current application is not an AppImage
+[22.01.2025, 15:38:46,938] [info] (UpdateLogger) Updater is inactive
+[22.01.2025, 15:38:47,026] [info] (Events) Event handle GET_PASSPORT_LOGIN
+[22.01.2025, 15:38:47,756] [info] (Events) Event received APPLICATION_READY
+[22.01.2025, 15:38:47,770] [info] (Events) Event sent PROBABILITY_BUCKET 50-100
+[22.01.2025, 15:38:47,803] [info] (Events) Event received APPLICATION_THEME
+[22.01.2025, 15:38:47,807] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 15:38:47,882] [info] (Common) Request to https://music-desktop-application.s3.yandex.net/stable/release-notes/ru.json completed with status:  200
+[22.01.2025, 15:38:47,892] [info] (Events) Event sent LOAD_RELEASE_NOTES
+[22.01.2025, 15:38:48,039] [info] (Events) Event received PLAYER_STATE undefined false undefined
+[22.01.2025, 15:38:48,043] [info] (Events) Event received PLAYER_STATE undefined undefined true
+[22.01.2025, 15:38:51,525] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 15:38:51,525] [info] (Events) Event received PLAYER_STATE undefined false undefined
+[22.01.2025, 15:38:51,526] [info] (Events) Event received PLAYER_STATE undefined undefined true
+[22.01.2025, 15:38:52,163] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 15:38:52,163] [info] (Events) Event received PLAYER_STATE undefined false undefined
+[22.01.2025, 15:38:52,164] [info] (Events) Event received PLAYER_STATE undefined undefined true
+[22.01.2025, 15:38:54,684] [info] (Events) Event received PLAYER_STATE undefined false undefined
+[22.01.2025, 15:38:54,685] [info] (Events) Event received PLAYER_STATE undefined undefined true
+[22.01.2025, 15:38:55,495] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 15:38:55,644] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 15:38:55,914] [info] (Events) Event received PLAYER_STATE true undefined undefined
+[22.01.2025, 15:38:55,914] [info] (AppSuspension) App suspension blocker is enabled
+[22.01.2025, 15:39:00,944] [info] (Events) Event received PLAYER_STATE undefined true undefined
+[22.01.2025, 15:40:00,138] [info] (Events) Event sent REFRESH_TRACKS_AVAILABILITY
+[22.01.2025, 15:40:00,140] [info] (Events) Event received TRACKS_AVAILABILITY_UPDATED
+[22.01.2025, 15:40:00,144] [info] (Events) Event received TRACKS_AVAILABILITY_UPDATED
+[22.01.2025, 15:41:54,880] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 15:41:54,881] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 15:41:54,890] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 15:41:54,890] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 15:41:55,005] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 15:41:55,005] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 15:41:55,130] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 15:41:55,131] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 15:41:55,519] [info] (Events) Event received PLAYER_STATE true undefined undefined
+[22.01.2025, 15:41:55,520] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 15:41:55,520] [info] (AppSuspension) App suspension blocker is enabled
+[22.01.2025, 15:44:54,964] [info] (Events) Event received PLAYER_STATE undefined false undefined
+[22.01.2025, 15:44:54,967] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 15:44:54,967] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 15:44:55,091] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 15:44:55,091] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 15:44:55,119] [info] (Events) Event received PLAYER_STATE true undefined undefined
+[22.01.2025, 15:44:55,120] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 15:44:55,120] [info] (AppSuspension) App suspension blocker is enabled
+[22.01.2025, 15:45:00,148] [info] (Events) Event received PLAYER_STATE undefined true undefined
+[22.01.2025, 15:46:49,053] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 15:46:49,053] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 15:47:55,198] [info] (Events) Event received PLAYER_STATE true undefined undefined
+[22.01.2025, 15:47:55,198] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 15:47:55,198] [info] (AppSuspension) App suspension blocker is enabled
+[22.01.2025, 15:47:56,192] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 15:47:56,192] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 15:47:56,318] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 15:47:56,319] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 15:47:56,339] [info] (Events) Event received PLAYER_STATE true undefined undefined
+[22.01.2025, 15:47:56,339] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 15:47:56,340] [info] (AppSuspension) App suspension blocker is enabled
+[22.01.2025, 15:47:57,085] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 15:47:57,086] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 15:47:57,220] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 15:47:57,220] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 15:47:57,381] [info] (Events) Event received PLAYER_STATE true undefined undefined
+[22.01.2025, 15:47:57,381] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 15:47:57,382] [info] (AppSuspension) App suspension blocker is enabled
+[22.01.2025, 15:47:57,942] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 15:47:57,943] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 15:47:58,061] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 15:47:58,061] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 15:47:58,884] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 15:47:58,885] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 15:47:58,991] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 15:47:58,991] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 15:47:58,999] [info] (Events) Event received PLAYER_STATE true undefined undefined
+[22.01.2025, 15:47:58,999] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 15:47:58,999] [info] (AppSuspension) App suspension blocker is enabled
+[22.01.2025, 15:50:21,921] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 15:50:21,922] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 15:50:21,929] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 15:50:21,929] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 15:50:22,044] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 15:50:22,044] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 15:50:22,155] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 15:50:22,156] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 15:50:22,398] [info] (Events) Event received PLAYER_STATE true undefined undefined
+[22.01.2025, 15:50:22,399] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 15:50:22,399] [info] (AppSuspension) App suspension blocker is enabled
+[22.01.2025, 15:52:16,883] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 15:52:16,883] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 15:54:31,622] [info] (Events) Event received PLAYER_STATE true undefined undefined
+[22.01.2025, 15:54:31,622] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 15:54:31,623] [info] (AppSuspension) App suspension blocker is enabled
+[22.01.2025, 15:55:15,146] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 15:55:15,146] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 15:55:15,162] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 15:55:15,162] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 15:55:15,284] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 15:55:15,284] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 15:55:15,446] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 15:55:15,447] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:00:00,331] [info] (Events) Event sent REFRESH_TRACKS_AVAILABILITY
+[22.01.2025, 16:00:00,332] [info] (Events) Event send REFRESH_REPOSITORY_META
+[22.01.2025, 16:00:00,333] [info] (Events) Event received TRACKS_AVAILABILITY_UPDATED
+[22.01.2025, 16:00:00,336] [info] (Events) Event received TRACKS_AVAILABILITY_UPDATED
+[22.01.2025, 16:00:00,338] [info] (Events) Event received REPOSITORY_META_UPDATED
+[22.01.2025, 16:00:00,339] [info] (Events) Event received REPOSITORY_META_UPDATED
+[22.01.2025, 16:05:47,583] [info] (Events) Event sent REFRESH_APPLICATION_DATA
+[22.01.2025, 16:08:46,938] [warn] (UpdateLogger) Logger inside "electron-updater" package APPIMAGE env is not defined, current application is not an AppImage
+[22.01.2025, 16:08:46,939] [info] (UpdateLogger) Updater is inactive
+[22.01.2025, 16:10:30,858] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 16:10:30,859] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:10:30,973] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 16:10:30,973] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:10:31,225] [info] (Events) Event received PLAYER_STATE true undefined undefined
+[22.01.2025, 16:10:31,226] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:10:31,226] [info] (AppSuspension) App suspension blocker is enabled
+[22.01.2025, 16:12:45,217] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 16:12:45,217] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:12:45,224] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 16:12:45,224] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:12:45,356] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 16:12:45,357] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:12:45,458] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 16:12:45,458] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:14:24,912] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 16:14:24,912] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:14:25,038] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 16:14:25,039] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:14:25,320] [info] (Events) Event received PLAYER_STATE true undefined undefined
+[22.01.2025, 16:14:25,320] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:14:25,320] [info] (AppSuspension) App suspension blocker is enabled
+[22.01.2025, 16:16:57,931] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 16:16:57,931] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:16:57,939] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 16:16:57,939] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:16:58,047] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 16:16:58,047] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:16:58,138] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 16:16:58,139] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:20:00,596] [info] (Events) Event sent REFRESH_TRACKS_AVAILABILITY
+[22.01.2025, 16:20:00,598] [info] (Events) Event received TRACKS_AVAILABILITY_UPDATED
+[22.01.2025, 16:20:00,600] [info] (Events) Event received TRACKS_AVAILABILITY_UPDATED
+[22.01.2025, 16:21:39,294] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 16:21:39,294] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:21:39,294] [info] (Events) Event received PLAYER_STATE undefined true undefined
+[22.01.2025, 16:21:39,294] [info] (Events) Event received PLAYER_STATE undefined undefined true
+[22.01.2025, 16:21:42,032] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 16:21:42,033] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:21:42,033] [info] (Events) Event received PLAYER_STATE undefined true undefined
+[22.01.2025, 16:21:42,033] [info] (Events) Event received PLAYER_STATE undefined undefined true
+[22.01.2025, 16:21:45,825] [info] (Events) Event received PLAYER_STATE undefined false undefined
+[22.01.2025, 16:21:45,825] [info] (Events) Event received PLAYER_STATE undefined undefined true
+[22.01.2025, 16:21:46,072] [info] (Events) Event received PLAYER_STATE undefined true undefined
+[22.01.2025, 16:21:46,076] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 16:21:46,076] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:21:46,219] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 16:21:46,219] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:21:47,066] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 16:21:47,067] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:21:47,159] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 16:21:47,160] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:21:47,792] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 16:21:47,793] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:21:47,857] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 16:21:47,858] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:21:48,201] [info] (Events) Event received PLAYER_STATE true undefined undefined
+[22.01.2025, 16:21:48,201] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:21:48,201] [info] (AppSuspension) App suspension blocker is enabled
+[22.01.2025, 16:21:52,992] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 16:21:52,992] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:21:53,122] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 16:21:53,122] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:21:53,630] [info] (Events) Event received PLAYER_STATE true undefined undefined
+[22.01.2025, 16:21:53,631] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:21:53,632] [info] (AppSuspension) App suspension blocker is enabled
+[22.01.2025, 16:24:06,624] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 16:24:06,625] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:24:06,630] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 16:24:06,631] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:24:06,644] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 16:24:06,645] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:24:06,758] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 16:24:06,759] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:24:07,169] [info] (Events) Event received PLAYER_STATE true undefined undefined
+[22.01.2025, 16:24:07,169] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:24:07,169] [info] (AppSuspension) App suspension blocker is enabled
+[22.01.2025, 16:25:43,171] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 16:25:43,172] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:25:43,176] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 16:25:43,176] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:25:43,189] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 16:25:43,189] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:25:43,343] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 16:25:43,344] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:25:43,818] [info] (Events) Event received PLAYER_STATE true undefined undefined
+[22.01.2025, 16:25:43,818] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:25:43,819] [info] (AppSuspension) App suspension blocker is enabled
+[22.01.2025, 16:28:27,129] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 16:28:27,129] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:28:27,132] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 16:28:27,133] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:28:27,144] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 16:28:27,144] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:28:27,307] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 16:28:27,307] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:30:30,667] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 16:30:30,668] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:30:30,762] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 16:30:30,762] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:30:33,408] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 16:30:33,409] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:30:33,497] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 16:30:33,498] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:30:34,095] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 16:30:34,095] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:30:34,190] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 16:30:34,190] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:30:34,226] [info] (Events) Event received PLAYER_STATE true undefined undefined
+[22.01.2025, 16:30:34,226] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:30:34,227] [info] (AppSuspension) App suspension blocker is enabled
+[22.01.2025, 16:30:37,464] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 16:30:37,465] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:30:37,468] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 16:30:37,468] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:30:37,479] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 16:30:37,479] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:30:37,620] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 16:30:37,620] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:30:38,113] [info] (Events) Event received PLAYER_STATE true undefined undefined
+[22.01.2025, 16:30:38,113] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:30:38,113] [info] (AppSuspension) App suspension blocker is enabled
+[22.01.2025, 16:30:40,089] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 16:30:40,089] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:30:40,187] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 16:30:40,188] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:30:42,238] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 16:30:42,238] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:30:42,359] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 16:30:42,359] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:30:43,303] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 16:30:43,303] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:30:43,406] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 16:30:43,407] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:30:43,597] [info] (Events) Event received PLAYER_STATE true undefined undefined
+[22.01.2025, 16:30:43,597] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:30:43,597] [info] (AppSuspension) App suspension blocker is enabled
+[22.01.2025, 16:30:47,236] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 16:30:47,237] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:30:47,733] [info] (Events) Event received PLAYER_STATE true undefined undefined
+[22.01.2025, 16:30:47,733] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:30:47,733] [info] (AppSuspension) App suspension blocker is enabled
+[22.01.2025, 16:30:49,854] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 16:30:49,855] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:30:49,966] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 16:30:49,967] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:30:49,985] [info] (Events) Event received PLAYER_STATE true undefined undefined
+[22.01.2025, 16:30:49,986] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:30:49,986] [info] (AppSuspension) App suspension blocker is enabled
+[22.01.2025, 16:32:50,382] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 16:32:50,382] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:32:50,399] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 16:32:50,399] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:32:50,408] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 16:32:50,409] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:32:50,522] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 16:32:50,523] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:34:10,651] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 16:34:10,652] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:34:10,776] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 16:34:10,776] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:34:11,044] [info] (Events) Event received PLAYER_STATE true undefined undefined
+[22.01.2025, 16:34:11,045] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:34:11,045] [info] (AppSuspension) App suspension blocker is enabled
+[22.01.2025, 16:36:05,248] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 16:36:05,249] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:36:05,254] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 16:36:05,254] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:36:05,274] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 16:36:05,274] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:36:05,447] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 16:36:05,448] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 16:38:46,939] [warn] (UpdateLogger) Logger inside "electron-updater" package APPIMAGE env is not defined, current application is not an AppImage
+[22.01.2025, 16:38:46,939] [info] (UpdateLogger) Updater is inactive
+[22.01.2025, 16:40:00,859] [info] (Events) Event sent REFRESH_TRACKS_AVAILABILITY
+[22.01.2025, 16:40:00,861] [info] (Events) Event received TRACKS_AVAILABILITY_UPDATED
+[22.01.2025, 16:40:00,863] [info] (Events) Event received TRACKS_AVAILABILITY_UPDATED
+[22.01.2025, 17:00:00,378] [info] (Events) Event sent REFRESH_TRACKS_AVAILABILITY
+[22.01.2025, 17:00:00,379] [info] (Events) Event received TRACKS_AVAILABILITY_UPDATED
+[22.01.2025, 17:00:00,383] [info] (Events) Event received TRACKS_AVAILABILITY_UPDATED
+[22.01.2025, 17:11:44,754] [warn] (UpdateLogger) Logger inside "electron-updater" package APPIMAGE env is not defined, current application is not an AppImage
+[22.01.2025, 17:11:44,754] [info] (UpdateLogger) Updater is inactive
+[22.01.2025, 17:19:34,428] [info] (Events) Event sent REFRESH_APPLICATION_DATA
+[22.01.2025, 17:20:00,683] [info] (Events) Event sent REFRESH_TRACKS_AVAILABILITY
+[22.01.2025, 17:20:00,684] [info] (Events) Event received TRACKS_AVAILABILITY_UPDATED
+[22.01.2025, 17:20:00,688] [info] (Events) Event received TRACKS_AVAILABILITY_UPDATED
+[22.01.2025, 17:40:00,953] [info] (Events) Event sent REFRESH_TRACKS_AVAILABILITY
+[22.01.2025, 17:40:00,954] [info] (Events) Event received TRACKS_AVAILABILITY_UPDATED
+[22.01.2025, 17:40:00,956] [info] (Events) Event received TRACKS_AVAILABILITY_UPDATED
+[22.01.2025, 17:41:44,755] [warn] (UpdateLogger) Logger inside "electron-updater" package APPIMAGE env is not defined, current application is not an AppImage
+[22.01.2025, 17:41:44,755] [info] (UpdateLogger) Updater is inactive
+[22.01.2025, 18:00:00,205] [info] (Events) Event sent REFRESH_TRACKS_AVAILABILITY
+[22.01.2025, 18:00:00,206] [info] (Events) Event received TRACKS_AVAILABILITY_UPDATED
+[22.01.2025, 18:00:00,209] [info] (Events) Event received TRACKS_AVAILABILITY_UPDATED
+[22.01.2025, 18:40:00,358] [info] (Events) Event sent REFRESH_TRACKS_AVAILABILITY
+[22.01.2025, 18:40:00,360] [info] (Events) Event received TRACKS_AVAILABILITY_UPDATED
+[22.01.2025, 18:40:00,363] [info] (Events) Event received TRACKS_AVAILABILITY_UPDATED
+[22.01.2025, 18:44:32,691] [warn] (UpdateLogger) Logger inside "electron-updater" package APPIMAGE env is not defined, current application is not an AppImage
+[22.01.2025, 18:44:32,691] [info] (UpdateLogger) Updater is inactive
+[22.01.2025, 18:48:44,701] [info] (Events) Event sent REFRESH_APPLICATION_DATA
+[22.01.2025, 18:48:50,426] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 18:48:50,427] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 18:48:50,526] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 18:48:50,526] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 18:48:50,818] [info] (Events) Event received PLAYER_STATE true undefined undefined
+[22.01.2025, 18:48:50,819] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 18:48:50,819] [info] (AppSuspension) App suspension blocker is enabled
+[22.01.2025, 18:50:47,032] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 18:50:47,032] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 18:50:47,036] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 18:50:47,036] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 18:50:47,045] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 18:50:47,046] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 18:50:47,146] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 18:50:47,146] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 18:53:45,370] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 18:53:45,370] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 18:53:45,471] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 18:53:45,471] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 18:53:45,483] [info] (Events) Event received PLAYER_STATE true undefined undefined
+[22.01.2025, 18:53:45,483] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 18:53:45,484] [info] (AppSuspension) App suspension blocker is enabled
+[22.01.2025, 18:55:41,685] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 18:55:41,686] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 18:55:41,687] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 18:55:41,688] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 18:55:41,697] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 18:55:41,697] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 18:55:41,819] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 18:55:41,819] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 18:55:42,049] [info] (Events) Event received PLAYER_STATE true undefined undefined
+[22.01.2025, 18:55:42,049] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 18:55:42,049] [info] (AppSuspension) App suspension blocker is enabled
+[22.01.2025, 18:58:07,349] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 18:58:07,352] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 18:58:07,354] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 18:58:07,355] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 18:58:07,367] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 18:58:07,367] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 18:58:07,482] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 18:58:07,483] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:00:00,631] [info] (Events) Event sent REFRESH_TRACKS_AVAILABILITY
+[22.01.2025, 19:00:00,633] [info] (Events) Event received TRACKS_AVAILABILITY_UPDATED
+[22.01.2025, 19:00:00,637] [info] (Events) Event received TRACKS_AVAILABILITY_UPDATED
+[22.01.2025, 19:01:14,099] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:01:14,100] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:01:14,200] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:01:14,200] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:01:14,946] [info] (Events) Event received PLAYER_STATE true undefined undefined
+[22.01.2025, 19:01:14,947] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:01:14,947] [info] (AppSuspension) App suspension blocker is enabled
+[22.01.2025, 19:01:15,141] [info] (Events) Event received PLAYER_STATE true undefined undefined
+[22.01.2025, 19:01:15,142] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:01:15,142] [info] (AppSuspension) App suspension blocker is enabled
+[22.01.2025, 19:01:15,143] [info] (Events) Event received PLAYER_STATE undefined true undefined
+[22.01.2025, 19:01:15,143] [info] (Events) Event received PLAYER_STATE undefined undefined true
+[22.01.2025, 19:01:16,095] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:01:16,096] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:01:16,101] [info] (Events) Event received PLAYER_STATE undefined false undefined
+[22.01.2025, 19:01:16,102] [info] (Events) Event received PLAYER_STATE undefined undefined true
+[22.01.2025, 19:01:16,682] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:01:16,683] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:01:16,819] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:01:16,820] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:01:17,215] [info] (Events) Event received PLAYER_STATE true undefined undefined
+[22.01.2025, 19:01:17,216] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:01:17,217] [info] (AppSuspension) App suspension blocker is enabled
+[22.01.2025, 19:01:21,932] [info] (Events) Event received PLAYER_STATE undefined true undefined
+[22.01.2025, 19:01:26,188] [info] (Events) Event received PLAYER_STATE undefined false undefined
+[22.01.2025, 19:01:31,226] [info] (Events) Event received PLAYER_STATE undefined true undefined
+[22.01.2025, 19:04:37,182] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:04:37,183] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:04:37,191] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:04:37,192] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:04:37,306] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:04:37,306] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:04:37,411] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:04:37,411] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:04:37,807] [info] (Events) Event received PLAYER_STATE true undefined undefined
+[22.01.2025, 19:04:37,807] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:04:37,807] [info] (AppSuspension) App suspension blocker is enabled
+[22.01.2025, 19:06:53,822] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:06:53,823] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:06:53,831] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:06:53,832] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:06:53,931] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:06:53,931] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:06:54,086] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:06:54,086] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:13:50,777] [info] (Events) Event sent REFRESH_APPLICATION_DATA
+[22.01.2025, 19:14:32,691] [warn] (UpdateLogger) Logger inside "electron-updater" package APPIMAGE env is not defined, current application is not an AppImage
+[22.01.2025, 19:14:32,691] [info] (UpdateLogger) Updater is inactive
+[22.01.2025, 19:20:00,791] [info] (Events) Event sent REFRESH_TRACKS_AVAILABILITY
+[22.01.2025, 19:20:00,793] [info] (Events) Event received TRACKS_AVAILABILITY_UPDATED
+[22.01.2025, 19:20:00,796] [info] (Events) Event received TRACKS_AVAILABILITY_UPDATED
+[22.01.2025, 19:20:39,578] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:20:39,578] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:20:39,695] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:20:39,697] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:20:39,924] [info] (Events) Event received PLAYER_STATE true undefined undefined
+[22.01.2025, 19:20:39,926] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:20:39,926] [info] (AppSuspension) App suspension blocker is enabled
+[22.01.2025, 19:23:28,929] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:23:28,930] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:23:28,937] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:23:28,938] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:23:29,054] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:23:29,055] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:23:29,164] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:23:29,164] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:23:29,551] [info] (Events) Event received PLAYER_STATE true undefined undefined
+[22.01.2025, 19:23:29,551] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:23:29,551] [info] (AppSuspension) App suspension blocker is enabled
+[22.01.2025, 19:26:24,556] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:26:24,557] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:26:24,565] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:26:24,565] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:26:24,690] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:26:24,691] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:26:24,773] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:26:24,774] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:26:25,141] [info] (Events) Event received PLAYER_STATE true undefined undefined
+[22.01.2025, 19:26:25,141] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:26:25,141] [info] (AppSuspension) App suspension blocker is enabled
+[22.01.2025, 19:29:03,940] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:29:03,940] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:29:03,945] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:29:03,946] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:29:04,043] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:29:04,044] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:29:04,136] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:29:04,137] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:29:04,179] [info] (Events) Event received PLAYER_STATE true undefined undefined
+[22.01.2025, 19:29:04,179] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:29:04,180] [info] (AppSuspension) App suspension blocker is enabled
+[22.01.2025, 19:31:28,204] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:31:28,206] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:31:28,213] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:31:28,214] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:31:28,298] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:31:28,298] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:31:28,401] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:31:28,404] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:31:28,760] [info] (Events) Event received PLAYER_STATE true undefined undefined
+[22.01.2025, 19:31:28,760] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:31:28,760] [info] (AppSuspension) App suspension blocker is enabled
+[22.01.2025, 19:35:12,450] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:35:12,451] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:35:12,459] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:35:12,459] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:35:12,564] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:35:12,565] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:35:12,661] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:35:12,662] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:35:12,831] [info] (Events) Event received PLAYER_STATE true undefined undefined
+[22.01.2025, 19:35:12,832] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:35:12,832] [info] (AppSuspension) App suspension blocker is enabled
+[22.01.2025, 19:39:17,388] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:39:17,389] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:39:17,397] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:39:17,397] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:39:17,528] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:39:17,528] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:39:17,639] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:39:17,639] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:39:17,970] [info] (Events) Event received PLAYER_STATE true undefined undefined
+[22.01.2025, 19:39:17,971] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:39:17,971] [info] (AppSuspension) App suspension blocker is enabled
+[22.01.2025, 19:40:00,024] [info] (Events) Event sent REFRESH_TRACKS_AVAILABILITY
+[22.01.2025, 19:40:00,026] [info] (Events) Event received TRACKS_AVAILABILITY_UPDATED
+[22.01.2025, 19:40:00,030] [info] (Events) Event received TRACKS_AVAILABILITY_UPDATED
+[22.01.2025, 19:42:29,154] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:42:29,154] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:42:29,162] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:42:29,162] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:42:29,269] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:42:29,269] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:42:29,371] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:42:29,371] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:42:29,759] [info] (Events) Event received PLAYER_STATE true undefined undefined
+[22.01.2025, 19:42:29,760] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:42:29,760] [info] (AppSuspension) App suspension blocker is enabled
+[22.01.2025, 19:44:32,691] [warn] (UpdateLogger) Logger inside "electron-updater" package APPIMAGE env is not defined, current application is not an AppImage
+[22.01.2025, 19:44:32,692] [info] (UpdateLogger) Updater is inactive
+[22.01.2025, 19:44:42,657] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:44:42,657] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:44:42,668] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:44:42,668] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:44:42,792] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:44:42,792] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:44:42,956] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:44:42,956] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:44:43,286] [info] (Events) Event received PLAYER_STATE true undefined undefined
+[22.01.2025, 19:44:43,286] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:44:43,287] [info] (AppSuspension) App suspension blocker is enabled
+[22.01.2025, 19:46:50,722] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:46:50,722] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:46:50,730] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:46:50,730] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:46:50,846] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:46:50,846] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:46:50,946] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:46:50,946] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:46:51,281] [info] (Events) Event received PLAYER_STATE true undefined undefined
+[22.01.2025, 19:46:51,282] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:46:51,282] [info] (AppSuspension) App suspension blocker is enabled
+[22.01.2025, 19:50:12,087] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:50:12,087] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:50:12,095] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:50:12,095] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:50:12,204] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:50:12,205] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:50:12,299] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:50:12,299] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:50:12,335] [info] (Events) Event received PLAYER_STATE true undefined undefined
+[22.01.2025, 19:50:12,336] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:50:12,337] [info] (AppSuspension) App suspension blocker is enabled
+[22.01.2025, 19:51:22,363] [info] (Events) Event sent REFRESH_APPLICATION_DATA
+[22.01.2025, 19:52:42,434] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:52:42,435] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:52:42,443] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:52:42,443] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:52:42,558] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:52:42,558] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:52:42,648] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:52:42,648] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:55:00,966] [info] (Events) Event sent REFRESH_TRACKS_AVAILABILITY
+[22.01.2025, 19:55:00,968] [info] (Events) Event received TRACKS_AVAILABILITY_UPDATED
+[22.01.2025, 19:55:00,971] [info] (Events) Event received TRACKS_AVAILABILITY_UPDATED
+[22.01.2025, 19:55:24,311] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:55:24,311] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:55:24,380] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:55:24,381] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:55:25,504] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:55:25,504] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:55:25,598] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:55:25,598] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:55:25,645] [info] (Events) Event received PLAYER_STATE true undefined undefined
+[22.01.2025, 19:55:25,645] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:55:25,646] [info] (AppSuspension) App suspension blocker is enabled
+[22.01.2025, 19:55:26,824] [info] (Events) Event received PLAYER_STATE true undefined undefined
+[22.01.2025, 19:55:26,824] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:55:26,824] [info] (AppSuspension) App suspension blocker is enabled
+[22.01.2025, 19:55:26,825] [info] (Events) Event received PLAYER_STATE undefined true undefined
+[22.01.2025, 19:55:26,826] [info] (Events) Event received PLAYER_STATE undefined undefined true
+[22.01.2025, 19:55:28,571] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:55:28,571] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:55:28,690] [info] (Events) Event received PLAYER_STATE undefined false undefined
+[22.01.2025, 19:55:28,691] [info] (Events) Event received PLAYER_STATE undefined undefined true
+[22.01.2025, 19:55:28,940] [info] (Events) Event received PLAYER_STATE undefined true undefined
+[22.01.2025, 19:55:28,944] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:55:28,944] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:55:29,068] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:55:29,068] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:55:29,077] [info] (Events) Event received PLAYER_STATE true undefined undefined
+[22.01.2025, 19:55:29,078] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:55:29,078] [info] (AppSuspension) App suspension blocker is enabled
+[22.01.2025, 19:57:25,253] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:57:25,254] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:57:25,263] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:57:25,264] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:57:25,289] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:57:25,290] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:57:25,441] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:57:25,442] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:57:25,473] [info] (Events) Event received PLAYER_STATE true undefined undefined
+[22.01.2025, 19:57:25,474] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:57:25,475] [info] (AppSuspension) App suspension blocker is enabled
+[22.01.2025, 19:59:50,764] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:59:50,764] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:59:50,769] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:59:50,770] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:59:50,786] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:59:50,786] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:59:50,905] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 19:59:50,905] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:59:50,919] [info] (Events) Event received PLAYER_STATE true undefined undefined
+[22.01.2025, 19:59:50,920] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 19:59:50,921] [info] (AppSuspension) App suspension blocker is enabled
+[22.01.2025, 20:04:35,180] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 20:04:35,181] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 20:04:35,184] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 20:04:35,185] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 20:04:35,197] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 20:04:35,197] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 20:04:35,312] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[22.01.2025, 20:04:35,313] [info] (AppSuspension) App suspension blocker is disabled
+[22.01.2025, 21:00:00,912] [info] (Events) Event sent REFRESH_TRACKS_AVAILABILITY
+[22.01.2025, 21:00:00,914] [info] (Events) Event received TRACKS_AVAILABILITY_UPDATED
+[22.01.2025, 21:00:00,916] [info] (Events) Event received TRACKS_AVAILABILITY_UPDATED
+[22.01.2025, 21:00:47,735] [warn] (UpdateLogger) Logger inside "electron-updater" package APPIMAGE env is not defined, current application is not an AppImage
+[22.01.2025, 21:00:47,736] [info] (UpdateLogger) Updater is inactive
+[22.01.2025, 21:20:00,077] [info] (Events) Event sent REFRESH_TRACKS_AVAILABILITY
+[22.01.2025, 21:20:00,078] [info] (Events) Event received TRACKS_AVAILABILITY_UPDATED
+[22.01.2025, 21:20:00,081] [info] (Events) Event received TRACKS_AVAILABILITY_UPDATED
+[22.01.2025, 21:30:47,737] [warn] (UpdateLogger) Logger inside "electron-updater" package APPIMAGE env is not defined, current application is not an AppImage
+[22.01.2025, 21:30:47,737] [info] (UpdateLogger) Updater is inactive
+[22.01.2025, 21:40:00,375] [info] (Events) Event sent REFRESH_TRACKS_AVAILABILITY
+[22.01.2025, 21:40:00,377] [info] (Events) Event received TRACKS_AVAILABILITY_UPDATED
+[22.01.2025, 21:40:00,380] [info] (Events) Event received TRACKS_AVAILABILITY_UPDATED
+[23.01.2025, 01:00:00,403] [info] (Events) Event sent REFRESH_TRACKS_AVAILABILITY
+[23.01.2025, 01:00:00,404] [info] (Events) Event received TRACKS_AVAILABILITY_UPDATED
+[23.01.2025, 01:00:00,407] [info] (Events) Event received TRACKS_AVAILABILITY_UPDATED
+[23.01.2025, 01:09:55,962] [warn] (UpdateLogger) Logger inside "electron-updater" package APPIMAGE env is not defined, current application is not an AppImage
+[23.01.2025, 01:09:55,963] [info] (UpdateLogger) Updater is inactive
+[23.01.2025, 01:20:00,615] [info] (Events) Event sent REFRESH_TRACKS_AVAILABILITY
+[23.01.2025, 01:20:00,616] [info] (Events) Event received TRACKS_AVAILABILITY_UPDATED
+[23.01.2025, 01:20:00,619] [info] (Events) Event received TRACKS_AVAILABILITY_UPDATED
+[23.01.2025, 01:39:55,962] [warn] (UpdateLogger) Logger inside "electron-updater" package APPIMAGE env is not defined, current application is not an AppImage
+[23.01.2025, 01:39:55,962] [info] (UpdateLogger) Updater is inactive
+[23.01.2025, 01:40:00,869] [info] (Events) Event sent REFRESH_TRACKS_AVAILABILITY
+[23.01.2025, 01:40:00,870] [info] (Events) Event received TRACKS_AVAILABILITY_UPDATED
+[23.01.2025, 01:40:00,874] [info] (Events) Event received TRACKS_AVAILABILITY_UPDATED
+[23.01.2025, 02:00:00,015] [info] (Events) Event sent REFRESH_TRACKS_AVAILABILITY
+[23.01.2025, 02:00:00,016] [info] (Events) Event received TRACKS_AVAILABILITY_UPDATED
+[23.01.2025, 02:00:00,019] [info] (Events) Event received TRACKS_AVAILABILITY_UPDATED
+[23.01.2025, 02:07:16,479] [info] (Events) Event sent REFRESH_APPLICATION_DATA
+[23.01.2025, 02:09:55,963] [warn] (UpdateLogger) Logger inside "electron-updater" package APPIMAGE env is not defined, current application is not an AppImage
+[23.01.2025, 02:09:55,963] [info] (UpdateLogger) Updater is inactive
+[23.01.2025, 02:15:00,910] [info] (Events) Event sent REFRESH_TRACKS_AVAILABILITY
+[23.01.2025, 02:15:00,911] [info] (Events) Event received TRACKS_AVAILABILITY_UPDATED
+[23.01.2025, 02:15:00,914] [info] (Events) Event received TRACKS_AVAILABILITY_UPDATED
+[23.01.2025, 02:35:00,153] [info] (Events) Event sent REFRESH_TRACKS_AVAILABILITY
+[23.01.2025, 02:35:00,154] [info] (Events) Event received TRACKS_AVAILABILITY_UPDATED
+[23.01.2025, 02:35:00,157] [info] (Events) Event received TRACKS_AVAILABILITY_UPDATED
+[23.01.2025, 02:39:55,964] [warn] (UpdateLogger) Logger inside "electron-updater" package APPIMAGE env is not defined, current application is not an AppImage
+[23.01.2025, 02:39:55,965] [info] (UpdateLogger) Updater is inactive
+[23.01.2025, 15:55:00,252] [info] (Events) Event sent REFRESH_TRACKS_AVAILABILITY
+[23.01.2025, 15:55:00,254] [info] (Events) Event received TRACKS_AVAILABILITY_UPDATED
+[23.01.2025, 15:55:00,256] [info] (Events) Event received TRACKS_AVAILABILITY_UPDATED
+[23.01.2025, 16:00:00,533] [info] (Events) Event send REFRESH_REPOSITORY_META
+[23.01.2025, 16:00:00,534] [info] (Events) Event received REPOSITORY_META_UPDATED
+[23.01.2025, 16:00:00,538] [info] (Events) Event received REPOSITORY_META_UPDATED
+[23.01.2025, 16:05:16,610] [info] (Events) Event sent REFRESH_APPLICATION_DATA

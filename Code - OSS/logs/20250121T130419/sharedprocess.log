@@ -1,0 +1,29 @@
+2025-01-21 13:04:26.438 [info] Getting Manifest... vadimcn.vscode-lldb
+2025-01-21 13:04:27.274 [info] Installing extension: vadimcn.vscode-lldb {"productVersion":{"version":"1.96.4","date":"2025-01-17T08:53:36.849Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/vadim/.vscode-oss/extensions/extensions.json","path":"/home/vadim/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2025-01-21 13:04:27.878 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js
+2025-01-21 13:04:27.879 [info] Extension signature verification is not done: vadimcn.vscode-lldb
+2025-01-21 13:04:27.911 [info] Extracted extension to file:///home/vadim/.vscode-oss/extensions/vadimcn.vscode-lldb-1.11.2-universal: vadimcn.vscode-lldb
+2025-01-21 13:04:27.931 [info] Renamed to /home/vadim/.vscode-oss/extensions/vadimcn.vscode-lldb-1.11.2-universal
+2025-01-21 13:04:27.945 [info] Marked extension as uninstalled vadimcn.vscode-lldb-1.11.1
+2025-01-21 13:04:27.951 [info] Extension installed successfully: vadimcn.vscode-lldb vscode-userdata:/home/vadim/.vscode-oss/extensions/extensions.json
+2025-01-21 13:04:28.028 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/vadim/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/vadim/.vscode-oss/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2025-01-21 13:05:03.696 [info] Getting Manifest... tomoki1207.pdf
+2025-01-21 13:05:04.009 [info] Installing extension: tomoki1207.pdf {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/vadim/.vscode-oss/extensions/extensions.json","path":"/home/vadim/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.96.4","date":"2025-01-17T08:53:36.849Z"}}
+2025-01-21 13:05:05.883 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js
+2025-01-21 13:05:05.884 [info] Extension signature verification is not done: tomoki1207.pdf
+2025-01-21 13:05:06.421 [info] Extracted extension to file:///home/vadim/.vscode-oss/extensions/tomoki1207.pdf-1.2.2-universal: tomoki1207.pdf
+2025-01-21 13:05:06.457 [info] Renamed to /home/vadim/.vscode-oss/extensions/tomoki1207.pdf-1.2.2-universal
+2025-01-21 13:05:06.493 [info] Extension installed successfully: tomoki1207.pdf vscode-userdata:/home/vadim/.vscode-oss/extensions/extensions.json
+2025-01-21 13:05:06.549 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/vadim/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/vadim/.vscode-oss/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)

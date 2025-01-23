@@ -1,0 +1,5 @@
+2025-01-16 12:06:07.925 [info] Started local extension host with pid 3898.
+2025-01-16 12:06:07.973 [info] Started initializing default profile extensions in extensions installation folder. file:///home/vadim/.vscode-oss/extensions
+2025-01-16 12:06:08.571 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/vadim/.vscode-oss/extensions
+2025-01-16 12:06:10.956 [info] [perf] Render performance baseline is 25ms
+2025-01-16 12:06:13.952 [error] Timed out waiting for authentication provider to register

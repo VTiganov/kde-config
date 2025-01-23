@@ -1,0 +1,12 @@
+2025-01-23 16:07:41.561 [info] Extension host with pid 26959 started
+2025-01-23 16:07:41.561 [info] Skipping acquiring lock for /home/vadim/.config/Code - OSS/User/workspaceStorage/d58029170ff182ca9e078b36b7cd19cf.
+2025-01-23 16:07:41.682 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-01-23 16:07:41.730 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-01-23 16:07:41.822 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-01-23 16:07:41.912 [info] Eager extensions activated
+2025-01-23 16:07:41.937 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-01-23 16:07:41.939 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-01-23 16:07:41.961 [info] ExtensionService#_doActivateExtension vadimcn.vscode-lldb, startup: false, activationEvent: 'onStartupFinished', root cause: franneck94.vscode-c-cpp-config
+2025-01-23 16:07:42.022 [info] ExtensionService#_doActivateExtension franneck94.vscode-c-cpp-config, startup: false, activationEvent: 'onStartupFinished'
+2025-01-23 16:07:42.100 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-01-23 16:07:42.545 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'

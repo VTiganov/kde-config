@@ -1,2 +1,6 @@
+[FileDialogSize]
+2048x1152 screen: Height=1152
+2048x1152 screen: Width=1024
+
 [MainWindow]
 ToolBarsMovable=Disabled
